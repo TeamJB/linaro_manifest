@@ -6,9 +6,38 @@
   <default revision="refs/tags/android-2.3.4_r1"
            remote="korg" />
 
-  <project path="build" name="platform/build">
+  <remote  name="linaro"
+           fetch="git://git.linaro.org/" />
+
+  <remote  name="0xbench"
+           fetch="git://gitorious.org/0xbench/" />
+
+  <remote  name="omapzoom"
+           fetch="git://git.omapzoom.org/repo/" />
+
+
+  <!-- Linaro changes -->
+  <project path="device/linaro/beagleboard" name="android/device/linaro/beagleboard" revision="linaro_android_2.3.4" remote="linaro" />
+  <project path="device/linaro/pandaboard" name="android/device/linaro/pandaboard" revision="linaro_android_2.3.4" remote="linaro" />
+  <project path="device/linaro/u8500href" name="android/device/linaro/u8500href" revision="linaro_android_2.3.4" remote="linaro" />
+  <project path="device/linaro/common" name="android/device/linaro/common" revision="linaro_android_2.3.4" remote="linaro" />
+  <project path="system/vold" name="android/platform/system/vold" revision="linaro_android_2.3.4" remote="linaro" />
+  <project path="system/core" name="android/platform/system/core" revision="linaro_android_2.3.4" remote="linaro" />
+  <project path="frameworks/base" name="android/platform/frameworks/base" revision="linaro_android_2.3.4" remote="linaro" />
+
+  <project path="build" name="android/platform/build" revision="linaro_android_2.3.4" remote="linaro" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+
+  <project path="kernel" name="people/jstultz/android" revision="linaro-android.38" remote="linaro" />
+  <project path="u-boot" name="boot/u-boot-linaro-stable" revision="master" remote="linaro" />
+
+  <project path="packages/apps/0xbench" name="0xbench" revision="master" remote="0xbench" />
+
+  <!-- x-loader -->
+  <project path="device/linaro/x-loader" name="x-loader" revision="master" remote="omapzoom" />
+
+  <!-- standard Andorid manifest -->
   <project path="bionic" name="platform/bionic" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
@@ -17,9 +46,6 @@
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
-  <project path="device/htc/common" name="device/htc/common" />
-  <project path="device/htc/passion" name="device/htc/passion" />
-  <project path="device/htc/passion-common" name="device/htc/passion-common" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/crespo" name="device/samsung/crespo" />
   <project path="external/apache-http" name="platform/external/apache-http" />
@@ -105,18 +131,11 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
-  <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
-  <project path="hardware/msm7k" name="platform/hardware/msm7k" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
   <project path="hardware/ril" name="platform/hardware/ril" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" />
@@ -139,7 +158,6 @@
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
-  <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
@@ -167,11 +185,8 @@
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="platform/system/core" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
-  <project path="system/vold" name="platform/system/vold" />
-  <project path="system/wlan/ti" name="platform/system/wlan/ti" />
 
 </manifest>
