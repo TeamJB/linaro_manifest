@@ -39,7 +39,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="kernel" name="people/asac/android/kernel/pandroid" revision="linaro-member--p-android-omap-2.6.35--prepatch1" remote="linaro" />
+  <project path="kernel" name="people/andygreen/kernel-tilt" revision="tilt-linaro-android.38" remote="linaro" />
   <project path="u-boot" name="boot/u-boot-linaro-stable" revision="master" remote="linaro" />
 
   <project path="packages/apps/0xbench" name="0xbench" revision="master" remote="0xbench" />
