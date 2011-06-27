@@ -24,18 +24,18 @@
   <project path="system/vold" name="android/platform/system/vold" revision="linaro_android_2.3.4" remote="linaro" />
  
 
-  <project path="dalvik" name="android/platform/dalvik" revision="dev_2.3.4" remote="linaro"/>
-  <project path="external/elfcopy" name="android/platform/external/elfcopy" revision="dev_2.3.4" remote="linaro" />
-  <project path="external/skia" name="android/platform/external/skia" revision="dev_2.3.4" remote="linaro" />
-  <project path="external/webkit" name="android/platform/external/webkit" revision="dev_2.3.4" remote="linaro" />
-  <project path="frameworks/base" name="android/platform/frameworks/base" revision="dev_2.3.4" remote="linaro" />
-  <project path="frameworks/opt/emoji" name="android/platform/frameworks/opt/emoji" revision="dev_2.3.4" remote="linaro" />
-  <project path="libcore" name="android/platform/libcore" revision="dev_2.3.4" remote="linaro" />
-  <project path="system/media" name="android/platform/system/media" revision="dev_2.3.4" remote="linaro" />
-  <project path="external/svox" name="android/platform/external/svox" revision="dev_2.3.4" remote="linaro" />
+  <project path="dalvik" name="android/platform/dalvik" revision="linaro_android_2.3.4" remote="linaro"/>
+  <project path="external/elfcopy" name="android/platform/external/elfcopy" revision="linaro_android_2.3.4" remote="linaro" />
+  <project path="external/skia" name="android/platform/external/skia" revision="linaro_android_2.3.4" remote="linaro" />
+  <project path="external/webkit" name="android/platform/external/webkit" revision="linaro_android_2.3.4" remote="linaro" />
+  <project path="frameworks/base" name="android/platform/frameworks/base" revision="linaro_android_2.3.4" remote="linaro" />
+  <project path="frameworks/opt/emoji" name="android/platform/frameworks/opt/emoji" revision="linaro_android_2.3.4" remote="linaro" />
+  <project path="libcore" name="android/platform/libcore" revision="linaro_android_2.3.4" remote="linaro" />
+  <project path="system/media" name="android/platform/system/media" revision="linaro_android_2.3.4" remote="linaro" />
+  <project path="external/svox" name="android/platform/external/svox" revision="linaro_android_2.3.4" remote="linaro" />
 
 
-  <project path="build" name="android/platform/build" revision="dev_2.3.4" remote="linaro" >
+  <project path="build" name="android/platform/build" revision="linaro_android_2.3.4" remote="linaro" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
