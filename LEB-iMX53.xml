@@ -43,9 +43,9 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="kernel" name="people/andygreen/kernel-tilt" revision="tilt-linaro-android.38" remote="linaro" />
-  <!-- project path="u-boot" name="boot/u-boot-linaro-stable" revision="master" remote="linaro" / -->
-  <project path="u-boot" name="uboot-imx.git" revision="master" remote="freescale" />
+  <project path="kernel" name="bsp/freescale/linux-linaro-android" revision="lt-android-38" remote="linaro" />
+  <project path="u-boot" name="boot/u-boot-linaro-stable" revision="master" remote="linaro" />
+  <!-- project path="u-boot" name="uboot-imx.git" revision="master" remote="freescale" / -->
 
   <project path="packages/apps/0xbench" name="0xbench" revision="master" remote="0xbench" />
 
