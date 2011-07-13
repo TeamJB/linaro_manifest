@@ -39,7 +39,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="kernel" name="people/jstultz/android" revision="linaro-android.39" remote="linaro" />
+  <project path="kernel" name="people/jstultz/android" revision="linaro-android-3.0" remote="linaro" />
   <project path="u-boot" name="boot/u-boot-linaro-stable" revision="master" remote="linaro" />
 
   <project path="packages/apps/0xbench" name="0xbench" revision="master" remote="0xbench" />
