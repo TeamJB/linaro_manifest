@@ -12,6 +12,9 @@
   <remote  name="0xbench"
            fetch="git://gitorious.org/0xbench/" />
 
+  <remote  name="gitorious"
+           fetch="git://gitorious.org/" />
+
   <remote  name="omapzoom"
            fetch="git://git.omapzoom.org/repo/" />
 
@@ -45,7 +48,7 @@
   <project path="packages/apps/0xbench" name="0xbench" revision="master" remote="0xbench" />
 
   <!-- x-loader -->
-  <project path="device/linaro/x-loader" name="x-loader" revision="master" remote="omapzoom" />
+  <project path="device/linaro/x-loader" name="x-loader/x-loader" revision="master" remote="gitorious" />
 
   <!-- standard Andorid manifest -->
   <project path="bionic" name="platform/bionic" />
