@@ -18,6 +18,8 @@
   <remote  name="freescale"
            fetch="http://opensource.freescale.com/pub/scm/imx/" />
 
+  <remote  name="gitorious"
+           fetch="git://gitorious.org/" />
 
   <!-- Linaro changes -->
   <project path="device/linaro/iMX53" name="people/bernhardrosenkranzer/iMX53" revision="linaro_android_2.3.4" remote="linaro" />
