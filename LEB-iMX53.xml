@@ -52,6 +52,7 @@
   <!-- project path="u-boot" name="uboot-imx.git" revision="master" remote="freescale" / -->
 
   <project path="packages/apps/0xbench" name="0xbench" revision="master" remote="0xbench" />
+  <project path="packages/apps/mmtest" name="people/bernhardrosenkranzer/mmtest" revision="master" remote="linaro" />
 
   <!-- x-loader -->
   <project path="device/linaro/x-loader" name="x-loader/x-loader" revision="master" remote="gitorious" />
