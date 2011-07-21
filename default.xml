@@ -7,7 +7,8 @@
            remote="korg" />
 
   <remote  name="linaro"
-           fetch="git://git.linaro.org/" />
+           fetch="git://git.linaro.org/"
+           review="android.git.linaro.org" />
 
   <remote  name="0xbench"
            fetch="git://gitorious.org/0xbench/" />
