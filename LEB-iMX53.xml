@@ -58,6 +58,9 @@
   <project path="packages/apps/0xbench" name="0xbench" revision="master" remote="0xbench" />
   <project path="packages/apps/mmtest" name="people/bernhardrosenkranzer/mmtest" revision="master" remote="linaro-other" />
 
+  <project path="external/dbus" name="people/chaoyang/dbus" revision="linaro_android_2.3.4" remote="linaro-other" />
+  <project path="external/icu4c" name="people/chaoyang/icu4c" revision="linaro_android_2.3.4" remote="linaro-other" />
+
   <!-- x-loader -->
   <project path="device/linaro/x-loader" name="x-loader/x-loader" revision="master" remote="gitorious" />
 
@@ -83,7 +86,6 @@
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/clearsilver" name="platform/external/clearsilver" />
-  <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
   <project path="external/dropbear" name="platform/external/dropbear" />
@@ -103,7 +105,6 @@
   <project path="external/grub" name="platform/external/grub" />
   <project path="external/gtest" name="platform/external/gtest" />
   <project path="external/guava" name="platform/external/guava" />
-  <project path="external/icu4c" name="platform/external/icu4c" />
   <project path="external/iproute2" name="platform/external/iproute2" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
   <project path="external/iptables" name="platform/external/iptables" />
