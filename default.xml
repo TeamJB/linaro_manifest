@@ -41,6 +41,10 @@
   <project path="system/media" name="platform/system/media" revision="linaro_android_2.3.4" remote="linaro-android" />
   <project path="external/svox" name="platform/external/svox" revision="linaro_android_2.3.4" remote="linaro-android" />
 
+  <!-- Power WG -->
+  <project name="tools/powertop" path="external/powertop" remote="linaro" revision="71e15db3e0714dfdb9949c24cf676a65bb6c54f0"/>
+  <project name="people/amitdanielk/library/ncurses" path="external/ncurses" remote="linaro" revision="5fc466743430377a29b0dc6a38b0d1de843581e7"/>
+  <project name="people/amitdanielk/library/libnl" path="external/libnl" remote="linaro" revision="bbcb553f0f4636dd40e84d320a576b3de7b95357"/>
 
   <project path="build" name="platform/build" revision="linaro_android_2.3.4" remote="linaro-android" >
     <copyfile src="core/root.mk" dest="Makefile" />
