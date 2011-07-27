@@ -29,6 +29,7 @@
   <project path="device/linaro/beagleboard" name="device/linaro/beagleboard" revision="linaro_android_2.3.4" remote="linaro-android" />
   <project path="device/linaro/pandaboard" name="device/linaro/pandaboard" revision="linaro_android_2.3.4" remote="linaro-android" />
   <project path="device/linaro/u8500href" name="device/linaro/u8500href" revision="linaro_android_2.3.4" remote="linaro-android" />
+  <project path="device/linaro/snowball" name="people/mpoirier/snowball/leb-snowball" revision="linaro_android_2.3.4" remote="linaro-other" />
   <project path="device/linaro/common" name="device/linaro/common" revision="linaro_android_2.3.4" remote="linaro-android" />
   <project path="system/vold" name="platform/system/vold" revision="linaro_android_2.3.4" remote="linaro-android" />
   <project path="system/core" name="platform/system/core" revision="linaro_android_2.3.4" remote="linaro-android" />
