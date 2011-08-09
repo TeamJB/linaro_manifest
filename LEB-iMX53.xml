@@ -8,7 +8,7 @@
 
   <remote  name="linaro-android"
            fetch="git://git.linaro.org/android/"
-           review="android.git.linaro.org" />
+           review="review.android.git.linaro.org" />
 
   <remote  name="linaro-other"
            fetch="git://git.linaro.org/" />
@@ -43,8 +43,13 @@
   <project path="libcore" name="platform/libcore" revision="linaro_android_2.3.4" remote="linaro-android" />
   <project path="system/media" name="platform/system/media" revision="linaro_android_2.3.4" remote="linaro-android" />
   <project path="external/svox" name="platform/external/svox" revision="linaro_android_2.3.4" remote="linaro-android" />
+  <project path="external/busybox" name="people/botaosun/busybox" revision="linaro_android_2.3.4" remote="linaro-other" />
 
-
+  <!-- Power WG -->
+  <project name="tools/powertop" path="external/powertop" remote="linaro-other" revision="71e15db3e0714dfdb9949c24cf676a65bb6c54f0"/>
+  <project name="people/amitdanielk/library/ncurses" path="external/ncurses" remote="linaro-other" revision="5fc466743430377a29b0dc6a38b0d1de843581e7"/>
+  <project name="people/amitdanielk/library/libnl" path="external/libnl" remote="linaro-other" revision="bbcb553f0f4636dd40e84d320a576b3de7b95357"/>
+  
   <project path="build" name="platform/build" revision="linaro_android_2.3.4" remote="linaro-android" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -91,7 +96,6 @@
   <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" />
   <project path="external/easymock" name="platform/external/easymock" />
-  <!-- project path="external/elfcopy" name="platform/external/elfcopy" / -->
   <project path="external/elfutils" name="platform/external/elfutils" />
   <project path="external/embunit" name="platform/external/embunit" />
   <project path="external/emma" name="platform/external/emma" />
@@ -119,7 +123,11 @@
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" />
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libpng" name="platform/external/libpng" />
-  <project path="external/libvpx" name="platform/external/libvpx" />
+  <!-- Multimedia extensions -->
+  <project path="external/libvpx" name="people/bernhardrosenkranzer/libvpx" revision="android" remote="linaro-other" />
+  <!-- project path="external/x264" name="people/bernhardrosenkranzer/x264" revision="android" remote="linaro-other" / -->
+  <!-- project path="external/ffmpeg" name="people/bernhardrosenkranzer/ffmpeg" revision="android-0.8" remote="linaro-other" / -->
+  <!-- Back to same old boring stuff ;) -->
   <project path="external/libxml2" name="platform/external/libxml2" />
   <project path="external/mtpd" name="platform/external/mtpd" />
   <project path="external/netcat" name="platform/external/netcat" />
