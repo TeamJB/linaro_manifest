@@ -8,7 +8,7 @@
 
   <remote  name="linaro-android"
            fetch="git://git.linaro.org/android/"
-           review="android.git.linaro.org" />
+           review="review.android.git.linaro.org" />
 
   <remote  name="linaro-other"
            fetch="git://git.linaro.org/" />
