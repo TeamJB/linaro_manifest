@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="korg"
-           fetch="git://android.git.kernel.org/"
-           review="review.source.android.com" />
+           fetch="git://android.git.linaro.org/"
+           review="review.android.git.linaro.org" />
   <default revision="refs/tags/android-2.3.4_r1"
            remote="korg" />
 
   <remote  name="linaro-android"
-           fetch="git://git.linaro.org/android/"
+           fetch="git://android.git.linaro.org/"
            review="review.android.git.linaro.org" />
 
   <remote  name="linaro-other"
