@@ -138,7 +138,7 @@
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="platform/external/sqlite" />
   <project path="external/srec" name="platform/external/srec" />
-  <project path="external/stlport" name="platform/external/stlport" />
+  <project path="external/stlport" name="platform/external/stlport" revision="linaro_android_2.3.5" />
   <project path="external/strace" name="platform/external/strace" />
   <project path="external/tagsoup" name="platform/external/tagsoup" />
   <project path="external/tcpdump" name="platform/external/tcpdump" />
