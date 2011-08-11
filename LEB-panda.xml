@@ -29,7 +29,7 @@
   <project path="device/linaro/u8500href" name="device/linaro/u8500href" revision="linaro_android_2.3.4" remote="linaro-android" />
   <project path="device/linaro/common" name="device/linaro/common" revision="linaro_android_2.3.4" remote="linaro-android" />
   <project path="system/vold" name="platform/system/vold" revision="linaro_android_2.3.4" remote="linaro-android" />
- 
+  <project path="system/core" name="platform/system/core" revision="linaro_android_2.3.4" remote="linaro-android" />
 
   <project path="dalvik" name="platform/dalvik" revision="linaro_android_2.3.4" remote="linaro-android"/>
   <project path="external/elfcopy" name="platform/external/elfcopy" revision="linaro_android_2.3.4" remote="linaro-android" />
@@ -206,7 +206,6 @@
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="platform/system/core" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/netd" name="platform/system/netd" />
 
