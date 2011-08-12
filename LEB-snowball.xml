@@ -3,7 +3,7 @@
   <remote  name="korg"
            fetch="git://android.git.linaro.org/"
            review="review.android.git.linaro.org" />
-  <default revision="refs/tags/android-2.3.4_r1"
+  <default revision="refs/tags/android-2.3.5_r1"
            remote="korg" />
 
   <remote  name="linaro-android"
@@ -22,36 +22,35 @@
   <remote  name="omapzoom"
            fetch="git://git.omapzoom.org/repo/" />
 
-  <remote  name="igloocommunity"
-           fetch="git://igloocommunity.org/" />
 
   <!-- Linaro changes -->
-  <project path="device/linaro/beagleboard" name="device/linaro/beagleboard" revision="linaro_android_2.3.4" remote="linaro-android" />
-  <project path="device/linaro/pandaboard" name="device/linaro/pandaboard" revision="linaro_android_2.3.4" remote="linaro-android" />
-  <project path="device/linaro/u8500href" name="device/linaro/u8500href" revision="linaro_android_2.3.4" remote="linaro-android" />
-  <project path="device/linaro/snowball" name="device/linaro/snowball" revision="linaro_android_2.3.4" remote="linaro-android" />
-  <project path="device/linaro/common" name="device/linaro/common" revision="linaro_android_2.3.4" remote="linaro-android" />
-  <project path="system/vold" name="platform/system/vold" revision="linaro_android_2.3.4" remote="linaro-android" />
-  <project path="system/core" name="platform/system/core" revision="linaro_android_2.3.4" remote="linaro-android" />
+  <project path="device/linaro/beagleboard" name="device/linaro/beagleboard" revision="linaro_android_2.3.5" remote="linaro-android" />
+  <project path="device/linaro/pandaboard" name="device/linaro/pandaboard" revision="linaro_android_2.3.5" remote="linaro-android" />
+  <project path="device/linaro/u8500href" name="device/linaro/u8500href" revision="linaro_android_2.3.5" remote="linaro-android" />
+  <project path="device/linaro/snowball" name="device/linaro/snowball" revision="linaro_android_2.3.5" remote="linaro-android" />
+  <project path="device/linaro/common" name="device/linaro/common" revision="linaro_android_2.3.5" remote="linaro-android" />
+  <project path="system/vold" name="platform/system/vold" revision="linaro_android_2.3.5" remote="linaro-android" />
+  <project path="system/core" name="platform/system/core" revision="linaro_android_2.3.5" remote="linaro-android" />
 
-  <project path="dalvik" name="platform/dalvik" revision="linaro_android_2.3.4" remote="linaro-android"/>
-  <project path="external/elfcopy" name="platform/external/elfcopy" revision="linaro_android_2.3.4" remote="linaro-android" />
-  <project path="external/skia" name="platform/external/skia" revision="linaro_android_2.3.4" remote="linaro-android" />
-  <project path="external/webkit" name="platform/external/webkit" revision="linaro_android_2.3.4" remote="linaro-android" />
-  <project path="frameworks/base" name="platform/frameworks/base" revision="linaro_android_2.3.4" remote="linaro-android" />
-  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" revision="linaro_android_2.3.4" remote="linaro-android" />
-  <project path="libcore" name="platform/libcore" revision="linaro_android_2.3.4" remote="linaro-android" />
-  <project path="system/media" name="platform/system/media" revision="linaro_android_2.3.4" remote="linaro-android" />
-  <project path="external/svox" name="platform/external/svox" revision="linaro_android_2.3.4" remote="linaro-android" />
+  <project path="dalvik" name="platform/dalvik" revision="linaro_android_2.3.5" remote="linaro-android"/>
+  <project path="external/elfcopy" name="platform/external/elfcopy" revision="linaro_android_2.3.5" remote="linaro-android" />
+  <project path="external/skia" name="platform/external/skia" revision="linaro_android_2.3.5" remote="linaro-android" />
+  <project path="external/webkit" name="platform/external/webkit" revision="linaro_android_2.3.5" remote="linaro-android" />
+  <project path="frameworks/base" name="platform/frameworks/base" revision="linaro_android_2.3.5" remote="linaro-android" />
+  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" revision="linaro_android_2.3.5" remote="linaro-android" />
+  <project path="libcore" name="platform/libcore" revision="linaro_android_2.3.5" remote="linaro-android" />
+  <project path="system/media" name="platform/system/media" revision="linaro_android_2.3.5" remote="linaro-android" />
+  <project path="external/svox" name="platform/external/svox" revision="linaro_android_2.3.5" remote="linaro-android" />
   <project path="external/busybox" name="people/botaosun/busybox" revision="linaro_android_2.3.4" remote="linaro-other" />
   <project path="external/stlport" name="platform/external/stlport" revision="linaro_android_2.3.5" remote="linaro-android" />
 
-  <!-- Power WG -->
+  <!-- Power WG 
   <project name="tools/powertop" path="external/powertop" remote="linaro-other" revision="71e15db3e0714dfdb9949c24cf676a65bb6c54f0"/>
   <project name="people/amitdanielk/library/ncurses" path="external/ncurses" remote="linaro-other" revision="5fc466743430377a29b0dc6a38b0d1de843581e7"/>
   <project name="people/amitdanielk/library/libnl" path="external/libnl" remote="linaro-other" revision="bbcb553f0f4636dd40e84d320a576b3de7b95357"/>
+  -->
 
-  <project path="build" name="platform/build" revision="linaro_android_2.3.4" remote="linaro-android" >
+  <project path="build" name="platform/build" revision="linaro_android_2.3.5" remote="linaro-android" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -63,6 +62,7 @@
   
   <project path="external/dbus" name="people/chaoyang/dbus" revision="linaro_android_2.3.4" remote="linaro-other" />
   <project path="external/icu4c" name="people/chaoyang/icu4c" revision="linaro_android_2.3.4" remote="linaro-other" />
+  <project path="external/jpeg" name="people/chaoyang/jpeg" revision="linaro_android_2.3.4" remote="linaro-other" />
 
   <!-- x-loader -->
   <project path="device/linaro/x-loader" name="x-loader/x-loader" revision="master" remote="gitorious" />
@@ -75,6 +75,8 @@
   <project path="cts" name="platform/cts" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
+  <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
+  <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/crespo" name="device/samsung/crespo" />
   <project path="external/apache-http" name="platform/external/apache-http" />
@@ -112,7 +114,6 @@
   <project path="external/iptables" name="platform/external/iptables" />
   <project path="external/jdiff" name="platform/external/jdiff" />
   <project path="external/jhead" name="platform/external/jhead" />
-  <project path="external/jpeg" name="platform/external/jpeg" />
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
@@ -164,6 +165,7 @@
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
+  <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
@@ -180,6 +182,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
+  <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
