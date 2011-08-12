@@ -41,6 +41,7 @@
   <project path="system/media" name="platform/system/media" revision="linaro_android_2.3.5" remote="linaro-android" />
   <project path="external/svox" name="platform/external/svox" revision="linaro_android_2.3.5" remote="linaro-android" />
   <project path="external/busybox" name="people/botaosun/busybox" revision="linaro_android_2.3.4" remote="linaro-other" />
+  <project path="external/stlport" name="platform/external/stlport" revision="linaro_android_2.3.5" remote="linaro-android" />
 
   <!-- Power WG 
   <project name="tools/powertop" path="external/powertop" remote="linaro-other" revision="71e15db3e0714dfdb9949c24cf676a65bb6c54f0"/>
@@ -141,7 +142,6 @@
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="platform/external/sqlite" />
   <project path="external/srec" name="platform/external/srec" />
-  <project path="external/stlport" name="platform/external/stlport" revision="linaro_android_2.3.5" />
   <project path="external/strace" name="platform/external/strace" />
   <project path="external/tagsoup" name="platform/external/tagsoup" />
   <project path="external/tcpdump" name="platform/external/tcpdump" />
