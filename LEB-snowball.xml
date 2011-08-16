@@ -19,9 +19,8 @@
   <remote  name="gitorious"
            fetch="git://gitorious.org/" />
 
-  <remote  name="omapzoom"
-           fetch="git://git.omapzoom.org/repo/" />
-
+  <remote  name="igloocommunity"
+           fetch="git://igloocommunity.org/" />
 
   <!-- Linaro changes -->
   <project path="device/linaro/beagleboard" name="device/linaro/beagleboard" revision="linaro_android_2.3.5" remote="linaro-android" />
