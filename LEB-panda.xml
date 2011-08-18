@@ -53,7 +53,7 @@
   </project>
 
   <project path="kernel" name="people/andygreen/kernel-tilt" revision="tilt-jstultz-linaro-android-3.0" remote="linaro-other" />
-  <project path="u-boot" name="boot/u-boot-linaro-stable" revision="master" remote="linaro-other" />
+  <project name="boot/u-boot-linaro-stable" path="u-boot" remote="linaro-other" revision="9a1d882b96a119fe3fffd2be294e82e99b732a06"/>
 
   <project path="packages/apps/0xbench" name="0xbench" revision="master" remote="0xbench" />
   <project path="packages/apps/mmtest" name="people/bernhardrosenkranzer/mmtest" revision="master" remote="linaro-other" />
