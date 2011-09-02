@@ -61,7 +61,7 @@
   <project path="packages/apps/mmtest" name="people/bernhardrosenkranzer/mmtest" revision="master" remote="linaro-other" />
   
   <project path="external/dbus" name="people/chaoyang/dbus" revision="linaro_android_2.3.4" remote="linaro-other" />
-  <project path="external/jpeg" name="people/chaoyang/jpeg" revision="linaro_android_2.3.4" remote="linaro-other" />
+  <project path="external/jpeg" name="people/tomgall/libjpeg-turbo/libjpeg-turbo" revision="1.2-beta-linaro-andoid" remote="linaro-other" />
 
   <project path="bionic" name="platform/bionic" revision="linaro_android_2.3.5" remote="linaro-android" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" revision="linaro_android_2.3.5" remote="linaro-android" />
