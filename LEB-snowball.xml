@@ -42,6 +42,7 @@
   <project path="external/svox" name="platform/external/svox" revision="linaro_android_2.3.5" remote="linaro-android" />
   <project path="external/busybox" name="people/botaosun/busybox" revision="linaro_android_2.3.4" remote="linaro-other" />
   <project path="external/stlport" name="platform/external/stlport" revision="linaro_android_2.3.5" remote="linaro-android" />
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="linaro_android_2.3.5" remote="linaro-android" />
 
   <!-- Power WG 
   <project name="tools/powertop" path="external/powertop" remote="linaro-other" revision="71e15db3e0714dfdb9949c24cf676a65bb6c54f0"/>
@@ -155,7 +156,6 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="ndk" name="platform/ndk" />
