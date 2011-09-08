@@ -53,7 +53,7 @@
   <project path="build" name="platform/build" revision="linaro_android_2.3.5" remote="linaro-android" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="kernel" name="people/angus/linux-linaro-3.0" remote="linaro-other" revision="android"/>
+  <project path="kernel" name="people/angus/linux-linaro-3.0" remote="linaro-other" revision="android-2011.09"/>
   <project path="u-boot" name="people/angus/u-boot" revision="origen" remote="linaro-other"/>
 
   <project path="packages/apps/0xbench" name="0xbench" revision="master" remote="0xbench" />
