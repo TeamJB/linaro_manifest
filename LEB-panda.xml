@@ -75,6 +75,8 @@
   <!-- proprietary-open - aka SGX et friends -->
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" revision="gingerbread" remote="linaro-android" />
 
+  <!-- TI's uim module for bt -->
+  <project path="device/ti/uim" name="device/ti/uim" revision="android" remote="linaro-android" />
 
   <!-- standard Andorid manifest -->
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
