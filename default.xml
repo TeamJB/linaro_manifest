@@ -40,7 +40,7 @@
   <project path="libcore" name="platform/libcore" revision="linaro_android_2.3.5" remote="linaro-android" />
   <project path="system/media" name="platform/system/media" revision="linaro_android_2.3.5" remote="linaro-android" />
   <project path="external/svox" name="platform/external/svox" revision="linaro_android_2.3.5" remote="linaro-android" />
-  <project path="external/busybox" name="people/botaosun/busybox" revision="linaro_android_2.3.4" remote="linaro-other" />
+  <project path="external/busybox" name="platform/external/busybox" revision="linaro_android_2.3.4" remote="linaro-android" />
   <project path="external/stlport" name="platform/external/stlport" revision="linaro_android_2.3.5" remote="linaro-android" />
 
   <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="linaro_android_2.3.5" remote="linaro-android" />
