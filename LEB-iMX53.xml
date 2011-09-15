@@ -49,9 +49,9 @@
   <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="linaro_android_2.3.5" remote="linaro-android" />
 
   <!-- Multimedia extensions -->
-  <project path="external/libvpx" name="people/bernhardrosenkranzer/libvpx" revision="android" remote="linaro-other" />
-  <!-- project path="external/x264" name="people/bernhardrosenkranzer/x264" revision="android" remote="linaro-other" / -->
-  <!-- project path="external/ffmpeg" name="people/bernhardrosenkranzer/ffmpeg" revision="android-0.8" remote="linaro-other" / -->
+  <project path="external/libvpx" name="platform/external/libvpx" revision="linaro-master" remote="linaro-android" />
+  <project path="external/x264" name="platform/external/x264" revision="linaro-master" remote="linaro-android" / -->
+  <project path="external/ffmpeg" name="platform/external/ffmpeg" revision="linaro-0.8" remote="linaro-android" / -->
 
   <!-- Power WG -->
   <project name="tools/powertop" path="external/powertop" remote="linaro-other" revision="71e15db3e0714dfdb9949c24cf676a65bb6c54f0"/>
@@ -69,7 +69,7 @@
   <!-- project path="u-boot" name="uboot-imx.git" revision="master" remote="freescale" / -->
 
   <project path="packages/apps/0xbench" name="0xbench" revision="master" remote="0xbench" />
-  <project path="packages/apps/mmtest" name="people/bernhardrosenkranzer/mmtest" revision="master" remote="linaro-other" />
+  <project path="packages/apps/mmtest" name="platform/packages/apps/mmtest" revision="master" remote="linaro-android" />
   <project path="packages/apps/glmark2" name="people/afrantzis/glmark2" revision="master" remote="linaro-other" />
 
   <project path="external/jpeg" name="people/tomgall/libjpeg-turbo/libjpeg-turbo" revision="1.2-beta-linaro-andoid" remote="linaro-other" />
