@@ -24,6 +24,8 @@
 
 
   <!-- Linaro changes -->
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="linaro_android_2.3.5" remote="linaro-android" />
+
   <project path="device/linaro/beagleboard" name="device/linaro/beagleboard" revision="linaro_android_2.3.5" remote="linaro-android" />
   <project path="device/linaro/pandaboard" name="device/linaro/pandaboard" revision="linaro_android_2.3.5" remote="linaro-android" />
   <project path="device/linaro/u8500href" name="device/linaro/u8500href" revision="linaro_android_2.3.5" remote="linaro-android" />
@@ -187,7 +189,6 @@
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
