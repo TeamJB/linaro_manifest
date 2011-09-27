@@ -67,7 +67,7 @@
   <!--project path="kernel" name="bsp/freescale/linux-linaro-android" revision="lt-android-38" remote="linaro-other" / -->
   <!-- The kernel below is a clone of the above with a compile fix -->
   <project path="kernel" name="people/bernhardrosenkranzer/android-kernel-iMX53" revision="linaro-android-11.07" remote="linaro-other"/>
-  <project path="u-boot" name="boot/u-boot-linaro-stable" revision="Linaro-u-boot-2011.07.1" remote="linaro-other" />
+  <project path="u-boot" name="boot/u-boot-linaro-stable" revision="master" remote="linaro-other" />
   <!-- project path="u-boot" name="uboot-imx.git" revision="master" remote="freescale" / -->
 
   <project path="packages/apps/0xbench" name="0xbench" revision="master" remote="0xbench" />
