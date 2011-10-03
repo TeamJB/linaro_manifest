@@ -45,6 +45,7 @@
   <project path="external/busybox" name="platform/external/busybox" revision="linaro_android_2.3.5" remote="linaro-android" />
   <project path="external/stlport" name="platform/external/stlport" revision="linaro_android_2.3.5" remote="linaro-android" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="linaro_android_2.3.5" remote="linaro-android" />
+  <project name="people/kwerner/libunwind" path="external/libunwind" remote="linaro-other" revision="fc05b927bc13c00d38a540f603f4fcb4f7325846" />
 
   <!-- Multimedia extensions -->
   <project path="external/libvpx" name="platform/external/libvpx" revision="linaro-master" remote="linaro-android" />
