@@ -56,6 +56,7 @@
   <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="linaro_android_2.3.5" remote="linaro-android" />
   <project path="hardware/linaro/common" name="hardware/linaro/common" revision="linaro_android_2.3.5" remote="linaro-android" />
   <project path="hardware/linaro/pandaboard" name="hardware/linaro/pandaboard" revision="linaro_android_2.3.5" remote="linaro-android" />
+  <project name="people/kwerner/libunwind" path="external/libunwind" remote="linaro-other" revision="android" />
 
   <!-- Multimedia extensions -->
   <project path="external/libvpx" name="platform/external/libvpx" revision="linaro-master" remote="linaro-android" />
