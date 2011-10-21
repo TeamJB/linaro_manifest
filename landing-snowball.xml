@@ -74,7 +74,7 @@
   <project path="u-boot" name="git/boot/u-boot-ux500" revision="master" remote="igloocommunity" />
 
   <project path="packages/apps/0xbench" name="0xbench" revision="master" remote="0xbench" />
-  <project path="packages/apps/mmtest" name="people/bernhardrosenkranzer/mmtest" revision="master" remote="linaro-other" />
+  <project path="packages/apps/mmtest" name="platform/packages/apps/mmtest" revision="master" remote="linaro-android" />
   <project path="packages/apps/glmark2" name="people/afrantzis/glmark2" revision="master" remote="linaro-other" />
   <project path="external/jpeg" name="people/tomgall/libjpeg-turbo/libjpeg-turbo" revision="1.2-beta-linaro-andoid" remote="linaro-other" />
   <project path="external/dbus" name="platform/external/dbus" revision="linaro-master" remote="linaro-android" />
