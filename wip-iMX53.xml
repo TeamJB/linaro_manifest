@@ -74,8 +74,8 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <!--project path="kernel" name="bsp/freescale/linux-linaro-android" revision="lt-android-38" remote="linaro-other" / -->
-  <project path="kernel" name="people/bernhardrosenkranzer/android-kernel-iMX53" revision="linaro-android-11.07" remote="linaro-other"/>
+  <project path="kernel" name="bsp/freescale/linux-linaro-android" revision="lt-android-38" remote="linaro-other" />
+  <!--project path="kernel" name="people/bernhardrosenkranzer/android-kernel-iMX53" revision="linaro-android-11.07" remote="linaro-other"/ -->
   <!--project path="kernel" name="kernel/imx53" revision="lt-3.1-android" remote="linaro-android"/ -->
   <project path="u-boot" name="boot/u-boot-linaro-stable" revision="master" remote="linaro-other" />
   <!-- project path="u-boot" name="uboot-imx.git" revision="master" remote="freescale" / -->
