@@ -40,6 +40,7 @@
   <project path="external/elfcopy" name="platform/external/elfcopy" revision="linaro_android_2.3.5" remote="linaro-android" />
   <project path="external/freetype" name="platform/external/freetype" revision="linaro_android_2.3.5" remote="linaro-android" />
   <project path="external/skia" name="platform/external/skia" revision="linaro_android_2.3.5" remote="linaro-android" />
+  <project path="external/v8" name="platform/external/v8" revision="linaro_android_2.3.5" remote="linaro-android" />
   <project path="external/webkit" name="platform/external/webkit" revision="linaro_android_2.3.5" remote="linaro-android" />
   <project path="frameworks/base" name="platform/frameworks/base" revision="linaro_android_2.3.5" remote="linaro-android" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" revision="linaro_android_2.3.5" remote="linaro-android" />
@@ -165,7 +166,6 @@
   <project path="external/strace" name="platform/external/strace" />
   <project path="external/tagsoup" name="platform/external/tagsoup" />
   <project path="external/tinyxml" name="platform/external/tinyxml" />
-  <project path="external/v8" name="platform/external/v8" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
