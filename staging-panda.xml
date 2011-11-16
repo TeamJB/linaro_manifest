@@ -5,6 +5,10 @@
            fetch="http://android.git.linaro.org/" />
   <remote  name="aosp-upstream"
            fetch="https://android.googlesource.com/" />
+  <!-- The bero remote is a temporary workaround until the remaining ICS
+       components are available on android.git.linaro.org -->
+  <remote  name="bero"
+           fetch="git://git.linaro.org/people/bernhardrosenkranzer/" />
   <default revision="refs/tags/android-4.0.1_r1"
            remote="aosp"
            sync-j="4" />
@@ -23,7 +27,8 @@
   <project path="external/icu4c" name="platform/external/icu4c" revision="linaro_android_4.0.1" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" revision="linaro_android_4.0.1" />
   <project path="system/extras" name="platform/system/extras" revision="linaro_android_4.0.1" />
-  <project path="frameworks/base" name="platform/frameworks/base" revision="linaro_android_4.0.1" />
+  <project path="frameworks/base" name="ics-frameworks-base" remote="bero" revision="linaro_android_4.0.1" />
+  <project path="device/ti/panda" name="ics-device-ti-panda" remote="bero" revision="linaro_android_4.0.1" />
 
   <!-- AOSP -->
   <project path="abi/cpp" name="platform/abi/cpp" remote="aosp-upstream" />
@@ -40,7 +45,6 @@
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" remote="aosp-upstream" />
   <project path="device/samsung/tuna" name="device/samsung/tuna" remote="aosp-upstream" />
-  <project path="device/ti/panda" name="device/ti/panda" remote="aosp-upstream" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/android-mock" name="platform/external/android-mock" remote="aosp-upstream" />
   <project path="external/antlr" name="platform/external/antlr" remote="aosp-upstream" />
