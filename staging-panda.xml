@@ -5,6 +5,8 @@
            fetch="http://android.git.linaro.org/" />
   <remote  name="aosp-upstream"
            fetch="https://android.googlesource.com/" />
+  <remote  name="linaro-other"
+           fetch="git://git.linaro.org/" />
   <!-- The bero remote is a temporary workaround until the remaining ICS
        components are available on android.git.linaro.org -->
   <remote  name="bero"
