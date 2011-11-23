@@ -17,7 +17,7 @@
   <project path="u-boot" name="boot/u-boot-linaro-stable" revision="master" remote="linaro-other" />
   <!-- Make sure only one of the kernels is enabled! -->
   <!-- Linaro kernel -->
-  <project path="kernel" name="people/andygreen/repo-branch-archive" revision="tilt-linaro-android-3.0" remote="linaro-other" />
+  <project path="kernel" name="people/andygreen/repo-branch-archive" revision="tilt-android-3.1" remote="linaro-other" />
   <!-- AOSP kernel -->
   <!-- project path="kernel" name="kernel/omap" revision="android-omap-panda-3.0" -->
     <!-- We copy the defconfig over so we can use the same name as w/ the Linaro kernel -->
