@@ -35,6 +35,7 @@
   <project path="dalvik" name="platform/dalvik" revision="linaro_android_4.0.1" />
   <project path="external/icu4c" name="platform/external/icu4c" revision="linaro_android_4.0.1" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" revision="linaro_android_4.0.1" />
+  <project path="external/libvpx" name="platform/external/libvpx" revision="linaro_android_4.0.1" />
   <project path="system/extras" name="platform/system/extras" revision="linaro_android_4.0.1" />
   <project path="frameworks/base" name="platform/frameworks/base" revision="linaro_android_4.0.1" />
   <project path="device/ti/panda" name="device/ti/panda" revision="linaro_android_4.0.1" />
@@ -120,7 +121,6 @@
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" />
   <project path="external/libpng" name="platform/external/libpng" />
-  <project path="external/libvpx" name="platform/external/libvpx" />
   <project path="external/libxml2" name="platform/external/libxml2" />
   <project path="external/libxslt" name="platform/external/libxslt" />
   <project path="external/llvm" name="platform/external/llvm" />
