@@ -46,7 +46,6 @@
   <project path="system/core" name="platform/system/core" revision="linaro_android_4.0.1" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="linaro_android_4.0.1" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="linaro_android_4.0.1" />
-  <project path="external/libvpx" name="platform/external/libvpx" revision="linaro-master" />
 
   <!-- AOSP -->
   <project path="abi/cpp" name="platform/abi/cpp" />
@@ -125,6 +124,7 @@
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" />
   <project path="external/libpng" name="platform/external/libpng" />
+  <project path="external/libvpx" name="platform/external/libvpx" />
   <project path="external/libxml2" name="platform/external/libxml2" />
   <project path="external/libxslt" name="platform/external/libxslt" />
   <project path="external/llvm" name="platform/external/llvm" />
