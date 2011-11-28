@@ -22,9 +22,6 @@
   <remote  name="omapzoom"
            fetch="git://git.omapzoom.org/repo/" />
 
-  <!-- GATOR -->
-  <project path="external/gator" name="people/pawelmoll/gator" revision="android" remote="linaro-other" />
-
   <!-- Linaro changes -->
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="linaro_android_2.3.5" remote="linaro-android" />
 
@@ -33,6 +30,7 @@
   <project path="device/linaro/u8500href" name="device/linaro/u8500href" revision="linaro_android_2.3.5" remote="linaro-android" />
   <project path="device/linaro/vexpress_a9" name="people/tixy/android-vexpress-a9" revision="linaro_android_2.3.5" remote="linaro-other" />
   <project path="device/linaro/common" name="device/linaro/common" revision="linaro_android_2.3.5" remote="linaro-android" />
+  <project path="external/gator" name="arm/ds5/gator" revision="android" remote="linaro-other" />
   <project path="system/vold" name="platform/system/vold" revision="linaro_android_2.3.5" remote="linaro-android" />
   <project path="system/core" name="platform/system/core" revision="linaro_android_2.3.5" remote="linaro-android" />
 

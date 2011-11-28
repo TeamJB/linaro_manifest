@@ -26,6 +26,7 @@
   <project path="external/ffmpeg" name="platform/external/ffmpeg" revision="linaro-0.8" />
   <project path="device/samsung/proprietary-open" name="device/samsung/proprietary-open" revision="linaro_android_4.0.1" remote="linaro-android" />
    <project path="u-boot" name="people/angus/u-boot" revision="origen" remote="linaro-other"/>
+  <project path="external/gator" name="arm/ds5/gator" revision="android" remote="linaro-other" />
   <!-- Make sure only one of the kernels is enabled! -->
   <!-- Linaro kernel -->
    <project path="kernel" name="landing-teams/working/samsung/kernel" remote="linaro-other" revision="android"/>

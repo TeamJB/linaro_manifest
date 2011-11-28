@@ -23,6 +23,7 @@
   <project path="external/x264" name="platform/external/x264" revision="linaro-master" />
   <project path="external/ffmpeg" name="platform/external/ffmpeg" revision="linaro-0.8" />
   <project path="u-boot" name="git/boot/u-boot-ux500" revision="master" remote="igloocommunity" />
+  <project path="external/gator" name="arm/ds5/gator" revision="android" remote="linaro-other" />
   <!-- Make sure only one of the kernels is enabled! -->
   <!-- Linaro kernel -->
   <project path="kernel" name="kernel/snowball" revision="master" remote="aosp" />
