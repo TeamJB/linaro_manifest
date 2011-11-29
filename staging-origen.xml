@@ -34,8 +34,6 @@
   <!-- project path="kernel" name="kernel/omap" revision="android-omap-panda-3.0" -->
     <!-- We copy the defconfig over so we can use the same name as w/ the Linaro kernel -->
     <!-- copyfile src="arch/arm/configs/panda_defconfig" dest="kernel/arch/arm/configs/android_omap4_defconfig" /-->
-  <!-- ARM DS5 -->
-  <project path="external/gator" name="arm/ds5/gator" remote="linaro-other" revision="android" />
   <!-- /project -->
 
   <!-- AOSP with Linaro additions -->
