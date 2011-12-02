@@ -27,7 +27,7 @@
   <project path="external/gator" name="arm/ds5/gator" revision="android" remote="linaro-other" />
   <!-- Make sure only one of the kernels is enabled! -->
   <!-- Linaro kernel -->
-  <project path="kernel" name="kernel/snowball" revision="master" remote="aosp" />
+  <project path="kernel" name="git/kernel/igloo-kernel" revision="android-stable-ux500-3.0" remote="igloocommunity" />
   <!-- AOSP kernel -->
   <!-- project path="kernel" name="kernel/omap" revision="android-omap-panda-3.0" -->
     <!-- We copy the defconfig over so we can use the same name as w/ the Linaro kernel -->
