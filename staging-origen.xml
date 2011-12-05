@@ -12,7 +12,7 @@
   <remote  name="linaro-other"
            fetch="git://git.linaro.org/"
            review="review.android.git.linaro.org" />
-  <default revision="refs/tags/android-4.0.1_r1"
+  <default revision="refs/tags/android-4.0.1_r1.2"
            remote="aosp"
            sync-j="4" />
 
