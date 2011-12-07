@@ -12,9 +12,14 @@
   <remote  name="linaro-other"
            fetch="git://git.linaro.org/"
            review="review.android.git.linaro.org" />
+  <remote  name="0xbench"
+	   fetch="git://gitorious.org/0xbench/" />
   <default revision="refs/tags/android-4.0.1_r1.2"
            remote="aosp"
            sync-j="4" />
+
+  <!-- External extras -->
+  <project path="packages/apps/0xbench" name="0xbench" revision="master" remote="0xbench" />
 
   <!-- Linaro extras -->
   <project path="device/linaro/origen" name="device/linaro/origen" revision="linaro_android_4.0.1" remote="linaro-android" />
