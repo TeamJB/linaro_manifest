@@ -56,6 +56,7 @@
   <project path="external/stlport" name="platform/external/stlport" revision="linaro_android_4.0.1"/>
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="linaro_android_4.0.1"/>
   <project path="external/freetype" name="platform/external/freetype" revision="linaro_android_4.0.1"/>
+  <project path="external/sonivox" name="platform/external/sonivox" revision="linaro_android_4.0.1"/>
 
   <!-- AOSP -->
   <project path="abi/cpp" name="platform/abi/cpp" />
@@ -160,7 +161,6 @@
   <project path="external/quake" name="platform/external/quake" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/skia" name="platform/external/skia" />
-  <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="platform/external/sqlite" />
   <project path="external/srtp" name="platform/external/srtp" />
