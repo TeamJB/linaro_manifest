@@ -50,6 +50,7 @@
   <project path="bionic" name="platform/bionic" revision="linaro_android_4.0.1" />
   <project path="external/srec" name="platform/external/srec" revision="linaro_android_4.0.1"/>
   <project path="external/stlport" name="platform/external/stlport" revision="linaro_android_4.0.1"/>
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="linaro_android_4.0.1"/>
 
   <!-- AOSP -->
   <project path="abi/cpp" name="platform/abi/cpp" />
@@ -189,7 +190,6 @@
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
