@@ -18,6 +18,8 @@
   <project path="packages/apps/0xbench" name="0xbench" revision="master" remote="0xbench" />
 
   <!-- Linaro extras -->
+  <project path="hardware/samsung/origen/gralloc_ump" name="platform/hardware/samsung/origen/gralloc_ump" revision="linaro_android_4.0.1" />
+  <project path="hardware/samsung/origen/ump" name="platform/hardware/samsung/origen/ump" revision="linaro_android_4.0.1" />
   <project path="device/linaro/common" name="device/linaro/common" revision="linaro_android_4.0.1" />
   <project path="device/linaro/pandaboard" name="device/linaro/pandaboard" revision="linaro_android_4.0.1" />
   <project path="device/linaro/iMX53" name="device/linaro/imx53" revision="linaro_android_4.0.1" />
