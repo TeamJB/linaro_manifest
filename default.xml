@@ -30,7 +30,7 @@
   <project path="external/gator" name="arm/ds5/gator" revision="android" remote="linaro-other" />
   <!-- Make sure only one of the kernels is enabled! -->
   <!-- Linaro kernel -->
-  <project path="kernel" name="kernel/linaro-android" revision="linaro-android-3.1-agreen-rebase" remote="aosp" />
+  <project path="kernel" name="kernel/linaro-android" revision="linaro-android-3.2-agreen-rebase" remote="aosp" />
   <!-- AOSP kernel -->
   <!-- project path="kernel" name="kernel/omap" revision="android-omap-panda-3.0" -->
     <!-- We copy the defconfig over so we can use the same name as w/ the Linaro kernel -->
