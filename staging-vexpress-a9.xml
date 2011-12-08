@@ -62,6 +62,7 @@
   <project path="external/freetype" name="platform/external/freetype" revision="linaro_android_4.0.1"/>
   <project path="external/sonivox" name="platform/external/sonivox" revision="linaro_android_4.0.1"/>
   <project path="external/openssl" name="platform/external/openssl" revision="linaro_android_4.0.1"/>
+  <project path="libcore" name="platform/libcore" revision="linaro_android_4.0.1"/>
 
   <!-- AOSP -->
   <project path="abi/cpp" name="platform/abi/cpp" />
@@ -203,7 +204,6 @@
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
-  <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
