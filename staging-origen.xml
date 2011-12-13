@@ -53,10 +53,10 @@
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" revision="linaro_android_4.0.1" />
   <project path="external/libvpx" name="platform/external/libvpx" revision="linaro_android_4.0.1" />
   <project path="system/extras" name="platform/system/extras" revision="linaro_android_4.0.1" />
-  <project path="frameworks/base" name="platform/frameworks/base" revision="linaro_android_4.0.1" />
+  <project path="frameworks/base" name="platform/frameworks/base" revision="linaro_android_4.0.1_origen" />
   <project path="device/ti/panda" name="device/ti/panda" revision="linaro_android_4.0.1" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="linaro_android_4.0.1" />
-  <project path="system/core" name="platform/system/core" revision="linaro_android_4.0.1" />
+  <project path="system/core" name="platform/system/core" revision="linaro_android_4.0.1_origen" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="linaro_android_4.0.1" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="linaro_android_4.0.1" />
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" revision="linaro_android_4.0.1"/>
