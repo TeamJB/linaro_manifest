@@ -54,7 +54,7 @@
   <project path="frameworks/base" name="platform/frameworks/base" revision="linaro_android_4.0.1_snowball" />
   <project path="device/ti/panda" name="device/ti/panda" revision="linaro_android_4.0.1" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="linaro_android_4.0.1_snowball" />
-  <project path="system/core" name="platform/system/core" revision="linaro_android_4.0.1_snowbal_snowball" />
+  <project path="system/core" name="platform/system/core" revision="linaro_android_4.0.1_snowball" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="linaro_android_4.0.1" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="linaro_android_4.0.1" />
   <project path="system/vold" name="platform/system/vold"  revision="linaro_android_4.0.1"/>
