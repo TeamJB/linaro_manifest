@@ -67,6 +67,7 @@
   <project path="external/sonivox" name="platform/external/sonivox" revision="linaro_android_4.0.1"/>
   <project path="external/openssl" name="platform/external/openssl" revision="linaro_android_4.0.1"/>
   <project path="libcore" name="platform/libcore" revision="linaro_android_4.0.1"/>
+  <project path="frameworks/ex" name="platform/frameworks/ex" revision="linaro_android_4.0.1"/>
 
   <!-- AOSP -->
   <project path="abi/cpp" name="platform/abi/cpp" />
@@ -192,7 +193,6 @@
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
-  <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
