@@ -8,8 +8,6 @@
            fetch="https://android.googlesource.com/" />
   <remote  name="linaro-other"
            fetch="git://git.linaro.org/" />
-  <remote  name="0xbench"
-	   fetch="git://gitorious.org/0xbench/" />
   <default revision="refs/tags/android-4.0.1_r1.2"
            remote="aosp"
            sync-j="4" />
@@ -18,7 +16,7 @@
            fetch="git://igloocommunity.org/" />
 
   <!-- External extras -->
-  <project path="packages/apps/0xbench" name="0xbench" revision="master" remote="0xbench" />
+  <project path="packages/apps/0xbench" name="packages/apps/0xbench" revision="linaro-master" />
 
   <!-- Linaro extras -->
   <project path="hardware/samsung/origen/gralloc_ump" name="platform/hardware/samsung/origen/gralloc_ump" revision="linaro_android_4.0.1" />
