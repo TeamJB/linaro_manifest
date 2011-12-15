@@ -58,7 +58,6 @@
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="linaro_android_4.0.1" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="linaro_android_4.0.1" />
   <project path="system/vold" name="platform/system/vold"  revision="linaro_android_4.0.1"/>
-  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" revision="linaro_android_4.0.1"/>
   <project path="bionic" name="platform/bionic" revision="linaro_android_4.0.1" />
   <project path="external/srec" name="platform/external/srec" revision="linaro_android_4.0.1"/>
   <project path="external/stlport" name="platform/external/stlport" revision="linaro_android_4.0.1"/>
@@ -70,6 +69,8 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="linaro_android_4.0.1"/>
   <project path="external/llvm" name="platform/external/llvm" revision="linaro_android_4.0.1"/>
   <project path="external/clang" name="platform/external/clang" revision="linaro_android_4.0.1"/>
+  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" revision="linaro_android_4.0.1"/>
+  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" revision="linaro_android_4.0.1"/>
 
   <!-- AOSP -->
   <project path="abi/cpp" name="platform/abi/cpp" />
@@ -94,7 +95,6 @@
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
