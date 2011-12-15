@@ -66,6 +66,7 @@
   <project path="external/clang" name="platform/external/clang" revision="linaro_android_4.0.1"/>
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" revision="linaro_android_4.0.1"/>
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" revision="linaro_android_4.0.1"/>
+  <project path="external/jpeg" name="people/tomgall/libjpeg-turbo/libjpeg-turbo" revision="android" remote="linaro-other" />
 
   <!-- AOSP -->
   <project path="abi/cpp" name="platform/abi/cpp" />
@@ -126,7 +127,6 @@
   <project path="external/javassist" name="platform/external/javassist" />
   <project path="external/jdiff" name="platform/external/jdiff" />
   <project path="external/jhead" name="platform/external/jhead" />
-  <project path="external/jpeg" name="platform/external/jpeg" />
   <project path="external/jsilver" name="platform/external/jsilver" />
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
