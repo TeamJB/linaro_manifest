@@ -8,7 +8,7 @@
            fetch="https://android.googlesource.com/" />
   <remote  name="linaro-other"
            fetch="git://git.linaro.org/" />
-  <default revision="refs/tags/android-4.0.1_r1.2"
+  <default revision="refs/tags/android-4.0.3_r1"
            remote="aosp"
            sync-j="4" />
 
@@ -16,12 +16,12 @@
   <project path="packages/apps/0xbench" name="platform/packages/apps/0xbench" revision="linaro-master" />
 
   <!-- Linaro extras -->
-  <project path="hardware/samsung/origen/gralloc_ump" name="platform/hardware/samsung/origen/gralloc_ump" revision="linaro_android_4.0.1" />
-  <project path="hardware/samsung/origen/ump" name="platform/hardware/samsung/origen/ump" revision="linaro_android_4.0.1" />
-  <project path="device/linaro/common" name="device/linaro/common" revision="linaro_android_4.0.1" />
-  <project path="device/linaro/pandaboard" name="device/linaro/pandaboard" revision="linaro_android_4.0.1" />
-  <project path="device/linaro/iMX53" name="device/linaro/imx53" revision="linaro_android_4.0.1" />
-  <project path="external/busybox" name="platform/external/busybox" revision="linaro_android_4.0.1" />
+  <project path="hardware/samsung/origen/gralloc_ump" name="platform/hardware/samsung/origen/gralloc_ump" revision="linaro_android_4.0.3" />
+  <project path="hardware/samsung/origen/ump" name="platform/hardware/samsung/origen/ump" revision="linaro_android_4.0.3" />
+  <project path="device/linaro/common" name="device/linaro/common" revision="linaro_android_4.0.3" />
+  <project path="device/linaro/pandaboard" name="device/linaro/pandaboard" revision="linaro_android_4.0.3" />
+  <project path="device/linaro/iMX53" name="device/linaro/imx53" revision="linaro_android_4.0.3" />
+  <project path="external/busybox" name="platform/external/busybox" revision="linaro_android_4.0.3" />
   <project path="external/lrzsz" name="platform/external/lrzsz" revision="linaro-master" />
   <project path="external/x264" name="platform/external/x264" revision="linaro-master" />
   <project path="external/ffmpeg" name="platform/external/ffmpeg" revision="linaro-0.9" />
@@ -38,34 +38,34 @@
   <!-- /project -->
 
   <!-- AOSP with Linaro additions -->
-  <project path="build" name="platform/build" revision="linaro_android_4.0.1">
+  <project path="build" name="platform/build" revision="linaro_android_4.0.3">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="dalvik" name="platform/dalvik" revision="linaro_android_4.0.1" />
-  <project path="external/icu4c" name="platform/external/icu4c" revision="linaro_android_4.0.1" />
-  <project path="external/ipsec-tools" name="platform/external/ipsec-tools" revision="linaro_android_4.0.1" />
-  <project path="external/libvpx" name="platform/external/libvpx" revision="linaro_android_4.0.1" />
-  <project path="system/extras" name="platform/system/extras" revision="linaro_android_4.0.1" />
-  <project path="frameworks/base" name="platform/frameworks/base" revision="linaro_android_4.0.1" />
-  <project path="device/ti/panda" name="device/ti/panda" revision="linaro_android_4.0.1" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="linaro_android_4.0.1" />
-  <project path="system/core" name="platform/system/core" revision="linaro_android_4.0.1" />
-  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="linaro_android_4.0.1" />
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="linaro_android_4.0.1" />
-  <project path="system/vold" name="platform/system/vold"  revision="linaro_android_4.0.1"/>
-  <project path="bionic" name="platform/bionic" revision="linaro_android_4.0.1" />
-  <project path="external/srec" name="platform/external/srec" revision="linaro_android_4.0.1"/>
-  <project path="external/stlport" name="platform/external/stlport" revision="linaro_android_4.0.1"/>
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="linaro_android_4.0.1"/>
-  <project path="external/freetype" name="platform/external/freetype" revision="linaro_android_4.0.1"/>
-  <project path="external/sonivox" name="platform/external/sonivox" revision="linaro_android_4.0.1"/>
-  <project path="external/openssl" name="platform/external/openssl" revision="linaro_android_4.0.1"/>
-  <project path="libcore" name="platform/libcore" revision="linaro_android_4.0.1"/>
-  <project path="frameworks/ex" name="platform/frameworks/ex" revision="linaro_android_4.0.1"/>
-  <project path="external/llvm" name="platform/external/llvm" revision="linaro_android_4.0.1"/>
-  <project path="external/clang" name="platform/external/clang" revision="linaro_android_4.0.1"/>
-  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" revision="linaro_android_4.0.1"/>
-  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" revision="linaro_android_4.0.1"/>
+  <project path="dalvik" name="platform/dalvik" revision="linaro_android_4.0.3" />
+  <project path="external/icu4c" name="platform/external/icu4c" revision="linaro_android_4.0.3" />
+  <project path="external/ipsec-tools" name="platform/external/ipsec-tools" revision="linaro_android_4.0.3" />
+  <project path="external/libvpx" name="platform/external/libvpx" revision="linaro_android_4.0.3" />
+  <project path="system/extras" name="platform/system/extras" revision="linaro_android_4.0.3" />
+  <project path="frameworks/base" name="platform/frameworks/base" revision="linaro_android_4.0.3" />
+  <project path="device/ti/panda" name="device/ti/panda" revision="linaro_android_4.0.3" />
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="linaro_android_4.0.3" />
+  <project path="system/core" name="platform/system/core" revision="linaro_android_4.0.3" />
+  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="linaro_android_4.0.3" />
+  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="linaro_android_4.0.3" />
+  <project path="system/vold" name="platform/system/vold"  revision="linaro_android_4.0.3"/>
+  <project path="bionic" name="platform/bionic" revision="linaro_android_4.0.3" />
+  <project path="external/srec" name="platform/external/srec" revision="linaro_android_4.0.3"/>
+  <project path="external/stlport" name="platform/external/stlport" revision="linaro_android_4.0.3"/>
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="linaro_android_4.0.3"/>
+  <project path="external/freetype" name="platform/external/freetype" revision="linaro_android_4.0.3"/>
+  <project path="external/sonivox" name="platform/external/sonivox" revision="linaro_android_4.0.3"/>
+  <project path="external/openssl" name="platform/external/openssl" revision="linaro_android_4.0.3"/>
+  <project path="libcore" name="platform/libcore" revision="linaro_android_4.0.3"/>
+  <project path="frameworks/ex" name="platform/frameworks/ex" revision="linaro_android_4.0.3"/>
+  <project path="external/llvm" name="platform/external/llvm" revision="linaro_android_4.0.3"/>
+  <project path="external/clang" name="platform/external/clang" revision="linaro_android_4.0.3"/>
+  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" revision="linaro_android_4.0.3"/>
+  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" revision="linaro_android_4.0.3"/>
   <project path="external/jpeg" name="people/tomgall/libjpeg-turbo/libjpeg-turbo" revision="android" remote="linaro-other" />
 
   <!-- AOSP -->
@@ -141,6 +141,7 @@
   <project path="external/libpng" name="platform/external/libpng" />
   <project path="external/libxml2" name="platform/external/libxml2" />
   <project path="external/libxslt" name="platform/external/libxslt" />
+  <project path="external/libyuv" name="platform/external/libyuv" remote="aosp-upstream" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mesa3d" name="platform/external/mesa3d" />
