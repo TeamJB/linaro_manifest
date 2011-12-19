@@ -33,7 +33,7 @@
   <!-- Linaro kernel -->
   <!--project path="kernel" name="people/andygreen/repo-branch-archive" revision="tilt-android-tracking" remote="linaro-other" /-->
   <!-- AOSP kernel -->
-  <project path="kernel" name="kernel/omap" revision="android-omap-panda-3.0" >
+  <project path="kernel" name="kernel/omap" revision="linaro-android-omap-panda-3.0" >
     <!-- We copy the defconfig over so we can use the same name as w/ the Linaro kernel -->
     <copyfile src="arch/arm/configs/panda_defconfig" dest="kernel/arch/arm/configs/android_omap4_defconfig" />
   </project>
