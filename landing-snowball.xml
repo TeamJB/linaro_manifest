@@ -49,7 +49,7 @@
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" revision="linaro_android_4.0.3" />
   <project path="external/libvpx" name="platform/external/libvpx" revision="linaro_android_4.0.3" />
   <project path="system/extras" name="platform/system/extras" revision="linaro_android_4.0.3" />
-  <project path="frameworks/base" name="platform/frameworks/base" revision="linaro_android_4.0.3_snowball" />
+  <project path="frameworks/base" name="platform/frameworks/base" revision="linaro_android_4.0.3" />
   <project path="device/ti/panda" name="device/ti/panda" revision="linaro_android_4.0.3" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="linaro_android_4.0.3_snowball" />
   <project path="system/core" name="platform/system/core" revision="linaro_android_4.0.3_snowball" />
