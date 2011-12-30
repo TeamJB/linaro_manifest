@@ -56,7 +56,7 @@
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="linaro_android_4.0.3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="linaro_android_4.0.3" />
   <project path="system/vold" name="platform/system/vold"  revision="linaro_android_4.0.3"/>
-  <project path="bionic" name="platform/bionic" revision="linaro_android_4.0.3_snowball" />
+  <project path="bionic" name="platform/bionic" revision="linaro_android_4.0.3" />
   <project path="external/srec" name="platform/external/srec" revision="linaro_android_4.0.3"/>
   <project path="external/stlport" name="platform/external/stlport" revision="linaro_android_4.0.3"/>
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="linaro_android_4.0.3"/>
