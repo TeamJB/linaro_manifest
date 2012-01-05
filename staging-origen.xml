@@ -73,6 +73,9 @@
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" revision="linaro_android_4.0.3"/>
   <project path="external/jpeg" name="people/tomgall/libjpeg-turbo/libjpeg-turbo" revision="android" remote="linaro-other" />
 
+  <!-- TI proprietary-open -->
+  <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" revision="ics" />
+
   <!-- AOSP -->
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />

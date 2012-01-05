@@ -66,6 +66,9 @@
   <project path="external/llvm" name="platform/external/llvm" revision="linaro_android_4.0.3"/>
   <project path="external/clang" name="platform/external/clang" revision="linaro_android_4.0.3"/>
 
+  <!-- TI proprietary-open -->
+  <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" revision="ics" />
+
   <!-- AOSP -->
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
