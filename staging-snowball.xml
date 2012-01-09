@@ -33,7 +33,7 @@
   <project path="packages/wallpapers/LinaroWallpaper" name="platform/packages/wallpapers/LinaroWallpaper" revision="master" />
   <!-- Make sure only one of the kernels is enabled! -->
   <!-- Linaro kernel -->
-  <project path="kernel" name="git/kernel/igloo-kernel" revision="stable-android-ux500-3.0" remote="igloocommunity" />
+  <project path="kernel" name="git/kernel/igloo-kernel" revision="stable-android-ux500-3.1" remote="igloocommunity" />
   <!-- AOSP kernel -->
   <!-- project path="kernel" name="kernel/omap" revision="android-omap-panda-3.0" -->
     <!-- We copy the defconfig over so we can use the same name as w/ the Linaro kernel -->
