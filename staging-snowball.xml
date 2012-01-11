@@ -31,6 +31,9 @@
   <project path="u-boot" name="git/boot/u-boot-ux500" revision="master" remote="igloocommunity" />
   <project path="external/gator" name="arm/ds5/gator" revision="android" remote="linaro-other" />
   <project path="packages/wallpapers/LinaroWallpaper" name="platform/packages/wallpapers/LinaroWallpaper" revision="master" />
+  <project path="external/powertop" name="platform/external/powertop" revision="linaro"/>
+  <project path="external/ncurses" name="platform/external/ncurses" revision="linaro"/>
+  <project path="external/libnl" name="platform/external/libnl" revision="linaro"/>
   <!-- Make sure only one of the kernels is enabled! -->
   <!-- Linaro kernel -->
   <project path="kernel" name="git/kernel/igloo-kernel" revision="stable-android-ux500-3.1" remote="igloocommunity" />

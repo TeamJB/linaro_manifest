@@ -28,6 +28,9 @@
   <project path="u-boot" name="boot/u-boot-linaro-stable" revision="master" remote="linaro-other" />
   <project path="external/gator" name="arm/ds5/gator" revision="android" remote="linaro-other" />
   <project path="packages/wallpapers/LinaroWallpaper" name="platform/packages/wallpapers/LinaroWallpaper" revision="master" />
+  <project path="external/powertop" name="platform/external/powertop" revision="linaro"/>
+  <project path="external/ncurses" name="platform/external/ncurses" revision="linaro"/>
+  <project path="external/libnl" name="platform/external/libnl" revision="linaro"/>
   <!-- Make sure only one of the kernels is enabled! -->
   <!-- Linaro kernel -->
   <project path="kernel" name="kernel/imx53" revision="lt-3.1-android" />
