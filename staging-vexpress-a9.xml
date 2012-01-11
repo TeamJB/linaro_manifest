@@ -26,12 +26,13 @@
   <project path="external/lrzsz" name="platform/external/lrzsz" revision="linaro-master" />
   <project path="external/x264" name="platform/external/x264" revision="linaro-master" />
   <project path="external/ffmpeg" name="platform/external/ffmpeg" revision="linaro-0.9" />
-  <project path="u-boot" name="boot/u-boot-linaro-stable" revision="master" remote="linaro-other" />
+  <project path="u-boot" name="people/tixy/u-boot" revision="vexpress-hacks" remote="linaro-other" />
+  <project path="uefi" name="arm/uefi/uefi" revision="master" remote="linaro-other" />
   <project path="external/gator" name="arm/ds5/gator" revision="android" remote="linaro-other" />
   <project path="packages/wallpapers/LinaroWallpaper" name="platform/packages/wallpapers/LinaroWallpaper" revision="master" />
   <!-- Make sure only one of the kernels is enabled! -->
   <!-- Linaro kernel -->
-  <project path="kernel" name="kernel/vexpress-a9" revision="armlt-linaro-android-3.1" />
+  <project path="kernel" name="kernel/vexpress-a9" revision="armlt-linaro-android-3.2" />
   <!-- AOSP kernel -->
   <!-- project path="kernel" name="kernel/omap" revision="android-omap-panda-3.0" -->
     <!-- We copy the defconfig over so we can use the same name as w/ the Linaro kernel -->
