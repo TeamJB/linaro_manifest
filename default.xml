@@ -75,6 +75,7 @@
   <project path="external/skia" name="platform/external/skia" revision="linaro_android_4.0.3" />
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="linaro_android_4.0.3" />
   <project name="people/afrantzis/glmark2" path="packages/apps/glmark2" remote="linaro-other" revision="members-meeting-demo"/>
+  <project path="cts" name="platform/cts" revision="linaro_android_4.0.3" />
 
   <!-- TI proprietary-open -->
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" revision="ics" />
@@ -84,7 +85,6 @@
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
-  <project path="cts" name="platform/cts" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
