@@ -83,6 +83,7 @@
   <project path="system/bluetooth" name="platform/system/bluetooth" revision="linaro_android_4.0.3" />
   <project name="people/afrantzis/glmark2" path="packages/apps/glmark2" remote="linaro-other" revision="members-meeting-demo"/>
   <project path="cts" name="platform/cts" revision="linaro_android_4.0.3" />
+  <project path="external/gtest" name="platform/external/gtest" revision="linaro_android_4.0.3" />
 
   <!-- TI proprietary-open -->
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" revision="ics" />
@@ -135,7 +136,6 @@
   <project path="external/giflib" name="platform/external/giflib" />
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" />
   <project path="external/grub" name="platform/external/grub" />
-  <project path="external/gtest" name="platform/external/gtest" />
   <project path="external/guava" name="platform/external/guava" />
   <project path="external/harfbuzz" name="platform/external/harfbuzz" />
   <project path="external/hyphenation" name="platform/external/hyphenation" />
