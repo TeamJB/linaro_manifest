@@ -81,6 +81,7 @@
 
   <!-- TI proprietary-open -->
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" revision="ics" />
+  <project path="device/ti/uim" name="device/ti/uim" revision="android" />
 
   <!-- AOSP -->
   <project path="abi/cpp" name="platform/abi/cpp" />

@@ -48,6 +48,10 @@
 
   <project path="hardware/ti/domx" name="platform/hardware/ti/domx" remote="omapzoom" revision="de6a50ad976304e8b32843edf3eee2d4e3ac9a89" />
 
+  <!-- TI proprietary-open -->
+  <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" revision="ics" />
+  <project path="device/ti/uim" name="device/ti/uim" revision="android" />
+
   <!-- AOSP with Linaro additions -->
   <project path="build" name="platform/build" revision="linaro_android_4.0.3">
     <copyfile src="core/root.mk" dest="Makefile" />
