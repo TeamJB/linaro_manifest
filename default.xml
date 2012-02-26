@@ -43,10 +43,6 @@
     <!-- copyfile src="arch/arm/configs/panda_defconfig" dest="kernel/arch/arm/configs/android_omap4_defconfig" /-->
   <!-- /project -->
 
-  <!-- TI proprietary-open -->
-  <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" revision="ics" />
-  <project path="device/ti/uim" name="device/ti/uim" revision="android" />
-
   <!-- AOSP with Linaro additions -->
   <project path="build" name="platform/build" revision="linaro_android_4.0.3">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -86,6 +82,7 @@
 
   <!-- TI proprietary-open -->
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" revision="ics" />
+  <project path="device/ti/uim" name="device/ti/uim" revision="android" />
 
   <!-- AOSP -->
   <project path="abi/cpp" name="platform/abi/cpp" />
