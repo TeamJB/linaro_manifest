@@ -37,7 +37,7 @@
   <project path="external/libnl" name="platform/external/libnl" revision="linaro"/>
   <!-- Make sure only one of the kernels is enabled! -->
   <!-- Linaro kernel -->
-  <project path="kernel" name="kernel/vexpress-a9" revision="armlt-linaro-android-3.2" />
+  <project path="kernel" name="kernel/vexpress-a9" revision="armlt-linaro-android-3.3" />
   <!-- AOSP kernel -->
   <!-- project path="kernel" name="kernel/omap" revision="android-omap-panda-3.0" -->
     <!-- We copy the defconfig over so we can use the same name as w/ the Linaro kernel -->
