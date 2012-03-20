@@ -32,6 +32,9 @@
   <project path="external/powertop" name="platform/external/powertop" revision="linaro"/>
   <project path="external/ncurses" name="platform/external/ncurses" revision="linaro"/>
   <project path="external/libnl" name="platform/external/libnl" revision="linaro"/>
+  <project path="external/iozone" name="platform/external/iozone" revision="linaro_android"/>
+  <project path="external/memtester" name="platform/external/memtester" revision="linaro_android"/>
+  <project path="external/stress" name="platform/external/stress" revision="linaro_android"/>
   <!-- Make sure only one of the kernels is enabled! -->
   <!-- Linaro kernel -->
   <project path="kernel" name="people/andygreen/repo-branch-archive" revision="tilt-android-tracking" remote="linaro-other" />
