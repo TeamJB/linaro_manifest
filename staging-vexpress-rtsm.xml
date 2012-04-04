@@ -82,7 +82,7 @@
   <project path="external/tremolo" name="platform/external/tremolo" revision="linaro_android_4.0.4" />
   <project path="external/skia" name="platform/external/skia" revision="linaro_android_4.0.4" />
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="linaro_android_4.0.4" />
-  <project name="people/afrantzis/glmark2" path="packages/apps/glmark2" remote="linaro-other" revision="members-meeting-demo"/>
+  <project name="people/afrantzis/glmark2" path="packages/apps/glmark2" remote="linaro-other" revision="master"/>
   <project path="cts" name="platform/cts" revision="linaro_android_4.0.4" />
   <project path="external/gtest" name="platform/external/gtest" revision="linaro_android_4.0.4" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="linaro_android_4.0.4"/>
