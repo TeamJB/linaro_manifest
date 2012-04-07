@@ -36,6 +36,7 @@
   <project path="external/iozone" name="platform/external/iozone" revision="linaro_android"/>
   <project path="external/memtester" name="platform/external/memtester" revision="linaro_android"/>
   <project path="external/stress" name="platform/external/stress" revision="linaro_android"/>
+  <project path="external/stressapptest" name="platform/external/stressapptest" revision="linaro_android"/>
   <!-- Make sure only one of the kernels is enabled! -->
   <!-- Linaro kernel -->
   <project path="kernel" name="kernel/imx53" revision="lt-3.1-android" />
