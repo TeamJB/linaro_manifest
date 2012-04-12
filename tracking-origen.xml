@@ -44,7 +44,7 @@
   <project path="external/stressapptest" name="platform/external/stressapptest" revision="linaro_android"/>
   <!-- Make sure only one of the kernels is enabled! -->
   <!-- Linaro kernel -->
-   <project path="kernel" name="landing-teams/working/samsung/kernel" remote="linaro-other" revision="android-3.3"/>
+   <project path="kernel" name="landing-teams/working/samsung/kernel" remote="linaro-other" revision="android-tracking"/>
   <!-- AOSP kernel -->
   <!-- project path="kernel" name="kernel/omap" revision="android-omap-panda-3.0" -->
     <!-- We copy the defconfig over so we can use the same name as w/ the Linaro kernel -->
