@@ -26,6 +26,7 @@
   <project path="hardware/linaro/common" name="hardware/linaro/common" revision="linaro_android_4.0.4" />
   <project path="device/linaro/common" name="device/linaro/common" revision="linaro_android_4.0.4_pandaboard" />
   <project path="device/linaro/pandaboard" name="device/linaro/pandaboard" revision="linaro_android_4.0.4_pandaboard" />
+  <project path="hardware/linaro/tinyhal" name="people/kurt-r-taylor/tinyhal" revision="linaro" remote="linaro-other" />
   <project path="external/busybox" name="platform/external/busybox" revision="linaro-1.19" />
   <project path="external/lrzsz" name="platform/external/lrzsz" revision="linaro-master" />
   <project path="external/x264" name="platform/external/x264" revision="linaro-master" />
