@@ -94,6 +94,8 @@
   <project path="external/chromium" name="platform/external/chromium" revision="linaro_android_4.0.4" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" revision="linaro_android_4.0.4" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" revision="linaro_android_4.0.4" />
+  <project path="external/ping" name="platform/external/ping" revision="linaro_android_4.0.4" />
+  <project path="external/ping6" name="platform/external/ping6" revision="linaro_android_4.0.4" />
 
   <!-- TI proprietary-open -->
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" revision="ics" />
@@ -186,8 +188,6 @@
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/pcre" name="platform/external/pcre" />
-  <project path="external/ping" name="platform/external/ping" />
-  <project path="external/ping6" name="platform/external/ping6" />
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" />
   <project path="external/protobuf" name="platform/external/protobuf" />
