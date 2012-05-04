@@ -84,6 +84,7 @@
   <project path="cts" name="platform/cts" revision="linaro_android_4.0.4" />
   <project path="external/gtest" name="platform/external/gtest" revision="linaro_android_4.0.4" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="linaro_android_4.0.4" />
+  <project path="system/media" name="platform/system/media" revision="linaro_android_4.0.4" />
 
   <!-- TI proprietary-open -->
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" revision="ics" />
@@ -280,7 +281,6 @@
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/extras" name="platform/system/extras" />
-  <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
 
 </manifest>
