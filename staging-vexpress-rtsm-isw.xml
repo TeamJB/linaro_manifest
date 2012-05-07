@@ -35,7 +35,7 @@
   <project path="u-boot" name="people/tixy/u-boot" revision="vexpress-hacks" remote="linaro-other" />
   <project path="uefi" name="arm/uefi/uefi" revision="master" remote="linaro-other" />
   <project path="boot-wrapper" name="bL_switcher/boot-wrapper" revision="master" remote="linaro-private" />
-  <project path="external/gator" name="arm/ds5/gator" revision="be919cae567218759122a0ba95e3c92a04f7a3dc" remote="linaro-other" />
+  <project path="external/gator" name="arm/ds5/gator" revision="android" remote="linaro-other" />
   <project path="packages/wallpapers/LinaroWallpaper" name="platform/packages/wallpapers/LinaroWallpaper" revision="master" />
   <project path="external/powertop" name="platform/external/powertop" revision="linaro"/>
   <project path="external/ncurses" name="platform/external/ncurses" revision="linaro"/>

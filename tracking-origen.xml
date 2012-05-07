@@ -34,7 +34,7 @@
   <project path="external/speex" name="platform/external/speex" revision="linaro_mmwg" />
   <project path="device/samsung/proprietary-open" name="device/samsung/proprietary-open" revision="linaro_android_4.0.4" remote="linaro-android" />
   <project path="u-boot" name="people/angus/u-boot" revision="origen" remote="linaro-other"/>
-  <project path="external/gator" name="arm/ds5/gator" revision="be919cae567218759122a0ba95e3c92a04f7a3dc" remote="linaro-other" />
+  <project path="external/gator" name="arm/ds5/gator" revision="android" remote="linaro-other" />
   <project path="packages/wallpapers/LinaroWallpaper" name="platform/packages/wallpapers/LinaroWallpaper" revision="master" />
   <project path="external/powertop" name="platform/external/powertop" revision="linaro"/>
   <project path="external/ncurses" name="platform/external/ncurses" revision="linaro"/>
