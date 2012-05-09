@@ -20,6 +20,12 @@
   <project path="external/alsa-lib" name="git/android/platform/external/alsa-lib" remote="igloocommunity" revision="f720059767c23ddf51ef2b9fc2290fbf8a0759a9" />
 
   <!-- Linaro extras -->
+  <project path="system/core" name="platform/system/core" revision="linaro_android_4.0.4_snowball" />
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="linaro_android_4.0.4_snowball"/>
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="linaro_android_4.0.4_snowball" />
+  <project path="frameworks/base" name="platform/frameworks/base" revision="linaro_android_4.0.4_snowball" />
+  <project path="bionic" name="platform/bionic" revision="linaro_android_4.0.4_snowball" />
+  <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" revision="linaro_android_4.0.4_snowball" />
   <project path="packages/apps/DisableSuspend" name="platform/packages/apps/DisableSuspend" revision="master" />
   <project path="hardware/samsung/origen/gralloc_ump" name="platform/hardware/samsung/origen/gralloc_ump" revision="linaro_android_4.0.4" />
   <project path="hardware/samsung/origen/ump" name="platform/hardware/samsung/origen/ump" revision="linaro_android_4.0.4" />
@@ -61,17 +67,12 @@
   <project path="dalvik" name="platform/dalvik" revision="linaro_android_4.0.4" />
   <project path="external/icu4c" name="platform/external/icu4c" revision="linaro_android_4.0.4" />
   <project path="external/libvpx" name="platform/external/libvpx" revision="linaro_android_4.0.4" />
-  <project path="frameworks/base" name="platform/frameworks/base" revision="linaro_android_4.0.4" />
   <project path="device/ti/panda" name="device/ti/panda" revision="linaro_android_4.0.4" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="linaro_android_4.0.4_snowball" />
-  <project path="system/core" name="platform/system/core" revision="linaro_android_4.0.4" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="linaro_android_4.0.4" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="linaro_android_4.0.4" />
   <project path="system/vold" name="platform/system/vold"  revision="linaro_android_4.0.4"/>
-  <project path="bionic" name="platform/bionic" revision="linaro_android_4.0.4" />
   <project path="external/srec" name="platform/external/srec" revision="linaro_android_4.0.4"/>
   <project path="external/stlport" name="platform/external/stlport" revision="linaro_android_4.0.4"/>
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="linaro_android_4.0.4"/>
   <project path="external/freetype" name="platform/external/freetype" revision="linaro_android_4.0.4"/>
   <project path="external/sonivox" name="platform/external/sonivox" revision="linaro_android_4.0.4"/>
   <project path="external/openssl" name="platform/external/openssl" revision="linaro_android_4.0.4"/>
@@ -215,7 +216,6 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
-  <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
