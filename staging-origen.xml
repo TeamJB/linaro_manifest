@@ -20,10 +20,10 @@
 
   <!-- Linaro extras -->
   <project path="packages/apps/DisableSuspend" name="platform/packages/apps/DisableSuspend" revision="master" />
-  <project path="hardware/samsung/origen/gralloc_ump" name="platform/hardware/samsung/origen/gralloc_ump" revision="linaro_android_4.0.4" />
+  <project path="hardware/samsung/origen/gralloc_ump" name="platform/hardware/samsung/origen/gralloc_ump" revision="linaro_android_4.0.4_tracking" />
   <project path="hardware/samsung/origen/ump" name="platform/hardware/samsung/origen/ump" revision="linaro_android_4.0.4" />
   <project path="hardware/linaro/common" name="hardware/linaro/common" revision="linaro_android_4.0.4" />
-  <project path="device/linaro/origen" name="device/linaro/origen" revision="linaro-ics" remote="linaro-android" />
+  <project path="device/linaro/origen" name="device/linaro/origen" revision="linaro-ics-tracking" remote="linaro-android" />
   <project path="device/linaro/common" name="device/linaro/common" revision="linaro-ics" />
   <project path="device/linaro/pandaboard" name="device/linaro/pandaboard" revision="linaro-ics" />
   <project path="hardware/linaro/tinyhal" name="people/kurt-r-taylor/tinyhal" revision="linaro" remote="linaro-other" />
