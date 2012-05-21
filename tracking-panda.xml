@@ -92,6 +92,7 @@
   <project path="external/ping6" name="platform/external/ping6" revision="linaro_android_4.0.4" />
   <project path="external/tcpdump" name="platform/external/tcpdump" revision="linaro_android_4.0.4" />
   <project path="external/strace" name="platform/external/strace" revision="linaro_android_4.0.4" />
+  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" revision="linaro_android_4.0.4" />
 
   <!-- TI proprietary-open -->
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" revision="ics" />
@@ -229,7 +230,6 @@
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
-  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
