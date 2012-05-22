@@ -97,6 +97,7 @@
   <project path="external/strace" name="platform/external/strace" revision="linaro_android_4.0.4" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" revision="linaro_android_4.0.4" />
   <project path="external/webkit" name="platform/external/webkit" revision="linaro_android_4.0.4" />
+  <project path="external/oprofile" name="platform/external/oprofile" revision="linaro_android_4.0.4" />
 
   <!-- TI proprietary-open -->
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" revision="ics" />
@@ -190,7 +191,6 @@
   <project path="external/nist-sip" name="platform/external/nist-sip" />
   <project path="external/oauth" name="platform/external/oauth" />
   <project path="external/opencv" name="platform/external/opencv" />
-  <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/pcre" name="platform/external/pcre" />
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" />
