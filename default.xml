@@ -93,6 +93,7 @@
   <project path="external/oprofile" name="platform/external/oprofile" revision="linaro_android_4.0.4" />
   <project path="external/v8" name="platform/external/v8" revision="linaro_android_4.0.4" />
   <project path="external/embunit" name="platform/external/embunit" revision="linaro_android_4.0.4" />
+  <project path="external/elfutils" name="platform/external/elfutils" revision="linaro_android_4.0.4" />
 
   <!-- TI proprietary-open -->
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" revision="ics" />
@@ -133,7 +134,6 @@
   <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" />
   <project path="external/easymock" name="platform/external/easymock" />
-  <project path="external/elfutils" name="platform/external/elfutils" />
   <project path="external/emma" name="platform/external/emma" />
   <project path="external/esd" name="platform/external/esd" />
   <project path="external/expat" name="platform/external/expat" />
