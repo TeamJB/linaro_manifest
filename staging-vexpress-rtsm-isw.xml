@@ -10,7 +10,7 @@
            fetch="git://git.linaro.org/" />
   <remote  name="linaro-private"
            fetch="ssh://linaro-big-little-switcher-bot@linaro-private.git.linaro.org/srv/linaro-private.git.linaro.org/" />
-  <default revision="refs/tags/android-4.0.4_r1.2"
+  <default revision="refs/tags/android-4.0.4_r2.1"
            remote="aosp"
            sync-j="4" />
 

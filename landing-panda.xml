@@ -12,7 +12,7 @@
 	   fetch="git://gitorious.org/0xbench/" />
   <remote  name="omapzoom"
            fetch="git://git.omapzoom.org" />
-  <default revision="refs/tags/android-4.0.4_r1.2"
+  <default revision="refs/tags/android-4.0.4_r2.1"
            remote="aosp"
            sync-j="4" />
 
