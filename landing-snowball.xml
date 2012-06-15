@@ -20,12 +20,12 @@
   <project path="external/alsa-lib" name="git/android/platform/external/alsa-lib" remote="igloocommunity" revision="f720059767c23ddf51ef2b9fc2290fbf8a0759a9" />
 
   <!-- Linaro extras -->
-  <project path="system/core" name="platform/system/core" revision="linaro_android_4.0.4_snowball" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="linaro_android_4.0.4_snowball"/>
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="linaro_android_4.0.4_snowball" />
-  <project path="frameworks/base" name="platform/frameworks/base" revision="linaro_android_4.0.4_snowball" />
-  <project path="bionic" name="platform/bionic" revision="linaro_android_4.0.4_snowball" />
-  <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" revision="linaro_android_4.0.4_snowball" />
+  <project path="system/core" name="platform/system/core" revision="linaro_android_4.0.4_snowball_mm" />
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="linaro_android_4.0.4_snowball_mm"/>
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="linaro_android_4.0.4_snowball_mm" />
+  <project path="frameworks/base" name="platform/frameworks/base" revision="linaro_android_4.0.4_snowball_mm" />
+  <project path="bionic" name="platform/bionic" revision="linaro_android_4.0.4_snowball_mm" />
+  <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" revision="linaro_android_4.0.4_snowball_mm" />
   <project path="packages/apps/DisableSuspend" name="platform/packages/apps/DisableSuspend" revision="master" />
   <project path="hardware/samsung/origen/gralloc_ump" name="platform/hardware/samsung/origen/gralloc_ump" revision="linaro_android_4.0.4" />
   <project path="hardware/samsung/origen/ump" name="platform/hardware/samsung/origen/ump" revision="linaro_android_4.0.4" />
@@ -34,7 +34,7 @@
   <project path="device/linaro/common" name="device/linaro/common" revision="linaro-ics" />
   <project path="device/linaro/pandaboard" name="device/linaro/pandaboard" revision="linaro-ics" />
   <project path="hardware/linaro/tinyhal" name="people/kurt-r-taylor/tinyhal" revision="linaro" remote="linaro-other" />
-  <project path="device/linaro/snowball" name="device/linaro/snowball" revision="linaro_android_4.0.4_snowball" remote="aosp" />
+  <project path="device/linaro/snowball" name="device/linaro/snowball" revision="linaro_android_4.0.4_snowball_mm" remote="aosp" />
   <project path="external/busybox" name="platform/external/busybox" revision="linaro-1.19" />
   <project path="external/lrzsz" name="platform/external/lrzsz" revision="linaro-master" />
   <project path="external/x264" name="platform/external/x264" revision="linaro-master" />
