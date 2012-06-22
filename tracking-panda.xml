@@ -41,7 +41,7 @@
   <!-- Make sure only one of the kernels is enabled! -->
   <!-- Linaro kernel -->
   <!-- Upstream is: project path="kernel" name="people/andygreen/repo-branch-archive" revision="tilt-android-tracking" remote="linaro-other" / -->
-  <project path="kernel" name="landing-teams/working/ti/kernel" remote="linaro-other" revision="tilt-android-3.3" />
+  <project path="kernel" name="kernel/panda" revision="linaro-tilt-tracking" />
   <!-- AOSP kernel -->
   <!-- project path="kernel" name="kernel/omap" revision="android-omap-panda-3.0" -->
     <!-- We copy the defconfig over so we can use the same name as w/ the Linaro kernel -->
