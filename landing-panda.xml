@@ -101,6 +101,7 @@
   <project path="external/v8" name="platform/external/v8" revision="linaro_android_4.0.4" />
   <project path="external/embunit" name="platform/external/embunit" revision="linaro_android_4.0.4" />
   <project path="external/elfutils" name="platform/external/elfutils" revision="linaro_android_4.0.4" />
+  <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" revision="linaro_android_4.0.4" />
 
   <!-- TI proprietary-open -->
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" revision="ics" />
@@ -215,7 +216,6 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
-  <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
