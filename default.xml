@@ -35,6 +35,7 @@
   <project path="external/ncurses" name="platform/external/ncurses" revision="linaro"/>
   <project path="external/libnl" name="platform/external/libnl" revision="linaro"/>
   <project path="external/gtest" name="platform/external/gtest" revision="linaro_android_4.0.4" />
+  <project path="external/stringbench" name="platform/external/stringbench" revision="master" />
 
   <!-- Make sure only one of the kernels is enabled! -->
   <!-- Linaro kernel -->

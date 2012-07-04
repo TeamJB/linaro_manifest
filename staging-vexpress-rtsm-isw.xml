@@ -45,6 +45,7 @@
   <project path="external/stress" name="platform/external/stress" revision="linaro_android"/>
   <project path="external/stressapptest" name="platform/external/stressapptest" revision="linaro_android"/>
   <project path="external/htop" name="platform/external/htop" revision="linaro_android"/>
+  <project path="external/stringbench" name="platform/external/stringbench" revision="master" />
   <project path="test/linaro/biglittle/core" name="people/plars/core" revision="master" remote="linaro-private"/>
   <!-- Make sure only one of the kernels is enabled! -->
   <!-- Linaro kernel -->

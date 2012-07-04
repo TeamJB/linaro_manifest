@@ -29,6 +29,7 @@
   <project path="external/x264" name="platform/external/x264" revision="linaro-master" />
   <project path="external/ffmpeg" name="platform/external/ffmpeg" revision="linaro-0.11.1" />
   <project path="external/speex" name="platform/external/speex" revision="linaro_mmwg" />
+  <project path="external/stringbench" name="platform/external/stringbench" revision="master" />
   <!-- iMX6 needs a special u-boot for the time being... -->
   <!-- project path="u-boot" name="boot/u-boot-linaro-stable" revision="master" remote="linaro-other" / -->
   <project path="u-boot" name="bsp/freescale/u-boot-linaro" revision="lt-imx6" remote="linaro-other" />
@@ -42,6 +43,7 @@
   <project path="external/stress" name="platform/external/stress" revision="linaro_android"/>
   <project path="external/stressapptest" name="platform/external/stressapptest" revision="linaro_android"/>
   <project path="external/htop" name="platform/external/htop" revision="linaro_android"/>
+  <project path="external/stringbench" name="platform/external/stringbench" revision="master" />
   <!-- Make sure only one of the kernels is enabled! -->
   <!-- Linaro kernel -->
   <project path="kernel" name="kernel/imx6" revision="linux-linaro-lt-mx6-3.2.0-2012.03-0-android" />
