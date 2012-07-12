@@ -17,9 +17,9 @@
 
   <!-- Linaro extras -->
   <project path="packages/apps/DisableSuspend" name="platform/packages/apps/DisableSuspend" revision="master" />
-  <project path="hardware/samsung/origen/gralloc_ump" name="platform/hardware/samsung/origen/gralloc_ump" revision="refs/tags/android-4.1.1_r1" />
-  <project path="hardware/samsung/origen/ump" name="platform/hardware/samsung/origen/ump" revision="refs/tags/android-4.1.1_r1" />
-  <project path="hardware/linaro/common" name="hardware/linaro/common" revision="refs/tags/android-4.1.1_r1" />
+  <project path="hardware/samsung/origen/gralloc_ump" name="platform/hardware/samsung/origen/gralloc_ump" revision="linaro_android_jb" />
+  <project path="hardware/samsung/origen/ump" name="platform/hardware/samsung/origen/ump" revision="linaro_android_jb" />
+  <project path="hardware/linaro/common" name="hardware/linaro/common" revision="linaro_android_jb" />
   <project path="device/linaro/common" name="device/linaro/common" revision="linaro-ics" />
   <project path="device/linaro/pandaboard" name="device/linaro/pandaboard" revision="linaro-ics" />
   <project path="hardware/linaro/tinyhal" name="people/kurt-r-taylor/tinyhal" revision="linaro" remote="linaro-other" />
@@ -34,7 +34,6 @@
   <project path="external/powertop" name="platform/external/powertop" revision="linaro"/>
   <project path="external/ncurses" name="platform/external/ncurses" revision="linaro"/>
   <project path="external/libnl" name="platform/external/libnl" revision="linaro"/>
-  <project path="external/gtest" name="platform/external/gtest" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/stringbench" name="platform/external/stringbench" revision="master" />
 
   <!-- Make sure only one of the kernels is enabled! -->
@@ -50,11 +49,16 @@
   <project path="build" name="platform/build" revision="refs/tags/android-4.1.1_r1">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="dalvik" name="platform/dalvik" revision="refs/tags/android-4.1.1_r1" />
-  <project path="external/icu4c" name="platform/external/icu4c" revision="refs/tags/android-4.1.1_r1" />
-  <project path="external/libvpx" name="platform/external/libvpx" revision="refs/tags/android-4.1.1_r1" />
+  <!-- Linaro modifications: gcc 4.6+ -Werror support -->
+  <project path="dalvik" name="platform/dalvik" revision="linaro_android_4.1.1" />
+  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" revision="linaro_android_4.1.1" />
+  <project path="external/icu4c" name="platform/external/icu4c" revision="linaro_android_4.1.1" />
+  <project path="external/elfutils" name="platform/external/elfutils" revision="linaro_android_4.1.1" />
+  <project path="external/quake" name="platform/external/quake" revision="linaro_android_4.1.1" />
+  <!-- Linaro modifications: Integrate Linaro build system extras -->
+  <project path="device/ti/panda" name="device/ti/panda" revision="linaro_android_4.1.1" />
+  <!-- Linaro modifications: misc -->
   <project path="frameworks/base" name="platform/frameworks/base" revision="refs/tags/android-4.1.1_r1" />
-  <project path="device/ti/panda" name="device/ti/panda" revision="refs/tags/android-4.1.1_r1" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="refs/tags/android-4.1.1_r1" />
   <project path="system/core" name="platform/system/core" revision="refs/tags/android-4.1.1_r1" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="refs/tags/android-4.1.1_r1" />
@@ -62,7 +66,15 @@
   <project path="system/vold" name="platform/system/vold"  revision="refs/tags/android-4.1.1_r1"/>
   <project path="bionic" name="platform/bionic" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/srec" name="platform/external/srec" revision="refs/tags/android-4.1.1_r1"/>
-  <project path="external/stlport" name="platform/external/stlport" revision="refs/tags/android-4.1.1_r1"/>
+  <!-- Linaro modifications: gcc 4.7 support -->
+  <project path="external/stlport" name="platform/external/stlport" revision="linaro_android_4.1.1"/>
+  <project path="frameworks/rs" name="platform/frameworks/rs" revision="linaro_android_4.1.1"/>
+  <project path="frameworks/av" name="platform/frameworks/av" revision="linaro_android_4.1.1"/>
+  <project path="frameworks/native" name="platform/frameworks/native" revision="linaro_android_4.1.1"/>
+  <project path="system/security" name="platform/system/security" revision="linaro_android_4.1.1" />
+  <!-- Linaro modifications: support for non-prebuilt toolchain -->
+  <project path="external/oprofile" name="platform/external/oprofile" revision="linaro_android_4.1.1" />
+  <!-- Linaro modifications: misc -->
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="refs/tags/android-4.1.1_r1"/>
   <project path="external/freetype" name="platform/external/freetype" revision="refs/tags/android-4.1.1_r1"/>
   <project path="external/sonivox" name="platform/external/sonivox" revision="refs/tags/android-4.1.1_r1"/>
@@ -91,11 +103,11 @@
   <project path="external/strace" name="platform/external/strace" revision="refs/tags/android-4.1.1_r1" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/webkit" name="platform/external/webkit" revision="refs/tags/android-4.1.1_r1" />
-  <project path="external/oprofile" name="platform/external/oprofile" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/v8" name="platform/external/v8" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/embunit" name="platform/external/embunit" revision="refs/tags/android-4.1.1_r1" />
-  <project path="external/elfutils" name="platform/external/elfutils" revision="refs/tags/android-4.1.1_r1" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" revision="refs/tags/android-4.1.1_r1" />
+  <!-- Linaro modifications: Made it build with OpenJDK -->
+  <project path="external/guava" name="platform/external/guava" revision="linaro_android_4.1.1" />
 
   <!-- TI proprietary-open -->
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" revision="ics" />
@@ -159,7 +171,7 @@
   <project path="external/giflib" name="platform/external/giflib" />
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" />
   <project path="external/grub" name="platform/external/grub" />
-  <project path="external/guava" name="platform/external/guava" />
+  <project path="external/gtest" name="platform/external/gtest" />
   <project path="external/hamcrest" name="platform/external/hamcrest" />
   <project path="external/harfbuzz" name="platform/external/harfbuzz" />
   <project path="external/hyphenation" name="platform/external/hyphenation" />
@@ -189,6 +201,7 @@
   <project path="external/libsepol" name="platform/external/libsepol" />
   <project path="external/libusb" name="platform/external/libusb" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" />
+  <project path="external/libvpx" name="platform/external/libvpx" />
   <project path="external/libxml2" name="platform/external/libxml2" />
   <project path="external/libxslt" name="platform/external/libxslt" />
   <project path="external/libyuv" name="platform/external/libyuv" />
@@ -215,7 +228,6 @@
   <project path="external/protobuf" name="platform/external/protobuf" />
   <project path="external/qemu" name="platform/external/qemu" />
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
-  <project path="external/quake" name="platform/external/quake" />
   <project path="external/regex-re2" name="platform/external/regex-re2" />
   <project path="external/replicaisland" name="platform/external/replicaisland" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
@@ -236,17 +248,14 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="platform/frameworks/av" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="platform/frameworks/native" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
-  <project path="frameworks/rs" name="platform/frameworks/rs" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
@@ -296,7 +305,6 @@
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
@@ -342,5 +350,4 @@
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/netd" name="platform/system/netd" />
-  <project path="system/security" name="platform/system/security" />
 </manifest>
