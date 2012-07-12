@@ -21,7 +21,7 @@
   <project path="hardware/samsung/origen/ump" name="platform/hardware/samsung/origen/ump" revision="linaro_android_jb" />
   <project path="hardware/linaro/common" name="hardware/linaro/common" revision="linaro_android_jb" />
   <project path="device/linaro/common" name="device/linaro/common" revision="linaro-ics" />
-  <project path="device/linaro/pandaboard" name="device/linaro/pandaboard" revision="linaro-ics" />
+  <project path="device/linaro/pandaboard" name="device/linaro/pandaboard" revision="linaro-jb" />
   <project path="hardware/linaro/tinyhal" name="people/kurt-r-taylor/tinyhal" revision="linaro" remote="linaro-other" />
   <project path="external/busybox" name="platform/external/busybox" revision="linaro-1.19" />
   <project path="external/lrzsz" name="platform/external/lrzsz" revision="linaro-master" />
