@@ -58,8 +58,9 @@
   <project path="external/quake" name="platform/external/quake" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: Integrate Linaro build system extras -->
   <project path="device/ti/panda" name="device/ti/panda" revision="linaro_android_4.1.1" />
+  <!-- Linaro modifications: Added property to turn off hardware GFX -->
+  <project path="frameworks/base" name="platform/frameworks/base" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: misc -->
-  <project path="frameworks/base" name="platform/frameworks/base" revision="refs/tags/android-4.1.1_r1" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="refs/tags/android-4.1.1_r1" />
   <project path="system/core" name="platform/system/core" revision="refs/tags/android-4.1.1_r1" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="refs/tags/android-4.1.1_r1" />
