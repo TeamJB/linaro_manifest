@@ -76,7 +76,7 @@
   <project path="system/security" name="platform/system/security" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: support for non-prebuilt toolchain -->
   <project path="external/oprofile" name="platform/external/oprofile" revision="linaro_android_4.1.1" />
-  <!-- Linaro modifications: misc -->
+  <!-- Linaro modifications: need to be restored -->
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="refs/tags/android-4.1.1_r1"/>
   <project path="external/freetype" name="platform/external/freetype" revision="refs/tags/android-4.1.1_r1"/>
   <project path="external/sonivox" name="platform/external/sonivox" revision="refs/tags/android-4.1.1_r1"/>
@@ -105,7 +105,9 @@
   <project path="external/strace" name="platform/external/strace" revision="refs/tags/android-4.1.1_r1" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/webkit" name="platform/external/webkit" revision="refs/tags/android-4.1.1_r1" />
-  <project path="external/v8" name="platform/external/v8" revision="refs/tags/android-4.1.1_r1" />
+  <!-- Linaro modifications: Fix the float ABI check for gcc 4.7+ -->
+  <project path="external/v8" name="platform/external/v8" revision="linaro_android_4.1.1" />
+  <!-- Linaro modifications: need to be restored -->
   <project path="external/embunit" name="platform/external/embunit" revision="refs/tags/android-4.1.1_r1" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" revision="refs/tags/android-4.1.1_r1" />
   <!-- Linaro modifications: Made it build with OpenJDK -->
