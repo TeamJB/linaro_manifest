@@ -60,13 +60,15 @@
   <project path="device/ti/panda" name="device/ti/panda" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: Added property to turn off hardware GFX -->
   <project path="frameworks/base" name="platform/frameworks/base" revision="linaro_android_4.1.1" />
-  <!-- Linaro modifications: misc -->
+  <!-- Linaro modifications: need porting -->
   <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="refs/tags/android-4.1.1_r1" />
   <project path="system/core" name="platform/system/core" revision="refs/tags/android-4.1.1_r1" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="refs/tags/android-4.1.1_r1" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="refs/tags/android-4.1.1_r1" />
   <project path="system/vold" name="platform/system/vold"  revision="refs/tags/android-4.1.1_r1"/>
-  <project path="bionic" name="platform/bionic" revision="refs/tags/android-4.1.1_r1" />
+  <!-- Linaro modifications: Fixed aliasing violations, improved sincos(), improved string handling functions, added new kernel headers -->
+  <project path="bionic" name="platform/bionic" revision="linaro_android_4.1.1" />
+  <!-- Linaro modifications: need porting -->
   <project path="external/srec" name="platform/external/srec" revision="refs/tags/android-4.1.1_r1"/>
   <!-- Linaro modifications: gcc 4.7 support -->
   <project path="external/stlport" name="platform/external/stlport" revision="linaro_android_4.1.1"/>
