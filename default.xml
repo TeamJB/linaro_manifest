@@ -61,8 +61,9 @@
   <project path="device/ti/panda" name="device/ti/panda" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: Added property to turn off hardware GFX -->
   <project path="frameworks/base" name="platform/frameworks/base" revision="linaro_android_4.1.1" />
+  <!-- Linaro modifications: Use better IOCTL for updating display, fix inverted colors on BRGA, Add audio workaround for Angrybirds, allow overriding framebuffer device, add Samsung OMX specific macros -->
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: need porting -->
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="refs/tags/android-4.1.1_r1" />
   <project path="system/core" name="platform/system/core" revision="refs/tags/android-4.1.1_r1" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="refs/tags/android-4.1.1_r1" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="refs/tags/android-4.1.1_r1" />
