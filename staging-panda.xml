@@ -85,11 +85,12 @@
   <project path="external/guava" name="platform/external/guava" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: Set CPU specific compiler flags -->
   <project path="device/samsung/tuna" name="device/samsung/tuna" revision="linaro_android_4.1.1" />
-  ***
+  <!-- Linaro modifications: Find omapfb.h -->
+  <!-- FIXME The 4.0.4 branch has further changes that may need porting -->
+  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="linaro_android_4.1.1" />
   <!-- Has Linaro modifications on 4.0.4 that may need porting -->
   <project path="system/core" name="platform/system/core" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="system/vold" name="platform/system/vold" />
   <project path="external/srec" name="platform/external/srec" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
@@ -122,7 +123,6 @@
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="external/libvpx" name="platform/external/libvpx" />
   <project path="external/gtest" name="platform/external/gtest" />
-  ***
   <project name="people/afrantzis/glmark2" path="packages/apps/glmark2" remote="linaro-other" revision="master"/>
 
   <!-- TI proprietary-open -->

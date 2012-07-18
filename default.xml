@@ -63,10 +63,12 @@
   <project path="frameworks/base" name="platform/frameworks/base" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: Use better IOCTL for updating display, fix inverted colors on BRGA, Add audio workaround for Angrybirds, allow overriding framebuffer device, add Samsung OMX specific macros -->
   <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="linaro_android_4.1.1" />
+  <!-- Linaro modifications: Make sure we can find omapfb.h -->
+  <!-- FIXME The 4.0.4 branch contains further changes that may need merging -->
+  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: need porting -->
   <project path="system/core" name="platform/system/core" revision="refs/tags/android-4.1.1_r1" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="refs/tags/android-4.1.1_r1" />
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="refs/tags/android-4.1.1_r1" />
   <project path="system/vold" name="platform/system/vold"  revision="refs/tags/android-4.1.1_r1"/>
   <!-- Linaro modifications: Fixed aliasing violations, improved sincos(), improved string handling functions, added new kernel headers -->
   <project path="bionic" name="platform/bionic" revision="linaro_android_4.1.1" />
