@@ -57,7 +57,7 @@
   </project>
   <!-- Linaro modifications: gcc 4.6+ -Werror support -->
   <project path="dalvik" name="platform/dalvik" revision="linaro_android_4.1.1" />
-  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
+  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" revision="linaro_android_4.1.1" />
   <project path="external/icu4c" name="platform/external/icu4c" revision="linaro_android_4.1.1" />
   <project path="external/elfutils" name="platform/external/elfutils" revision="linaro_android_4.1.1" />
   <project path="external/quake" name="platform/external/quake" revision="linaro_android_4.1.1" />
