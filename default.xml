@@ -66,8 +66,9 @@
   <!-- Linaro modifications: Make sure we can find omapfb.h -->
   <!-- FIXME The 4.0.4 branch contains further changes that may need merging -->
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="linaro_android_4.1.1" />
+  <!-- Linaro modifications: New init.rc, various bugfixes -->
+  <project path="system/core" name="platform/system/core" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: need porting -->
-  <project path="system/core" name="platform/system/core" revision="refs/tags/android-4.1.1_r3" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="refs/tags/android-4.1.1_r3" />
   <project path="system/vold" name="platform/system/vold"  revision="refs/tags/android-4.1.1_r3"/>
   <!-- Linaro modifications: Fixed aliasing violations, improved sincos(), improved string handling functions, added new kernel headers -->
@@ -119,7 +120,7 @@
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" revision="refs/tags/android-4.1.1_r3" />
   <!-- Linaro modifications: Made it build with OpenJDK -->
   <project path="external/guava" name="platform/external/guava" revision="linaro_android_4.1.1" />
-  <!-- Linaro modifications: Set CPU specific compiler flags -->
+  <!-- Linaro modifications: Set CPU specific compiler flags, init.partitions.rc -->
   <project path="device/samsung/tuna" name="device/samsung/tuna" revision="linaro_android_4.1.1" />
 
   <!-- TI proprietary-open -->
