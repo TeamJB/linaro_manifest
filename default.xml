@@ -120,7 +120,7 @@
   <!-- Linaro modifications: Made it build with OpenJDK -->
   <project path="external/guava" name="platform/external/guava" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: Set CPU specific compiler flags -->
-  <project path="device/samsung/tuna" name="device/samsung/tuna" />
+  <project path="device/samsung/tuna" name="device/samsung/tuna" revision="linaro_android_4.1.1" />
 
   <!-- TI proprietary-open -->
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" revision="ics" />
