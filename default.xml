@@ -57,6 +57,8 @@
   <project path="external/icu4c" name="platform/external/icu4c" revision="linaro_android_4.1.1" />
   <project path="external/elfutils" name="platform/external/elfutils" revision="linaro_android_4.1.1" />
   <project path="external/quake" name="platform/external/quake" revision="linaro_android_4.1.1" />
+  <!-- Linaro modifications:  Add private lib for wifi to work with generic wext driver -->
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: Integrate Linaro build system extras -->
   <project path="device/ti/panda" name="device/ti/panda" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: Added property to turn off hardware GFX -->
@@ -97,7 +99,6 @@
   <!-- Linaro modifications: Replaced traditional libjpeg with libjpeg-turbo -->
   <project path="external/jpeg" name="people/tomgall/libjpeg-turbo/libjpeg-turbo" revision="android" remote="linaro-other" />
   <!-- Linaro modifications: Need porting -->
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" revision="refs/tags/android-4.1.1_r3" />
   <project path="external/tremolo" name="platform/external/tremolo" revision="refs/tags/android-4.1.1_r3" />
   <project path="external/skia" name="platform/external/skia" revision="refs/tags/android-4.1.1_r3" />
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="refs/tags/android-4.1.1_r3" />
