@@ -8,12 +8,16 @@
            fetch="https://android-review.googlesource.com/" />
   <remote  name="linaro-other"
            fetch="git://git.linaro.org/" />
+  <remote  name="android_input_bridge"
+           fetch="git://github.com/rperier/" />
   <default revision="refs/tags/android-4.1.1_r3"
            remote="aosp"
            sync-j="4" />
 
   <!-- External extras -->
   <project path="packages/apps/0xbench" name="platform/packages/apps/0xbench" revision="linaro-master" />
+  <project path="external/android_input_bridge" name="android_input_bridge" remote="android_input_bridge" revision="master" />
+
 
   <!-- Linaro extras -->
   <project path="packages/apps/DisableSuspend" name="platform/packages/apps/DisableSuspend" revision="master" />
