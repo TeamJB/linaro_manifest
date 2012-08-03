@@ -94,9 +94,10 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: New init.rc, assorted bug fixes -->
   <project path="system/core" name="platform/system/core" revision="linaro_android_4.1.1" />
+  <!-- Linaro modifications: Increase the maximum number of disk partitions to 8 -->
+  <project path="system/vold" name="platform/system/vold" revision="linaro_android_4.1.1" />
   <!-- Has Linaro modifications on 4.0.4 that may need porting -->
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
-  <project path="system/vold" name="platform/system/vold" />
   <project path="external/srec" name="platform/external/srec" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
   <project path="external/freetype" name="platform/external/freetype" />
