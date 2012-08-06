@@ -46,7 +46,7 @@
   <project path="external/tools_for_pm-qa" name="tools/tools_for_pm-qa" revision="master" />
   <project path="test/linaro/biglittle/core" name="people/plars/core" revision="master" remote="linaro-private"/>
   <project path="packages/wallpapers/LinaroWallpaper" name="platform/packages/wallpapers/LinaroWallpaper" revision="master" />
-  <project path="external/powertop" name="platform/external/powertop" revision="linaro"/>
+  <project path="external/powertop" name="tools/powertop-2.0" revision="linaro" remote="linaro-other" />
   <project path="external/ncurses" name="platform/external/ncurses" revision="linaro"/>
   <project path="external/libnl" name="platform/external/libnl" revision="linaro"/>
   <project path="external/iozone" name="platform/external/iozone" revision="linaro_android"/>

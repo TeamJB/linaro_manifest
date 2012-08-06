@@ -37,7 +37,7 @@
   <project path="device/samsung/proprietary-open" name="device/samsung/proprietary-open" revision="linaro-jb" />
   <project path="u-boot" name="landing-teams/working/samsung/u-boot" revision="tracking" remote="linaro-other"/>
   <project path="packages/wallpapers/LinaroWallpaper" name="platform/packages/wallpapers/LinaroWallpaper" revision="master" />
-  <project path="external/powertop" name="platform/external/powertop" revision="linaro"/>
+  <project path="external/powertop" name="tools/powertop-2.0" revision="linaro" remote="linaro-other" />
   <project path="external/ncurses" name="platform/external/ncurses" revision="linaro"/>
   <project path="external/libnl" name="platform/external/libnl" revision="linaro"/>
   <project path="external/iozone" name="platform/external/iozone" revision="linaro_android"/>
