@@ -10,7 +10,7 @@
            fetch="git://git.linaro.org/" />
   <remote  name="android_input_bridge"
            fetch="git://github.com/rperier/" />
-  <default revision="refs/tags/android-4.1.1_r3"
+  <default revision="refs/tags/android-4.1.1_r4"
            remote="aosp"
            sync-j="4" />
 
@@ -74,12 +74,12 @@
   <!-- Linaro modifications: New init.rc, various bugfixes -->
   <project path="system/core" name="platform/system/core" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: need porting -->
-  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="refs/tags/android-4.1.1_r3" />
-  <project path="system/vold" name="platform/system/vold"  revision="refs/tags/android-4.1.1_r3"/>
+  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="refs/tags/android-4.1.1_r4" />
+  <project path="system/vold" name="platform/system/vold"  revision="refs/tags/android-4.1.1_r4"/>
   <!-- Linaro modifications: Fixed aliasing violations, improved sincos(), improved string handling functions, added new kernel headers -->
   <project path="bionic" name="platform/bionic" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: need porting -->
-  <project path="external/srec" name="platform/external/srec" revision="refs/tags/android-4.1.1_r3"/>
+  <project path="external/srec" name="platform/external/srec" revision="refs/tags/android-4.1.1_r4"/>
   <!-- Linaro modifications: gcc 4.7 support -->
   <project path="external/stlport" name="platform/external/stlport" revision="linaro_android_4.1.1"/>
   <project path="frameworks/rs" name="platform/frameworks/rs" revision="linaro_android_4.1.1"/>
@@ -89,39 +89,39 @@
   <!-- Linaro modifications: support for non-prebuilt toolchain -->
   <project path="external/oprofile" name="platform/external/oprofile" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: need to be restored -->
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="refs/tags/android-4.1.1_r3"/>
-  <project path="external/freetype" name="platform/external/freetype" revision="refs/tags/android-4.1.1_r3"/>
-  <project path="external/sonivox" name="platform/external/sonivox" revision="refs/tags/android-4.1.1_r3"/>
-  <project path="external/openssl" name="platform/external/openssl" revision="refs/tags/android-4.1.1_r3"/>
-  <project path="libcore" name="platform/libcore" revision="refs/tags/android-4.1.1_r3"/>
-  <project path="frameworks/ex" name="platform/frameworks/ex" revision="refs/tags/android-4.1.1_r3"/>
-  <project path="external/llvm" name="platform/external/llvm" revision="refs/tags/android-4.1.1_r3"/>
-  <project path="external/clang" name="platform/external/clang" revision="refs/tags/android-4.1.1_r3"/>
-  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" revision="refs/tags/android-4.1.1_r3"/>
-  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" revision="refs/tags/android-4.1.1_r3"/>
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="refs/tags/android-4.1.1_r4"/>
+  <project path="external/freetype" name="platform/external/freetype" revision="refs/tags/android-4.1.1_r4"/>
+  <project path="external/sonivox" name="platform/external/sonivox" revision="refs/tags/android-4.1.1_r4"/>
+  <project path="external/openssl" name="platform/external/openssl" revision="refs/tags/android-4.1.1_r4"/>
+  <project path="libcore" name="platform/libcore" revision="refs/tags/android-4.1.1_r4"/>
+  <project path="frameworks/ex" name="platform/frameworks/ex" revision="refs/tags/android-4.1.1_r4"/>
+  <project path="external/llvm" name="platform/external/llvm" revision="refs/tags/android-4.1.1_r4"/>
+  <project path="external/clang" name="platform/external/clang" revision="refs/tags/android-4.1.1_r4"/>
+  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" revision="refs/tags/android-4.1.1_r4"/>
+  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" revision="refs/tags/android-4.1.1_r4"/>
   <!-- Linaro modifications: Replaced traditional libjpeg with libjpeg-turbo -->
   <project path="external/jpeg" name="people/tomgall/libjpeg-turbo/libjpeg-turbo" revision="android" remote="linaro-other" />
   <!-- Linaro modifications: Need porting -->
-  <project path="external/tremolo" name="platform/external/tremolo" revision="refs/tags/android-4.1.1_r3" />
-  <project path="external/skia" name="platform/external/skia" revision="refs/tags/android-4.1.1_r3" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="refs/tags/android-4.1.1_r3" />
-  <project path="cts" name="platform/cts" revision="refs/tags/android-4.1.1_r3" />
-  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="refs/tags/android-4.1.1_r3" />
-  <project path="system/media" name="platform/system/media" revision="refs/tags/android-4.1.1_r3" />
-  <project path="external/chromium" name="platform/external/chromium" revision="refs/tags/android-4.1.1_r3" />
-  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" revision="refs/tags/android-4.1.1_r3" />
-  <project path="external/dnsmasq" name="platform/external/dnsmasq" revision="refs/tags/android-4.1.1_r3" />
-  <project path="external/ping" name="platform/external/ping" revision="refs/tags/android-4.1.1_r3" />
-  <project path="external/ping6" name="platform/external/ping6" revision="refs/tags/android-4.1.1_r3" />
-  <project path="external/tcpdump" name="platform/external/tcpdump" revision="refs/tags/android-4.1.1_r3" />
-  <project path="external/strace" name="platform/external/strace" revision="refs/tags/android-4.1.1_r3" />
-  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" revision="refs/tags/android-4.1.1_r3" />
-  <project path="external/webkit" name="platform/external/webkit" revision="refs/tags/android-4.1.1_r3" />
+  <project path="external/tremolo" name="platform/external/tremolo" revision="refs/tags/android-4.1.1_r4" />
+  <project path="external/skia" name="platform/external/skia" revision="refs/tags/android-4.1.1_r4" />
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="refs/tags/android-4.1.1_r4" />
+  <project path="cts" name="platform/cts" revision="refs/tags/android-4.1.1_r4" />
+  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="refs/tags/android-4.1.1_r4" />
+  <project path="system/media" name="platform/system/media" revision="refs/tags/android-4.1.1_r4" />
+  <project path="external/chromium" name="platform/external/chromium" revision="refs/tags/android-4.1.1_r4" />
+  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" revision="refs/tags/android-4.1.1_r4" />
+  <project path="external/dnsmasq" name="platform/external/dnsmasq" revision="refs/tags/android-4.1.1_r4" />
+  <project path="external/ping" name="platform/external/ping" revision="refs/tags/android-4.1.1_r4" />
+  <project path="external/ping6" name="platform/external/ping6" revision="refs/tags/android-4.1.1_r4" />
+  <project path="external/tcpdump" name="platform/external/tcpdump" revision="refs/tags/android-4.1.1_r4" />
+  <project path="external/strace" name="platform/external/strace" revision="refs/tags/android-4.1.1_r4" />
+  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" revision="refs/tags/android-4.1.1_r4" />
+  <project path="external/webkit" name="platform/external/webkit" revision="refs/tags/android-4.1.1_r4" />
   <!-- Linaro modifications: Fix the float ABI check for gcc 4.7+ -->
   <project path="external/v8" name="platform/external/v8" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: need to be restored -->
-  <project path="external/embunit" name="platform/external/embunit" revision="refs/tags/android-4.1.1_r3" />
-  <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" revision="refs/tags/android-4.1.1_r3" />
+  <project path="external/embunit" name="platform/external/embunit" revision="refs/tags/android-4.1.1_r4" />
+  <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" revision="refs/tags/android-4.1.1_r4" />
   <!-- Linaro modifications: Made it build with OpenJDK -->
   <project path="external/guava" name="platform/external/guava" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: Set CPU specific compiler flags, init.partitions.rc -->

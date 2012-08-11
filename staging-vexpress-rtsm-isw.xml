@@ -12,7 +12,7 @@
            fetch="ssh://linaro-big-little-switcher-bot@linaro-private.git.linaro.org/srv/linaro-private.git.linaro.org/" />
   <remote  name="android_input_bridge"
            fetch="git://github.com/rperier/" />
-  <default revision="refs/tags/android-4.1.1_r3"
+  <default revision="refs/tags/android-4.1.1_r4"
            remote="aosp"
            sync-j="4" />
 
