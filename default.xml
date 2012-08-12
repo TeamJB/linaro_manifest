@@ -81,19 +81,24 @@
   <project path="bionic" name="platform/bionic" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: need porting -->
   <project path="external/srec" name="platform/external/srec" revision="refs/tags/android-4.1.1_r4"/>
-  <!-- Linaro modifications: gcc 4.7 support -->
+  <!-- Linaro modifications: gcc 4.7 support, fix aliasing violations -->
   <project path="external/stlport" name="platform/external/stlport" revision="linaro_android_4.1.1"/>
+  <!-- Linaro modifications: gcc 4.7 support -->
   <project path="frameworks/rs" name="platform/frameworks/rs" revision="linaro_android_4.1.1"/>
   <project path="frameworks/av" name="platform/frameworks/av" revision="linaro_android_4.1.1"/>
   <project path="frameworks/native" name="platform/frameworks/native" revision="linaro_android_4.1.1"/>
   <project path="system/security" name="platform/system/security" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: support for non-prebuilt toolchain -->
   <project path="external/oprofile" name="platform/external/oprofile" revision="linaro_android_4.1.1" />
+  <!-- Linaro modifications: Fix aliasing violations, fix WiFi module loading on Origen -->
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="linaro_android_4.1.1"/>
+  <!-- Linaro modifications: Use -fno-strict-aliasing, don't force -O2 -->
+  <project path="external/freetype" name="platform/external/freetype" revision="linaro_android_4.1.1"/>
+  <!-- Linaro modifications: Fix aliasing violations -->
+  <project path="external/sonivox" name="platform/external/sonivox" revision="linaro_android_4.1.1"/>
+  <!-- Linaro modifications: Use -fno-strict-aliasing -->
+  <project path="external/openssl" name="platform/external/openssl" revision="linaro_android_4.1.1"/>
   <!-- Linaro modifications: need to be restored -->
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="refs/tags/android-4.1.1_r4"/>
-  <project path="external/freetype" name="platform/external/freetype" revision="refs/tags/android-4.1.1_r4"/>
-  <project path="external/sonivox" name="platform/external/sonivox" revision="refs/tags/android-4.1.1_r4"/>
-  <project path="external/openssl" name="platform/external/openssl" revision="refs/tags/android-4.1.1_r4"/>
   <project path="libcore" name="platform/libcore" revision="refs/tags/android-4.1.1_r4"/>
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="refs/tags/android-4.1.1_r4"/>
   <project path="external/llvm" name="platform/external/llvm" revision="refs/tags/android-4.1.1_r4"/>

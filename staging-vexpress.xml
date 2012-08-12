@@ -77,8 +77,9 @@
   <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: Fixed aliasing violations, improved sincos(), improved string handling functions, added new kernel headers -->
   <project path="bionic" name="platform/bionic" revision="linaro_android_4.1.1" />
-  <!-- Linaro modifications: gcc 4.7 support -->
+  <!-- Linaro modifications: gcc 4.7 support, fix aliasing violations -->
   <project path="external/stlport" name="platform/external/stlport" revision="linaro_android_4.1.1"/>
+  <!-- Linaro modifications: gcc 4.7 support -->
   <project path="frameworks/rs" name="platform/frameworks/rs" revision="linaro_android_4.1.1" />
   <project path="frameworks/av" name="platform/frameworks/av" revision="linaro_android_4.1.1" />
   <project path="frameworks/native" name="platform/frameworks/native" revision="linaro_android_4.1.1" />
@@ -103,10 +104,14 @@
   <!-- Has Linaro modifications on 4.0.4 that may need porting -->
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
   <project path="external/srec" name="platform/external/srec" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
-  <project path="external/freetype" name="platform/external/freetype" />
-  <project path="external/sonivox" name="platform/external/sonivox" />
-  <project path="external/openssl" name="platform/external/openssl" />
+  <!-- Linaro modifications: Fix aliasing violations, fix WiFi module loading on Origen -->
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="linaro_android_4.1.1" />
+  <!-- Linaro modifications: Use -fno-strict-aliasing, don't force -O2 -->
+  <project path="external/freetype" name="platform/external/freetype" revision="linaro_android_4.1.1" />
+  <!-- Linaro modifications: Fix aliasing violations -->
+  <project path="external/sonivox" name="platform/external/sonivox" revision="linaro_android_4.1.1" />
+  <!-- Linaro modifications: Use -fno-strict-aliasing -->
+  <project path="external/openssl" name="platform/external/openssl" revision="linaro_android_4.1.1" />
   <project path="libcore" name="platform/libcore" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="external/llvm" name="platform/external/llvm" />
