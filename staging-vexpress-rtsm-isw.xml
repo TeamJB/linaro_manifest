@@ -122,6 +122,7 @@
   <project path="external/sonivox" name="platform/external/sonivox" revision="linaro_android_4.1.1" />
   <project path="libcore" name="platform/libcore" revision="linaro_android_4.1.1" />
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="linaro_android_4.1.1"/>
+  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: Use -fno-strict-aliasing -->
   <project path="external/openssl" name="platform/external/openssl" revision="linaro_android_4.1.1" />
   <!-- Linaro modification: Add workaround for aliasing violation -->
@@ -294,7 +295,6 @@
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
-  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="gdk" name="platform/gdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
