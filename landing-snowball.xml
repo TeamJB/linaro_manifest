@@ -94,6 +94,8 @@
   <project path="external/guava" name="platform/external/guava" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: Set CPU specific compiler flags, init.partitions.rc -->
   <project path="device/samsung/tuna" name="device/samsung/tuna" revision="linaro_android_4.1.1" />
+  <!-- Linaro modifications: Fixed aliasing violations, ISO C++11 support -->
+  <project path="external/skia" name="platform/external/skia" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: Find omapfb.h -->
   <!-- FIXME The 4.0.4 branch has further changes that may need porting -->
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="linaro_android_4.1.1" />
@@ -121,7 +123,6 @@
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" />
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
   <project path="external/tremolo" name="platform/external/tremolo" />
-  <project path="external/skia" name="platform/external/skia" />
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
   <project path="cts" name="platform/cts" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
