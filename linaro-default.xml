@@ -110,9 +110,9 @@
   <!-- Linaro modifications: Fix aliasing violations -->
   <project path="external/sonivox" name="platform/external/sonivox" revision="linaro_android_4.1.1" />
   <project path="libcore" name="platform/libcore" revision="linaro_android_4.1.1" />
+  <project path="frameworks/ex" name="platform/frameworks/ex" revision="linaro_android_4.1.1"/>
   <!-- Linaro modifications: Use -fno-strict-aliasing -->
   <project path="external/openssl" name="platform/external/openssl" revision="linaro_android_4.1.1" />
-  <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="external/llvm" name="platform/external/llvm" />
   <project path="external/clang" name="platform/external/clang" revision="linaro_android_4.1.1" />
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" />
