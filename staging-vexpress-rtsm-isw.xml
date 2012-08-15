@@ -122,6 +122,8 @@
   <project path="external/sonivox" name="platform/external/sonivox" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: Use -fno-strict-aliasing -->
   <project path="external/openssl" name="platform/external/openssl" revision="linaro_android_4.1.1" />
+  <!-- Linaro modification: Add workaround for aliasing violation -->
+  <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" revision="linaro_android_4.1.1" />
   <project path="libcore" name="platform/libcore" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="external/llvm" name="platform/external/llvm" />
@@ -241,7 +243,6 @@
   <project path="external/libxml2" name="platform/external/libxml2" />
   <project path="external/libxslt" name="platform/external/libxslt" />
   <project path="external/libyuv" name="platform/external/libyuv" />
-  <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" />
   <project path="external/littlemock" name="platform/external/littlemock" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
   <project path="external/markdown" name="platform/external/markdown" />
