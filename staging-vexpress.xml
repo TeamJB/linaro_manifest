@@ -102,7 +102,6 @@
   <!-- Linaro modifications: Increase the maximum number of disk partitions to 8 -->
   <project path="system/vold" name="platform/system/vold" revision="linaro_android_4.1.1" />
   <!-- Has Linaro modifications on 4.0.4 that may need porting -->
-  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
   <project path="external/srec" name="platform/external/srec" />
   <!-- Linaro modifications: Fix aliasing violations, fix WiFi module loading on Origen -->
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="linaro_android_4.1.1" />
@@ -116,6 +115,7 @@
   <project path="external/chromium" name="platform/external/chromium" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: Use -fno-strict-aliasing -->
   <project path="external/openssl" name="platform/external/openssl" revision="linaro_android_4.1.1" />
+  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="linaro_android_4.1.1" />
   <!-- Linaro modification: Add workaround for aliasing violation -->
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" revision="linaro_android_4.1.1" />
   <project path="external/llvm" name="platform/external/llvm" />
