@@ -121,6 +121,7 @@
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" revision="linaro_android_4.1.1" />
   <project path="external/llvm" name="platform/external/llvm" />
   <project path="external/clang" name="platform/external/clang" revision="linaro_android_4.1.1" />
+  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" revision="linaro_android_4.1.1"/>
   <!-- Linaro modifications: Fixed aliasing violations, ISO C++11 support -->
   <project path="external/skia" name="platform/external/skia" revision="linaro_android_4.1.1" />
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" />
@@ -187,7 +188,6 @@
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
