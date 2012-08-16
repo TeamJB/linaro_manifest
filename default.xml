@@ -98,6 +98,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="linaro_android_4.1.1"/>
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" revision="linaro_android_4.1.1" />
   <project path="external/chromium" name="platform/external/chromium" revision="linaro_android_4.1.1" />
+  <project path="external/dnsmasq" name="platform/external/dnsmasq" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: Use -fno-strict-aliasing -->
   <project path="external/openssl" name="platform/external/openssl" revision="linaro_android_4.1.1"/>
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="linaro_android_4.1.1" />
@@ -119,7 +120,6 @@
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="refs/tags/android-4.1.1_r4" />
   <project path="system/media" name="platform/system/media" revision="refs/tags/android-4.1.1_r4" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" revision="refs/tags/android-4.1.1_r4" />
-  <project path="external/dnsmasq" name="platform/external/dnsmasq" revision="refs/tags/android-4.1.1_r4" />
   <project path="external/ping" name="platform/external/ping" revision="refs/tags/android-4.1.1_r4" />
   <project path="external/ping6" name="platform/external/ping6" revision="refs/tags/android-4.1.1_r4" />
   <project path="external/tcpdump" name="platform/external/tcpdump" revision="refs/tags/android-4.1.1_r4" />
