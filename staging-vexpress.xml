@@ -114,6 +114,7 @@
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" revision="linaro_android_4.1.1" />
   <project path="external/chromium" name="platform/external/chromium" revision="linaro_android_4.1.1" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" revision="linaro_android_4.1.1" />
+  <project path="external/ping" name="platform/external/ping" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: Use -fno-strict-aliasing -->
   <project path="external/openssl" name="platform/external/openssl" revision="linaro_android_4.1.1" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="linaro_android_4.1.1" />
@@ -132,7 +133,6 @@
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="system/media" name="platform/system/media" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
-  <project path="external/ping" name="platform/external/ping" />
   <project path="external/ping6" name="platform/external/ping6" />
   <project path="external/tcpdump" name="platform/external/tcpdump" />
   <project path="external/strace" name="platform/external/strace" />

@@ -102,6 +102,7 @@
   <!-- Linaro modifications: Use -fno-strict-aliasing -->
   <project path="external/openssl" name="platform/external/openssl" revision="linaro_android_4.1.1"/>
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="linaro_android_4.1.1" />
+  <project path="external/ping" name="platform/external/ping" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: need to be restored -->
   <project path="external/llvm" name="platform/external/llvm" revision="refs/tags/android-4.1.1_r4"/>
   <!-- Linaro modifications: Use -fno-strict-aliasing -->
@@ -121,7 +122,6 @@
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="refs/tags/android-4.1.1_r4" />
   <project path="system/media" name="platform/system/media" revision="refs/tags/android-4.1.1_r4" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" revision="refs/tags/android-4.1.1_r4" />
-  <project path="external/ping" name="platform/external/ping" revision="refs/tags/android-4.1.1_r4" />
   <project path="external/ping6" name="platform/external/ping6" revision="refs/tags/android-4.1.1_r4" />
   <project path="external/tcpdump" name="platform/external/tcpdump" revision="refs/tags/android-4.1.1_r4" />
   <project path="external/strace" name="platform/external/strace" revision="refs/tags/android-4.1.1_r4" />
