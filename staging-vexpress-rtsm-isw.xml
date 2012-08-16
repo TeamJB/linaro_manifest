@@ -127,6 +127,7 @@
   <project path="external/ping" name="platform/external/ping" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: Use -fno-strict-aliasing -->
   <project path="external/openssl" name="platform/external/openssl" revision="linaro_android_4.1.1" />
+  <project path="external/ping6" name="platform/external/ping6" revision="linaro_android_4.1.1" />
   <!-- Linaro modification: Add workaround for aliasing violation -->
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" revision="linaro_android_4.1.1" />
   <project path="external/llvm" name="platform/external/llvm" />
@@ -143,7 +144,6 @@
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="system/media" name="platform/system/media" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
-  <project path="external/ping6" name="platform/external/ping6" />
   <project path="external/tcpdump" name="platform/external/tcpdump" />
   <project path="external/strace" name="platform/external/strace" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
