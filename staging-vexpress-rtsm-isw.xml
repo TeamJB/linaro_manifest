@@ -129,6 +129,7 @@
   <project path="external/openssl" name="platform/external/openssl" revision="linaro_android_4.1.1" />
   <project path="external/ping6" name="platform/external/ping6" revision="linaro_android_4.1.1" />
   <project path="external/tcpdump" name="platform/external/tcpdump" revision="linaro_android_4.1.1" />
+  <project path="external/mesa3d" name="platform/external/mesa3d" revision="linaro_android_4.1.1" />
   <!-- Linaro modification: Add workaround for aliasing violation -->
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" revision="linaro_android_4.1.1" />
   <project path="external/llvm" name="platform/external/llvm" />
@@ -249,7 +250,6 @@
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" />
-  <project path="external/mesa3d" name="platform/external/mesa3d" />
   <project path="external/mksh" name="platform/external/mksh" />
   <project path="external/mockwebserver" name="platform/external/mockwebserver" />
   <project path="external/mtpd" name="platform/external/mtpd" />

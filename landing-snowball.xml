@@ -123,6 +123,7 @@
   <project path="external/clang" name="platform/external/clang" revision="linaro_android_4.1.1"/>
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" revision="linaro_android_4.1.1"/>
   <project path="external/tcpdump" name="platform/external/tcpdump" revision="linaro_android_4.1.1" />
+  <project path="external/mesa3d" name="platform/external/mesa3d" revision="linaro_android_4.1.1" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="linaro_android_4.1.1" />
   <project path="external/ping6" name="platform/external/ping6" revision="linaro_android_4.1.1" />
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" />
@@ -240,7 +241,6 @@
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" />
-  <project path="external/mesa3d" name="platform/external/mesa3d" />
   <project path="external/mksh" name="platform/external/mksh" />
   <project path="external/mockwebserver" name="platform/external/mockwebserver" />
   <project path="external/mtpd" name="platform/external/mtpd" />
