@@ -111,6 +111,7 @@
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" revision="linaro_android_4.1.1" />
   <project path="external/tcpdump" name="platform/external/tcpdump" revision="linaro_android_4.1.1" />
   <project path="external/mesa3d" name="platform/external/mesa3d" revision="linaro_android_4.1.1" />
+  <project path="external/openssh" name="platform/external/openssh" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: need to be restored -->
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" revision="refs/tags/android-4.1.1_r4"/>
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" revision="refs/tags/android-4.1.1_r4"/>
@@ -250,7 +251,6 @@
   <project path="external/oauth" name="platform/external/oauth" />
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
-  <project path="external/openssh" name="platform/external/openssh" />
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" />
   <project path="external/protobuf" name="platform/external/protobuf" />
