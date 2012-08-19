@@ -132,6 +132,7 @@
   <project path="device/samsung/tuna" name="device/samsung/tuna" revision="linaro_android_4.1.1" />
   <!-- Linaro modification: Add workaround for aliasing violation -->
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" revision="linaro_android_4.1.1" />
+  <project path="system/extras" name="platform/system/extras" revision="linaro_android_4.1.1" />
 
   <!-- TI proprietary-open -->
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" revision="ics" />
@@ -367,6 +368,5 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/extras" name="platform/system/extras" />
   <project path="system/netd" name="platform/system/netd" />
 </manifest>
