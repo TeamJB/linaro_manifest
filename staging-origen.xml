@@ -124,6 +124,7 @@
   <project path="external/tcpdump" name="platform/external/tcpdump" revision="linaro_android_4.1.1" />
   <project path="external/mesa3d" name="platform/external/mesa3d" revision="linaro_android_4.1.1" />
   <project path="external/openssh" name="platform/external/openssh" revision="linaro_android_4.1.1" />
+  <project path="external/embunit" name="platform/external/embunit" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: Fixed aliasing violations, ISO C++11 support -->
   <project path="external/skia" name="platform/external/skia" revision="linaro_android_4.1.1" />
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" />
@@ -137,7 +138,6 @@
   <project path="external/strace" name="platform/external/strace" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
   <project path="external/webkit" name="platform/external/webkit" />
-  <project path="external/embunit" name="platform/external/embunit" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="external/libvpx" name="platform/external/libvpx" />
   <project path="external/gtest" name="platform/external/gtest" />

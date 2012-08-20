@@ -112,6 +112,7 @@
   <project path="external/tcpdump" name="platform/external/tcpdump" revision="linaro_android_4.1.1" />
   <project path="external/mesa3d" name="platform/external/mesa3d" revision="linaro_android_4.1.1" />
   <project path="external/openssh" name="platform/external/openssh" revision="linaro_android_4.1.1" />
+  <project path="external/embunit" name="platform/external/embunit" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: need to be restored -->
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" revision="refs/tags/android-4.1.1_r4"/>
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" revision="refs/tags/android-4.1.1_r4"/>
@@ -132,7 +133,6 @@
   <!-- Linaro modifications: Fix the float ABI check for gcc 4.7+ -->
   <project path="external/v8" name="platform/external/v8" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: need to be restored -->
-  <project path="external/embunit" name="platform/external/embunit" revision="refs/tags/android-4.1.1_r4" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" revision="refs/tags/android-4.1.1_r4" />
   <!-- Linaro modifications: Made it build with OpenJDK -->
   <project path="external/guava" name="platform/external/guava" revision="linaro_android_4.1.1" />
