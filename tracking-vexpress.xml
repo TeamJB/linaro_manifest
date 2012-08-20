@@ -122,6 +122,7 @@
   <project path="external/mesa3d" name="platform/external/mesa3d" revision="linaro_android_4.1.1" />
   <project path="system/extras" name="platform/system/extras" revision="linaro_android_4.1.1" />
   <project path="external/openssh" name="platform/external/openssh" revision="linaro_android_4.1.1" />
+  <project path="external/embunit" name="platform/external/embunit" revision="linaro_android_4.1.1" />
   <!-- Linaro modification: Add workaround for aliasing violation -->
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" revision="linaro_android_4.1.1" />
   <project path="external/llvm" name="platform/external/llvm" />
@@ -140,7 +141,6 @@
   <project path="external/strace" name="platform/external/strace" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
   <project path="external/webkit" name="platform/external/webkit" />
-  <project path="external/embunit" name="platform/external/embunit" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="external/libvpx" name="platform/external/libvpx" />
   <project path="external/gtest" name="platform/external/gtest" />

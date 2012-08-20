@@ -97,6 +97,7 @@
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="linaro_android_4.1.1" />
   <project path="external/ping6" name="platform/external/ping6" revision="linaro_android_4.1.1" />
   <project path="external/openssh" name="platform/external/openssh" revision="linaro_android_4.1.1" />
+  <project path="external/embunit" name="platform/external/embunit" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: need to be restored -->
   <project path="external/llvm" name="platform/external/llvm" revision="refs/tags/android-4.1.1_r4"/>
   <!-- Linaro modifications: Use -fno-strict-aliasing -->
@@ -125,7 +126,6 @@
   <!-- Linaro modifications: Fix the float ABI check for gcc 4.7+ -->
   <project path="external/v8" name="platform/external/v8" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: need to be restored -->
-  <project path="external/embunit" name="platform/external/embunit" revision="refs/tags/android-4.1.1_r4" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" revision="refs/tags/android-4.1.1_r4" />
   <!-- Linaro modifications: Made it build with OpenJDK -->
   <project path="external/guava" name="platform/external/guava" revision="linaro_android_4.1.1" />
