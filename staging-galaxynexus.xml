@@ -105,6 +105,7 @@
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" revision="linaro_android_4.1.1"/>
   <project path="external/tcpdump" name="platform/external/tcpdump" revision="linaro_android_4.1.1" />
   <project path="external/mesa3d" name="platform/external/mesa3d" revision="linaro_android_4.1.1" />
+  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: need to be restored -->
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" revision="refs/tags/android-4.1.1_r4"/>
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" revision="refs/tags/android-4.1.1_r4"/>
@@ -119,7 +120,6 @@
   <project path="cts" name="platform/cts" revision="refs/tags/android-4.1.1_r4" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="refs/tags/android-4.1.1_r4" />
   <project path="system/media" name="platform/system/media" revision="refs/tags/android-4.1.1_r4" />
-  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" revision="refs/tags/android-4.1.1_r4" />
   <project path="external/strace" name="platform/external/strace" revision="refs/tags/android-4.1.1_r4" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" revision="refs/tags/android-4.1.1_r4" />
   <project path="external/webkit" name="platform/external/webkit" revision="refs/tags/android-4.1.1_r4" />
