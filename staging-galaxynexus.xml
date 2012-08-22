@@ -106,7 +106,6 @@
   <project path="external/tcpdump" name="platform/external/tcpdump" revision="linaro_android_4.1.1" />
   <project path="external/mesa3d" name="platform/external/mesa3d" revision="linaro_android_4.1.1" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" revision="linaro_android_4.1.1" />
-  <project path="external/zlib" name="platform/external/zlib" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: need to be restored -->
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" revision="refs/tags/android-4.1.1_r4"/>
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" revision="refs/tags/android-4.1.1_r4"/>
@@ -268,6 +267,7 @@
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
+  <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
