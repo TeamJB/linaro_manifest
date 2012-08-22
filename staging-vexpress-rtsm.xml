@@ -134,6 +134,7 @@
   <project path="external/openssh" name="platform/external/openssh" revision="linaro_android_4.1.1" />
   <project path="external/embunit" name="platform/external/embunit" revision="linaro_android_4.1.1" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" revision="linaro_android_4.1.1" />
+  <project path="external/zlib" name="platform/external/zlib" revision="linaro_android_4.1.1" />
   <!-- Linaro modification: Add workaround for aliasing violation -->
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" revision="linaro_android_4.1.1" />
   <project path="external/llvm" name="platform/external/llvm" />
@@ -284,7 +285,6 @@
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
-  <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
