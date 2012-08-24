@@ -77,8 +77,6 @@
   <project path="system/vold" name="platform/system/vold"  revision="linaro_android_4.1.1"/>
   <!-- Linaro modifications: Fixed aliasing violations, improved sincos(), improved string handling functions, added new kernel headers -->
   <project path="bionic" name="platform/bionic" revision="linaro_android_4.1.1" />
-  <!-- Linaro modifications: need porting -->
-  <project path="external/srec" name="platform/external/srec" revision="refs/tags/android-4.1.1_r4"/>
   <!-- Linaro modifications: gcc 4.7 support, fix aliasing violations -->
   <project path="external/stlport" name="platform/external/stlport" revision="linaro_android_4.1.1"/>
   <!-- Linaro modifications: gcc 4.7 support -->
@@ -104,8 +102,6 @@
   <project path="external/openssl" name="platform/external/openssl" revision="linaro_android_4.1.1"/>
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="linaro_android_4.1.1" />
   <project path="external/ping6" name="platform/external/ping6" revision="linaro_android_4.1.1" />
-  <!-- Linaro modifications: need to be restored -->
-  <project path="external/llvm" name="platform/external/llvm" revision="refs/tags/android-4.1.1_r4"/>
   <!-- Linaro modifications: Use -fno-strict-aliasing -->
   <project path="external/clang" name="platform/external/clang" revision="linaro_android_4.1.1"/>
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" revision="linaro_android_4.1.1" />
@@ -114,13 +110,13 @@
   <project path="external/openssh" name="platform/external/openssh" revision="linaro_android_4.1.1" />
   <project path="external/embunit" name="platform/external/embunit" revision="linaro_android_4.1.1" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" revision="linaro_android_4.1.1" />
-  <!-- Linaro modifications: need to be restored -->
-  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" revision="refs/tags/android-4.1.1_r4"/>
-  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" revision="refs/tags/android-4.1.1_r4"/>
   <!-- Linaro modifications: Replaced traditional libjpeg with libjpeg-turbo -->
   <project path="external/jpeg" name="people/tomgall/libjpeg-turbo/libjpeg-turbo" revision="android" remote="linaro-other" />
   <!-- Linaro modifications: Fixed aliasing violations, ISO C++11 support -->
   <project path="external/skia" name="platform/external/skia" revision="linaro_android_4.1.1" />
+  <!-- Linaro modifications: ISO C++ 11 support -->
+  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" revision="linaro_android_4.1.1" />
+  <project path="external/webkit" name="platform/external/webkit" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: Need porting -->
   <project path="external/tremolo" name="platform/external/tremolo" revision="refs/tags/android-4.1.1_r4" />
   <!-- Linaro modifications: Add ECM -->
@@ -129,8 +125,6 @@
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="refs/tags/android-4.1.1_r4" />
   <project path="system/media" name="platform/system/media" revision="refs/tags/android-4.1.1_r4" />
   <project path="external/strace" name="platform/external/strace" revision="refs/tags/android-4.1.1_r4" />
-  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" revision="refs/tags/android-4.1.1_r4" />
-  <project path="external/webkit" name="platform/external/webkit" revision="refs/tags/android-4.1.1_r4" />
   <!-- Linaro modifications: Fix the float ABI check for gcc 4.7+ -->
   <project path="external/v8" name="platform/external/v8" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: need to be restored -->
@@ -174,6 +168,8 @@
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
+  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" />
+  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
@@ -238,6 +234,7 @@
   <project path="external/libxslt" name="platform/external/libxslt" />
   <project path="external/libyuv" name="platform/external/libyuv" />
   <project path="external/littlemock" name="platform/external/littlemock" />
+  <project path="external/llvm" name="platform/external/llvm" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" />
@@ -263,6 +260,7 @@
   <project path="external/sepolicy" name="platform/external/sepolicy" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sqlite" name="platform/external/sqlite" />
+  <project path="external/srec" name="platform/external/srec" />
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/stressapptest" name="platform/external/stressapptest" />
   <project path="external/svox" name="platform/external/svox" />

@@ -102,8 +102,6 @@
   <project path="system/core" name="platform/system/core" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: Increase the maximum number of disk partitions to 8 -->
   <project path="system/vold" name="platform/system/vold" revision="linaro_android_4.1.1" />
-  <!-- Has Linaro modifications on 4.0.4 that may need porting -->
-  <project path="external/srec" name="platform/external/srec" />
   <!-- Linaro modifications: Fix aliasing violations, fix WiFi module loading on Origen -->
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: Use -fno-strict-aliasing, don't force -O2 -->
@@ -118,7 +116,6 @@
   <project path="external/ping" name="platform/external/ping" revision="linaro_android_4.1.1" />
   <!-- Linaro modifications: Use -fno-strict-aliasing -->
   <project path="external/openssl" name="platform/external/openssl" revision="linaro_android_4.1.1" />
-  <project path="external/llvm" name="platform/external/llvm" />
   <project path="external/clang" name="platform/external/clang" revision="linaro_android_4.1.1"/>
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" revision="linaro_android_4.1.1"/>
   <project path="external/tcpdump" name="platform/external/tcpdump" revision="linaro_android_4.1.1" />
@@ -126,8 +123,6 @@
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="linaro_android_4.1.1" />
   <project path="external/ping6" name="platform/external/ping6" revision="linaro_android_4.1.1" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" revision="linaro_android_4.1.1" />
-  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" />
-  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
   <project path="external/tremolo" name="platform/external/tremolo" />
   <!-- Linaro modifications: Add ECM -->
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="linaro_android_4.1.1" />
@@ -135,8 +130,9 @@
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="system/media" name="platform/system/media" />
   <project path="external/strace" name="platform/external/strace" />
-  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
-  <project path="external/webkit" name="platform/external/webkit" />
+  <!-- Linaro modifications: ISO C++ 11 support -->
+  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" revision="linaro_android_4.1.1" />
+  <project path="external/webkit" name="platform/external/webkit" revision="linaro_android_4.1.1" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="external/libvpx" name="platform/external/libvpx" />
   <project path="external/gtest" name="platform/external/gtest" />
@@ -176,6 +172,8 @@
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
+  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" />
+  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
@@ -238,6 +236,7 @@
   <project path="external/libxslt" name="platform/external/libxslt" />
   <project path="external/libyuv" name="platform/external/libyuv" />
   <project path="external/littlemock" name="platform/external/littlemock" />
+  <project path="external/llvm" name="platform/external/llvm" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" />
@@ -263,6 +262,7 @@
   <project path="external/sepolicy" name="platform/external/sepolicy" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sqlite" name="platform/external/sqlite" />
+  <project path="external/srec" name="platform/external/srec" />
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/svox" name="platform/external/svox" />
   <project path="external/tagsoup" name="platform/external/tagsoup" />
