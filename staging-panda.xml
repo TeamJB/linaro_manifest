@@ -34,6 +34,8 @@
   <project path="u-boot" name="boot/u-boot-linaro-stable" revision="master" remote="linaro-other" />
   <project path="external/gator" name="arm/ds5/gator" revision="android" remote="linaro-other" />
   <project path="packages/wallpapers/LinaroWallpaper" name="platform/packages/wallpapers/LinaroWallpaper" revision="master" />
+  <project path="external/pm-qa" name="tools/pm-qa" revision="master" remote="linaro-other" />
+  <project path="external/tools_for_pm-qa" name="people/kejunzhou/tools_for_pm-qa" remote="linaro-other" revision="master"/>
   <project path="external/powertop" name="tools/powertop-2.0" revision="linaro" remote="linaro-other" />
   <project path="external/ncurses" name="platform/external/ncurses" revision="linaro"/>
   <project path="external/libnl" name="platform/external/libnl" revision="linaro"/>
