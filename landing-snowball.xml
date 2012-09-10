@@ -145,6 +145,8 @@
   <!-- Linaro modification: Add workaround for aliasing violation -->
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" revision="linaro_android_4.1.1" />
   <project path="system/extras" name="platform/system/extras" revision="linaro_android_4.1.1" />
+  <!-- Linaro modification: ISO C++ 11 support -->
+  <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" revision="linaro_android_4.1.1" />
 
   <!-- TI proprietary-open -->
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" revision="ics" />
@@ -316,7 +318,6 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
-  <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
