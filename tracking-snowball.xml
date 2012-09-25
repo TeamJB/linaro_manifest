@@ -32,7 +32,7 @@
   <project path="device/linaro/common" name="device/linaro/common" revision="linaro-ics" />
   <project path="device/linaro/pandaboard" name="device/linaro/pandaboard" revision="linaro-jb" />
   <project path="hardware/linaro/tinyhal" name="platform/hardware/linaro/tinyhal" revision="linaro-jellybean" />
-  <project path="device/linaro/snowball" name="device/linaro/snowball" revision="linaro-jb" />
+  <project path="device/linaro/snowball" name="device/linaro/snowball" revision="linaro-jb-snowball-tracking-open" />
   <project path="external/busybox" name="platform/external/busybox" revision="linaro-1.19" />
   <project path="external/lrzsz" name="platform/external/lrzsz" revision="linaro-master" />
   <project path="external/x264" name="platform/external/x264" revision="linaro-master" />
@@ -55,7 +55,7 @@
   <project path="external/stringbench" name="platform/external/stringbench" revision="master" />
   <!-- Make sure only one of the kernels is enabled! -->
   <!-- Linaro kernel -->
-  <project path="kernel" name="kernel/linux-linaro-tracking" revision="linux-linaro" remote="linaro-other" />
+  <project path="kernel" name="kernel/linux-linaro-tracking" revision="linux-linaro-snowball" />
   <!-- AOSP kernel -->
   <!-- project path="kernel" name="kernel/omap" revision="android-omap-panda-3.0" -->
     <!-- We copy the defconfig over so we can use the same name as w/ the Linaro kernel -->
