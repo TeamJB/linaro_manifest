@@ -152,6 +152,7 @@
   <project path="external/libvpx" name="platform/external/libvpx" />
   <project path="external/gtest" name="platform/external/gtest" />
   <project name="people/afrantzis/glmark2" path="packages/apps/glmark2" remote="linaro-other" revision="master"/>
+  <project path="hardware/ril" name="platform/hardware/ril" revision="linaro_android_4.1.2" />
 
   <!-- TI proprietary-open -->
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" revision="ics" />
@@ -302,7 +303,6 @@
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
-  <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />

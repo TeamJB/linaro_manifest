@@ -124,6 +124,7 @@
   <!-- Linaro modifications: ISO C++11 support -->
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" revision="linaro_android_4.1.2" />
   <project path="external/webkit" name="platform/external/webkit" revision="linaro_android_4.1.2" />
+  <project path="hardware/ril" name="platform/hardware/ril" revision="linaro_android_4.1.2" />
   <!-- Linaro modifications: Fix the float ABI check for gcc 4.7+ -->
   <project path="external/v8" name="platform/external/v8" revision="linaro_android_4.1.2" />
   <!-- Linaro modifications: need to be restored -->
@@ -291,7 +292,6 @@
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
-  <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
