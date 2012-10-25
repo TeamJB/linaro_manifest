@@ -57,7 +57,7 @@
   <!-- Make sure only one of the kernels is enabled! -->
   <!-- Linaro kernel -->
   <!-- Upstream is: project path="kernel" name="people/andygreen/repo-branch-archive" revision="tilt-android-tracking" remote="linaro-other" / -->
-  <project path="kernel" name="people/pfefferz/linux-aarch64" revision="linaro-aarch64+linux-2.6-armdroid" />
+  <project path="kernel" name="people/pfefferz/linux-aarch64" revision="linaro-aarch64+linux-3.6-armdroid" />
   <!-- AOSP kernel -->
   <!-- project path="kernel" name="kernel/omap" revision="android-omap-panda-3.0" -->
     <!-- We copy the defconfig over so we can use the same name as w/ the Linaro kernel -->
