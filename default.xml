@@ -12,7 +12,7 @@
            fetch="git://github.com/rperier/" />
   <remote  name="zyga"
            fetch="git://github.com/zyga/" />
-  <default revision="refs/tags/android-4.1.2_r1"
+  <default revision="refs/tags/android-4.2_r1"
            remote="aosp"
            sync-j="4" />
 
@@ -56,95 +56,95 @@
 
   <!-- AOSP with Linaro additions -->
   <!-- Linaro modifications: Made it build with OpenJDK -->
-  <project path="build" name="platform/build" revision="linaro_android_4.1.2">
+  <project path="build" name="platform/build" revision="linaro_android_4.2">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <!-- Linaro modifications: gcc 4.6+ -Werror support -->
-  <project path="dalvik" name="platform/dalvik" revision="linaro_android_4.1.2" />
-  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" revision="linaro_android_4.1.2" />
-  <project path="external/icu4c" name="platform/external/icu4c" revision="linaro_android_4.1.2" />
-  <project path="external/elfutils" name="platform/external/elfutils" revision="linaro_android_4.1.2" />
-  <project path="external/quake" name="platform/external/quake" revision="linaro_android_4.1.2" />
+  <project path="dalvik" name="platform/dalvik" revision="linaro_android_4.2" />
+  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" revision="linaro_android_4.2" />
+  <project path="external/icu4c" name="platform/external/icu4c" revision="linaro_android_4.2" />
+  <project path="external/elfutils" name="platform/external/elfutils" revision="linaro_android_4.2" />
+  <project path="external/quake" name="platform/external/quake" revision="linaro_android_4.2" />
   <!-- Linaro modifications:  Add private lib for wifi to work with generic wext driver -->
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" revision="linaro_android_4.1.2" />
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" revision="linaro_android_4.2" />
   <!-- Linaro modifications: Integrate Linaro build system extras -->
-  <project path="device/ti/panda" name="device/ti/panda" revision="linaro_android_4.1.2" />
+  <project path="device/ti/panda" name="device/ti/panda" revision="linaro_android_4.2" />
   <!-- Linaro modifications: Added property to turn off hardware GFX -->
-  <project path="frameworks/base" name="platform/frameworks/base" revision="linaro_android_4.1.2" />
+  <project path="frameworks/base" name="platform/frameworks/base" revision="linaro_android_4.2" />
   <!-- Linaro modifications: Use better IOCTL for updating display, fix inverted colors on BRGA, Add audio workaround for Angrybirds, allow overriding framebuffer device, add Samsung OMX specific macros -->
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="linaro_android_4.1.2" />
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="linaro_android_4.2" />
   <!-- Linaro modifications: Make sure we can find omapfb.h -->
   <!-- FIXME The 4.0.4 branch contains further changes that may need merging -->
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="linaro_android_4.1.2" />
+  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="linaro_android_4.2" />
   <!-- Linaro modifications: New init.rc, various bugfixes -->
-  <project path="system/core" name="platform/system/core" revision="linaro_android_4.1.2" />
+  <project path="system/core" name="platform/system/core" revision="linaro_android_4.2" />
   <!-- Linaro modifications: Increase maximum number of partitions -->
-  <project path="system/vold" name="platform/system/vold"  revision="linaro_android_4.1.2"/>
+  <project path="system/vold" name="platform/system/vold"  revision="linaro_android_4.2"/>
   <!-- Linaro modifications: Fixed aliasing violations, improved sincos(), improved string handling functions, added new kernel headers -->
-  <project path="bionic" name="platform/bionic" revision="linaro_android_4.1.2" />
+  <project path="bionic" name="platform/bionic" revision="linaro_android_4.2" />
   <!-- Linaro modifications: gcc 4.7 support, fix aliasing violations -->
-  <project path="external/stlport" name="platform/external/stlport" revision="linaro_android_4.1.2"/>
+  <project path="external/stlport" name="platform/external/stlport" revision="linaro_android_4.2"/>
   <!-- Linaro modifications: gcc 4.7 support -->
-  <project path="frameworks/rs" name="platform/frameworks/rs" revision="linaro_android_4.1.2"/>
-  <project path="frameworks/av" name="platform/frameworks/av" revision="linaro_android_4.1.2"/>
-  <project path="frameworks/native" name="platform/frameworks/native" revision="linaro_android_4.1.2"/>
-  <project path="system/security" name="platform/system/security" revision="linaro_android_4.1.2" />
+  <project path="frameworks/rs" name="platform/frameworks/rs" revision="linaro_android_4.2"/>
+  <project path="frameworks/av" name="platform/frameworks/av" revision="linaro_android_4.2"/>
+  <project path="frameworks/native" name="platform/frameworks/native" revision="linaro_android_4.2"/>
+  <project path="system/security" name="platform/system/security" revision="linaro_android_4.2" />
   <!-- Linaro modifications: support for non-prebuilt toolchain -->
-  <project path="external/oprofile" name="platform/external/oprofile" revision="linaro_android_4.1.2" />
+  <project path="external/oprofile" name="platform/external/oprofile" revision="linaro_android_4.2" />
   <!-- Linaro modifications: Fix aliasing violations, fix WiFi module loading on Origen -->
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="linaro_android_4.1.2"/>
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="linaro_android_4.2"/>
   <!-- Linaro modifications: Use -fno-strict-aliasing, don't force -O2 -->
-  <project path="external/freetype" name="platform/external/freetype" revision="linaro_android_4.1.2"/>
+  <project path="external/freetype" name="platform/external/freetype" revision="linaro_android_4.2"/>
   <!-- Linaro modifications: Fix aliasing violations -->
-  <project path="external/sonivox" name="platform/external/sonivox" revision="linaro_android_4.1.2"/>
-  <project path="libcore" name="platform/libcore" revision="linaro_android_4.1.2"/>
-  <project path="frameworks/ex" name="platform/frameworks/ex" revision="linaro_android_4.1.2"/>
-  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" revision="linaro_android_4.1.2" />
-  <project path="external/chromium" name="platform/external/chromium" revision="linaro_android_4.1.2" />
-  <project path="external/dnsmasq" name="platform/external/dnsmasq" revision="linaro_android_4.1.2" />
-  <project path="external/ping" name="platform/external/ping" revision="linaro_android_4.1.2" />
+  <project path="external/sonivox" name="platform/external/sonivox" revision="linaro_android_4.2"/>
+  <project path="libcore" name="platform/libcore" revision="linaro_android_4.2"/>
+  <project path="frameworks/ex" name="platform/frameworks/ex" revision="linaro_android_4.2"/>
+  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" revision="linaro_android_4.2" />
+  <project path="external/chromium" name="platform/external/chromium" revision="linaro_android_4.2" />
+  <project path="external/dnsmasq" name="platform/external/dnsmasq" revision="linaro_android_4.2" />
+  <project path="external/ping" name="platform/external/ping" revision="linaro_android_4.2" />
   <!-- Linaro modifications: Use -fno-strict-aliasing -->
-  <project path="external/openssl" name="platform/external/openssl" revision="linaro_android_4.1.2"/>
-  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="linaro_android_4.1.2" />
-  <project path="external/ping6" name="platform/external/ping6" revision="linaro_android_4.1.2" />
+  <project path="external/openssl" name="platform/external/openssl" revision="linaro_android_4.2"/>
+  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="linaro_android_4.2" />
+  <project path="external/ping6" name="platform/external/ping6" revision="linaro_android_4.2" />
   <!-- Linaro modifications: Use -fno-strict-aliasing -->
-  <project path="external/clang" name="platform/external/clang" revision="linaro_android_4.1.2"/>
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" revision="linaro_android_4.1.2" />
-  <project path="external/tcpdump" name="platform/external/tcpdump" revision="linaro_android_4.1.2" />
-  <project path="external/mesa3d" name="platform/external/mesa3d" revision="linaro_android_4.1.2" />
-  <project path="external/openssh" name="platform/external/openssh" revision="linaro_android_4.1.2" />
-  <project path="external/embunit" name="platform/external/embunit" revision="linaro_android_4.1.2" />
-  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" revision="linaro_android_4.1.2" />
+  <project path="external/clang" name="platform/external/clang" revision="linaro_android_4.2"/>
+  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" revision="linaro_android_4.2" />
+  <project path="external/tcpdump" name="platform/external/tcpdump" revision="linaro_android_4.2" />
+  <project path="external/mesa3d" name="platform/external/mesa3d" revision="linaro_android_4.2" />
+  <project path="external/openssh" name="platform/external/openssh" revision="linaro_android_4.2" />
+  <project path="external/embunit" name="platform/external/embunit" revision="linaro_android_4.2" />
+  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" revision="linaro_android_4.2" />
   <!-- Linaro modifications: Replaced traditional libjpeg with libjpeg-turbo -->
   <project path="external/jpeg" name="people/tomgall/libjpeg-turbo/libjpeg-turbo" revision="android" remote="linaro-other" />
   <!-- Linaro modifications: Fixed aliasing violations, ISO C++11 support -->
-  <project path="external/skia" name="platform/external/skia" revision="linaro_android_4.1.2" />
+  <project path="external/skia" name="platform/external/skia" revision="linaro_android_4.2" />
   <!-- Linaro modifications: ISO C++ 11 support -->
-  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" revision="linaro_android_4.1.2" />
-  <project path="external/webkit" name="platform/external/webkit" revision="linaro_android_4.1.2" />
-  <project path="hardware/ril" name="platform/hardware/ril" revision="linaro_android_4.1.2" />
+  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" revision="linaro_android_4.2" />
+  <project path="external/webkit" name="platform/external/webkit" revision="linaro_android_4.2" />
+  <project path="hardware/ril" name="platform/hardware/ril" revision="linaro_android_4.2" />
   <!-- Linaro modifications: Need porting -->
-  <project path="external/tremolo" name="platform/external/tremolo" revision="refs/tags/android-4.1.2_r1" />
+  <project path="external/tremolo" name="platform/external/tremolo" revision="refs/tags/android-4.2_r1" />
   <!-- Linaro modifications: Add ECM -->
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="linaro_android_4.1.2" />
-  <project path="cts" name="platform/cts" revision="refs/tags/android-4.1.2_r1" />
-  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="refs/tags/android-4.1.2_r1" />
-  <project path="system/media" name="platform/system/media" revision="refs/tags/android-4.1.2_r1" />
-  <project path="external/strace" name="platform/external/strace" revision="refs/tags/android-4.1.2_r1" />
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="linaro_android_4.2" />
+  <project path="cts" name="platform/cts" revision="refs/tags/android-4.2_r1" />
+  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="refs/tags/android-4.2_r1" />
+  <project path="system/media" name="platform/system/media" revision="refs/tags/android-4.2_r1" />
+  <project path="external/strace" name="platform/external/strace" revision="refs/tags/android-4.2_r1" />
   <!-- Linaro modifications: Fix the float ABI check for gcc 4.7+ -->
-  <project path="external/v8" name="platform/external/v8" revision="linaro_android_4.1.2" />
+  <project path="external/v8" name="platform/external/v8" revision="linaro_android_4.2" />
   <!-- Linaro modifications: need to be restored -->
-  <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" revision="refs/tags/android-4.1.2_r1" />
+  <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" revision="refs/tags/android-4.2_r1" />
   <!-- Linaro modifications: Made it build with OpenJDK -->
-  <project path="external/guava" name="platform/external/guava" revision="linaro_android_4.1.2" />
+  <project path="external/guava" name="platform/external/guava" revision="linaro_android_4.2" />
   <!-- Linaro modifications: Set CPU specific compiler flags, init.partitions.rc -->
-  <project path="device/samsung/tuna" name="device/samsung/tuna" revision="linaro_android_4.1.2" />
-  <project path="device/samsung/maguro" name="device/samsung/maguro" revision="linaro_android_4.1.2" />
+  <project path="device/samsung/tuna" name="device/samsung/tuna" revision="linaro_android_4.2" />
+  <project path="device/samsung/maguro" name="device/samsung/maguro" revision="linaro_android_4.2" />
   <!-- Linaro modification: Add workaround for aliasing violation -->
-  <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" revision="linaro_android_4.1.2" />
-  <project path="system/extras" name="platform/system/extras" revision="linaro_android_4.1.2" />
+  <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" revision="linaro_android_4.2" />
+  <project path="system/extras" name="platform/system/extras" revision="linaro_android_4.2" />
   <!-- Linaro modification: ISO C++ 11 support -->
-  <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" revision="linaro_android_4.1.2" />
+  <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" revision="linaro_android_4.2" />
 
   <!-- TI proprietary-open -->
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" revision="ics" />
