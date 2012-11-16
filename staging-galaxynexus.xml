@@ -119,7 +119,7 @@
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" revision="linaro_android_4.2" />
   <project path="external/tremolo" name="platform/external/tremolo" revision="refs/tags/android-4.2_r1" />
   <!-- Linaro modifications: Add ECM -->
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="linaro_android_4.2" />
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
   <project path="cts" name="platform/cts" revision="refs/tags/android-4.2_r1" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="linaro_android_4.2" />
   <project path="system/media" name="platform/system/media" revision="refs/tags/android-4.2_r1" />
