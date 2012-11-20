@@ -10,8 +10,6 @@
            fetch="git://git.linaro.org/" />
   <remote  name="linaro-private"
            fetch="ssh://linaro-big-little-switcher-bot@linaro-private.git.linaro.org/srv/linaro-private.git.linaro.org/" />
-  <remote  name="android_input_bridge"
-           fetch="git://github.com/rperier/" />
   <remote  name="zyga"
            fetch="git://github.com/zyga/" />
   <default revision="refs/tags/android-4.1.1_r6"
@@ -20,7 +18,7 @@
 
   <!-- External extras -->
   <project path="packages/apps/0xbench" name="platform/packages/apps/0xbench" revision="linaro-master" />
-  <project path="external/android_input_bridge" name="android_input_bridge" remote="android_input_bridge" revision="master" />
+  <project path="external/android_input_bridge" name="platform/external/android_input_bridge" revision="linaro-master" />
   <project path="external/lava-blackbox" name="lava-blackbox" remote="zyga" revision="master" />
 
   <!-- Linaro extras -->
