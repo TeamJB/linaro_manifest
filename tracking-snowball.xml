@@ -19,7 +19,7 @@
 
   <!-- External extras -->
   <project path="packages/apps/0xbench" name="platform/packages/apps/0xbench" revision="linaro-master" />
-  <project path="external/android_input_bridge" name="platform/external/android_input_bridge" revision="linaro-master" />
+  <project path="external/android_input_bridge" name="platform/external/android-input-bridge" revision="linaro-master" />
   <project path="external/lava-blackbox" name="lava-blackbox" remote="zyga" revision="master" />
 
   <!-- Linaro extras -->
