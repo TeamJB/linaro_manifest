@@ -7,6 +7,8 @@
   <remote  name="aosp"
            fetch="git://android.git.linaro.org/"
            review="review.android.git.linaro.org" />
+  <remote  name="linaro-other"
+           fetch="git://git.linaro.org/" />
   <default revision="refs/tags/android-4.2_r1"
            remote="aosp"
            sync-j="4" />
@@ -18,7 +20,7 @@
 
   <!-- Non-AOSP bits -->
   <project path="gcc-linaro-aarch64-linux-gnu-4.7" name="people/pfefferz/gcc-linaro-aarch64-linux-gnu-4.7" revision="master" />
-  <project path="kernel" name="people/pfefferz/linux-aarch64" revision="linaro-aarch64+linux-3.6-armdroid" />
+  <project path="kernel" name="people/antipov/linux-aarch64" revision="android64" remote="linaro-other" />
   <project path="device/linaro/common" name="device/linaro/common" revision="linaro-ics" />
   <project path="device/linaro/vexpress" name="device/linaro/vexpress" revision="linaro-jb" />
 
