@@ -27,7 +27,7 @@
   <project path="hardware/samsung/origen/gralloc_ump" name="platform/hardware/samsung/origen/gralloc_ump" revision="linaro_android_4.0.4" />
   <project path="hardware/samsung/origen/ump" name="platform/hardware/samsung/origen/ump" revision="linaro_android_4.0.4" />
   <project path="hardware/linaro/common" name="hardware/linaro/common" revision="linaro_android_jb" />
-  <project path="device/linaro/common" name="device/linaro/common" revision="linaro-ics" />
+  <project path="device/linaro/common" name="device/linaro/common" revision="linaro-jb" />
   <project path="device/linaro/pandaboard" name="device/linaro/pandaboard" revision="linaro-jb" />
   <project path="hardware/linaro/tinyhal" name="platform/hardware/linaro/tinyhal" revision="linaro-jellybean" />
   <project path="device/linaro/snowball" name="device/linaro/snowball" revision="linaro-jb-snowball-tracking-open" />

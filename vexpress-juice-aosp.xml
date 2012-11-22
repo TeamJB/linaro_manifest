@@ -21,7 +21,7 @@
   <!-- Non-AOSP bits -->
   <project path="gcc-linaro-aarch64-linux-gnu-4.7" name="people/pfefferz/gcc-linaro-aarch64-linux-gnu-4.7" revision="master" />
   <project path="kernel" name="people/antipov/linux-aarch64" revision="android64" remote="linaro-other" />
-  <project path="device/linaro/common" name="device/linaro/common" revision="linaro-ics" />
+  <project path="device/linaro/common" name="device/linaro/common" revision="linaro-jb" />
   <project path="device/linaro/vexpress" name="device/linaro/vexpress" revision="linaro-jb" />
   <project path="u-boot" name="people/tixy/u-boot" revision="vexpress-hacks" remote="linaro-other" />
   <project path="uefi" name="arm/uefi/uefi" revision="master" remote="linaro-other" />
