@@ -4,6 +4,8 @@
   <remote  name="aosp"
            fetch="git://android.git.linaro.org/"
            review="review.android.git.linaro.org" />
+  <remote  name="linaro-private"
+           fetch="ssh://linaro-big-little-switcher-bot@linaro-private.git.linaro.org/srv/linaro-private.git.linaro.org/" />
   <remote  name="aosp-upstream"
            fetch="https://android-review.googlesource.com/" />
   <remote  name="linaro-other"
@@ -52,6 +54,8 @@
   <project path="external/cyclictest" name="platform/external/cyclictest" revision="linaro_android"/>
   <project path="external/sysbench" name="platform/external/sysbench" revision="linaro_android"/>
   <project path="external/stringbench" name="platform/external/stringbench" revision="master" />
+  <project path="test/linaro/biglittle/sched_tests" name="bL_tests/sched_tests" revision="master" remote="linaro-private"/>
+  <project path="test/linaro/biglittle/task-placement-tests" name="bL_tests/task-placement-tests" revision="master" remote="linaro-private"/>
   <!-- Make sure only one of the kernels is enabled! -->
   <!-- Linaro kernel -->
   <!-- Upstream is: project path="kernel" name="people/andygreen/repo-branch-archive" revision="tilt-android-tracking" remote="linaro-other" / -->

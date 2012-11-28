@@ -4,6 +4,8 @@
   <remote  name="aosp-upstream"
            fetch="https://android-review.googlesource.com/"
            review="https://android-review.googlesource.com/" />
+  <remote  name="linaro-private"
+           fetch="ssh://linaro-big-little-switcher-bot@linaro-private.git.linaro.org/srv/linaro-private.git.linaro.org/" />
   <remote  name="aosp"
            fetch="git://android.git.linaro.org/"
            review="review.android.git.linaro.org" />
@@ -26,6 +28,8 @@
   <project path="u-boot" name="people/tixy/u-boot" revision="vexpress-hacks" remote="linaro-other" />
   <project path="uefi" name="arm/uefi/uefi" revision="master" remote="linaro-other" />
   <project path="boot-wrapper" name="people/pfefferz/boot-wrapper-aarch64" revision="master" />
+  <project path="test/linaro/biglittle/sched_tests" name="bL_tests/sched_tests" revision="master" remote="linaro-private"/>
+  <project path="test/linaro/biglittle/task-placement-tests" name="bL_tests/task-placement-tests" revision="master" remote="linaro-private"/>
 
   <!-- Unmodified AOSP -->
   <project path="abi/cpp" name="platform/abi/cpp" />
