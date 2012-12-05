@@ -31,7 +31,6 @@
   <project path="device/linaro/vexpress" name="device/linaro/vexpress" revision="linaro-jb" />
   <project path="device/linaro/snowball" name="device/linaro/snowball" revision="linaro-jb" />
   <project path="device/linaro/origen" name="device/linaro/origen" revision="linaro-jb" />
-  <project path="device/linaro/vexpress_iks_tc2" name="device/linaro/vexpress_rtsm" revision="linaro-jb-tc2" />
   <project path="hardware/linaro/tinyhal" name="people/kurt-r-taylor/tinyhal" revision="linaro" remote="linaro-other" />
   <project path="external/busybox" name="platform/external/busybox" revision="linaro-1.19" />
   <project path="external/lrzsz" name="platform/external/lrzsz" revision="linaro-master" />
@@ -41,7 +40,6 @@
   <project path="device/samsung/proprietary-open" name="device/samsung/proprietary-open" revision="linaro-jb" />
   <project path="u-boot" name="people/bhoj/u-boot-linaro-stable" revision="master" remote="linaro-other" />
   <project path="uefi" name="arm/uefi/uefi" revision="master" remote="linaro-other" />
-  <project path="external/gator" name="arm/ds5/gator" revision="android" remote="linaro-other" />
   <project path="test/linaro/biglittle/core" name="bL_tests/core-tests" revision="master" remote="linaro-private"/>
   <project path="packages/wallpapers/LinaroWallpaper" name="platform/packages/wallpapers/LinaroWallpaper" revision="master" />
   <project path="external/pm-qa" name="tools/pm-qa" revision="master" remote="linaro-other" />
@@ -59,7 +57,7 @@
   <project path="external/stringbench" name="platform/external/stringbench" revision="master" />
   <!-- Make sure only one of the kernels is enabled! -->
   <!-- Linaro kernel -->
-  <project path="kernel" name="people/bhoj/bL_switcher/linux" revision="android" remote="linaro-private" />
+  <project path="kernel" name="people/bhoj/bL_switcher/linux" revision="android-mp" remote="linaro-private" />
   <!-- AOSP kernel -->
   <!-- project path="kernel" name="kernel/omap" revision="android-omap-panda-3.0" -->
     <!-- We copy the defconfig over so we can use the same name as w/ the Linaro kernel -->
@@ -160,6 +158,7 @@
   <project path="external/libvpx" name="platform/external/libvpx" />
   <project path="external/gtest" name="platform/external/gtest" />
   <project name="people/afrantzis/glmark2" path="packages/apps/glmark2" remote="linaro-other" revision="master"/>
+  <project path="hardware/ril" name="platform/hardware/ril" revision="linaro_android_4.2.1" />
 
   <!-- TI proprietary-open -->
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" revision="ics" />
@@ -325,7 +324,6 @@
   <project path="gdk" name="platform/gdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
-  <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" remote="aosp-upstream" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
