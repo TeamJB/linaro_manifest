@@ -57,7 +57,7 @@
   <project path="external/stringbench" name="platform/external/stringbench" revision="master" />
   <!-- Make sure only one of the kernels is enabled! -->
   <!-- Linaro kernel -->
-  <project path="kernel" name="people/bhoj/bL_switcher/linux" revision="android-mp" remote="linaro-private" />
+  <project path="kernel" name="bL_switcher/linux" revision="next" remote="linaro-private" />
   <!-- AOSP kernel -->
   <!-- project path="kernel" name="kernel/omap" revision="android-omap-panda-3.0" -->
     <!-- We copy the defconfig over so we can use the same name as w/ the Linaro kernel -->
