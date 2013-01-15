@@ -31,7 +31,7 @@
   <project path="device/linaro/pandaboard" name="device/linaro/pandaboard" revision="linaro-jb" />
   <project path="hardware/linaro/tinyhal" name="platform/hardware/linaro/tinyhal" revision="linaro-jellybean" />
   <project path="device/linaro/snowball" name="device/linaro/snowball" revision="linaro-jb-snowball-tracking-open" />
-  <project path="external/busybox" name="platform/external/busybox" revision="linaro-1.19" />
+  <project path="external/busybox" name="platform/external/busybox" revision="linaro-1.20" />
   <project path="external/lrzsz" name="platform/external/lrzsz" revision="linaro-master" />
   <project path="external/x264" name="platform/external/x264" revision="linaro-master" />
   <project path="external/ffmpeg" name="platform/external/ffmpeg" revision="linaro-1.0.1" />
