@@ -35,7 +35,7 @@
   <project path="device/linaro/origen" name="device/linaro/origen" revision="linaro-jb" />
   <project path="device/linaro/vexpress_rtsm" name="device/linaro/vexpress_rtsm" revision="linaro-jb" />
   <project path="hardware/linaro/tinyhal" name="people/kurt-r-taylor/tinyhal" revision="linaro" remote="linaro-other" />
-  <project path="external/busybox" name="platform/external/busybox" revision="linaro-1.20" />
+  <project path="external/busybox" name="platform/external/busybox" revision="linaro-1.21" />
   <project path="external/lrzsz" name="platform/external/lrzsz" revision="linaro-master" />
   <project path="external/x264" name="platform/external/x264" revision="linaro-master" />
   <project path="external/ffmpeg" name="platform/external/ffmpeg" revision="linaro-1.0.1" />
