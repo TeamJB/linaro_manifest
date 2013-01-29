@@ -58,7 +58,7 @@
   <project path="external/sysbench" name="platform/external/sysbench" revision="linaro_android" groups="vexpress"/>
   <project path="external/stringbench" name="platform/external/stringbench" revision="master" groups="common" />
   <!-- Linaro kernels -->
-  <project path="kernel/linaro/origen" name="people/bhoj/samsung/kernel" remote="linaro-other" revision="android-tracking" groups="origen" />
+  <project path="kernel/linaro/origen" name="landing-teams/working/samsung/kernel" remote="linaro-other" revision="android-tracking" groups="origen" />
   <project path="kernel/linaro/vexpress" name="kernel/linux-linaro-tracking" remote="linaro-other" revision="linux-linaro" groups="vexpress" />
   <!-- AOSP kernel -->
   <!-- project path="kernel" name="kernel/omap" revision="android-omap-panda-3.0" -->
