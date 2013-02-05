@@ -12,7 +12,7 @@
            fetch="ssh://linaro-big-little-switcher-bot@linaro-private.git.linaro.org/srv/linaro-private.git.linaro.org/" />
   <remote  name="zyga"
            fetch="git://github.com/zyga/" />
-  <default revision="refs/tags/android-4.2.1_r1"
+  <default revision="refs/tags/android-4.2.1_r1.2"
            remote="aosp"
            sync-j="4" />
 

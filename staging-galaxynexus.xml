@@ -11,7 +11,7 @@
            fetch="git://git.linaro.org/" />
   <remote  name="zyga"
            fetch="git://github.com/zyga/" />
-  <default revision="refs/tags/android-4.2.1_r1"
+  <default revision="refs/tags/android-4.2.1_r1.2"
            remote="aosp"
            sync-j="4" />
 
@@ -119,13 +119,13 @@
   <project path="external/skia" name="platform/external/skia" revision="linaro_android_4.2.1" />
   <!-- Linaro modifications: Need porting -->
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" revision="linaro_android_4.2.1" />
-  <project path="external/tremolo" name="platform/external/tremolo" revision="refs/tags/android-4.2.1_r1" />
+  <project path="external/tremolo" name="platform/external/tremolo" revision="refs/tags/android-4.2.1_r1.2" />
   <!-- Linaro modifications: Add ECM -->
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="linaro_android_4.2.1" />
-  <project path="cts" name="platform/cts" revision="refs/tags/android-4.2.1_r1" />
+  <project path="cts" name="platform/cts" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="linaro_android_4.2.1" />
-  <project path="system/media" name="platform/system/media" revision="refs/tags/android-4.2.1_r1" />
-  <project path="external/strace" name="platform/external/strace" revision="refs/tags/android-4.2.1_r1" />
+  <project path="system/media" name="platform/system/media" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="external/strace" name="platform/external/strace" revision="refs/tags/android-4.2.1_r1.2" />
   <!-- Linaro modifications: ISO C++11 support -->
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" revision="linaro_android_4.2.1" />
   <project path="external/webkit" name="platform/external/webkit" revision="linaro_android_4.2.1" />
@@ -133,7 +133,7 @@
   <!-- Linaro modifications: Fix the float ABI check for gcc 4.7+ -->
   <project path="external/v8" name="platform/external/v8" revision="linaro_android_4.2.1" />
   <!-- Linaro modifications: need to be restored -->
-  <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" revision="refs/tags/android-4.2.1_r1" />
+  <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
   <!-- Linaro modifications: Made it build with OpenJDK -->
   <project path="external/guava" name="platform/external/guava" revision="linaro_android_4.2.1" />
