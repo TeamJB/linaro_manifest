@@ -10,7 +10,7 @@
            fetch="git://git.linaro.org/" />
   <remote  name="zyga"
            fetch="git://github.com/zyga/" />
-  <default revision="refs/tags/android-4.2.2_r1.2"
+  <default revision="refs/tags/android-4.2.2_r1"
            remote="aosp"
            sync-j="4" />
 
@@ -76,7 +76,7 @@
   <!-- Linaro modifications:  Add private lib for wifi to work with generic wext driver -->
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" revision="linaro_android_4.2.2" />
   <!-- Linaro modifications: Integrate Linaro build system extras -->
-  <project path="device/ti/panda" name="device/ti/panda" revision="linaro_android_4.2.2" />
+  <project path="device/ti/panda" name="device/ti/panda" revision="linaro_android_4.2.1" />
   <!-- Linaro modifications: Added property to turn off hardware GFX -->
   <project path="frameworks/base" name="platform/frameworks/base" revision="linaro_android_4.2.2" />
   <!-- Linaro modifications: Use better IOCTL for updating display, fix inverted colors on BRGA, Add audio workaround for Angrybirds, allow overriding framebuffer device, add Samsung OMX specific macros -->
@@ -100,13 +100,13 @@
   <!-- Linaro modifications: Make it build with OpenJDK" -->
   <project path="external/guava" name="platform/external/guava" revision="linaro_android_4.2.2" />
   <!-- Linaro modifications: Set CPU specific compiler flags, init.partitions.rc -->
-  <project path="device/samsung/tuna" name="device/samsung/tuna" revision="linaro_android_4.2.2" />
-  <project path="device/samsung/maguro" name="device/samsung/maguro" revision="linaro_android_4.2.2" />
+  <project path="device/samsung/tuna" name="device/samsung/tuna" revision="linaro_android_4.2.1" />
+  <project path="device/samsung/maguro" name="device/samsung/maguro" revision="linaro_android_4.2.1" />
   <!-- Linaro modifications: Fixed aliasing violations, ISO C++11 support -->
   <project path="external/skia" name="platform/external/skia" revision="linaro_android_4.2.2" />
   <!-- Linaro modifications: Find omapfb.h -->
   <!-- FIXME The 4.0.4 branch has further changes that may need porting -->
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="linaro_android_4.2.2" />
+  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="linaro_android_4.2.1" />
   <!-- Linaro modifications: New init.rc, assorted bug fixes -->
   <project path="system/core" name="platform/system/core" revision="linaro_android_4.2.2" />
   <!-- Linaro modifications: Increase the maximum number of disk partitions to 8 -->
@@ -168,7 +168,6 @@
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
-  <project path="device/asus/grouper" name="device/asus/grouper" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
@@ -179,7 +178,6 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/toro" name="device/samsung/toro" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -210,6 +208,7 @@
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
+  <project path="external/eigen" name="platform/external/eigen" />
   <project path="external/emma" name="platform/external/emma" />
   <project path="external/esd" name="platform/external/esd" />
   <project path="external/expat" name="platform/external/expat" />
@@ -320,9 +319,6 @@
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="gdk" name="platform/gdk" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
-  <project path="hardware/invensense" name="platform/hardware/invensense" />
-  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
