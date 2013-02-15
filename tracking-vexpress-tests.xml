@@ -5,7 +5,7 @@
            fetch="git://android.git.linaro.org/"
            review="review.android.git.linaro.org" />
   <remote  name="linaro-private"
-           fetch="ssh://amitpundir@linaro-private.git.linaro.org/srv/linaro-private.git.linaro.org/" />
+           fetch="ssh://linaro-big-little-switcher-bot@linaro-private.git.linaro.org/srv/linaro-private.git.linaro.org/" />
   <remote  name="aosp-upstream"
            fetch="https://android-review.googlesource.com/" />
   <remote  name="linaro-other"
