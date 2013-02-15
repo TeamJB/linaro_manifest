@@ -139,7 +139,7 @@
   <project path="external/guava" name="platform/external/guava" revision="linaro_android_4.2.2" />
   <!-- Linaro modifications: Set CPU specific compiler flags, init.partitions.rc -->
   <project path="device/samsung/maguro" name="device/samsung/maguro" revision="linaro_android_4.2.1" groups="device" />
-  <project path="device/samsung/tuna" name="device/samsung/tuna" revision="linaro_android_4.2.1" groups="device" />
+  <project path="device/samsung/tuna" name="device/samsung/tuna" revision="linaro_android_4.2.2" groups="device" />
   <!-- Linaro modification: Add workaround for aliasing violation -->
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" revision="linaro_android_4.2.2" />
   <project path="system/extras" name="platform/system/extras" revision="linaro_android_4.2.2" />
