@@ -37,7 +37,7 @@
   <project path="external/busybox" name="platform/external/busybox" revision="linaro-1.21" />
   <project path="external/lrzsz" name="platform/external/lrzsz" revision="linaro-master" />
   <project path="external/x264" name="platform/external/x264" revision="linaro-master" />
-  <project path="external/ffmpeg" name="platform/external/ffmpeg" revision="linaro-1.0.1" />
+  <project path="external/ffmpeg" name="platform/external/ffmpeg" revision="linaro-0.11.1" />
   <project path="external/speex" name="platform/external/speex" revision="linaro_mmwg" />
   <project path="device/samsung/proprietary-open" name="device/samsung/proprietary-open" revision="linaro-jb" />
   <project path="u-boot" name="people/bhoj/u-boot-linaro-stable" revision="master" remote="linaro-other" />
