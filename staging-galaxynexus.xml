@@ -50,7 +50,7 @@
   <!-- project path="kernel" name="kernel/linaro-android" revision="linaro-android-3.2-agreen-rebase" remote="aosp" / -->
   <!-- AOSP kernel -->
   <!-- Kernel builds usually come from the android-omap-tuna-3.0 branch, but AOSP always specifies the exact revision -->
-  <project path="kernel" name="kernel/omap" revision="d5a18e013da25a07b330fd70c212ac477cabff4e" />
+  <project path="kernel" name="kernel/omap" revision="android-omap-tuna-3.0-jb-mr1.1" />
 
   <!-- AOSP with Linaro additions -->
   <!-- Linaro modifications: Made it build with OpenJDK -->
