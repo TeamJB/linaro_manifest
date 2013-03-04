@@ -41,12 +41,13 @@
   <project path="external/speex" name="platform/external/speex" revision="linaro_mmwg" groups="common" />
   <project path="device/samsung/proprietary-open" name="device/samsung/proprietary-open" revision="linaro-jb" groups="common" />
   <project path="u-boot/linaro/origen" name="landing-teams/working/samsung/u-boot" revision="tracking" remote="linaro-other" groups="origen" />
+  <project path="u-boot/linaro/panda" name="boot/u-boot-linaro-stable" revision="master" remote="linaro-other" groups="panda" />
   <project path="u-boot/linaro/vexpress" name="people/tixy/u-boot" revision="vexpress-hacks" remote="linaro-other" groups="vexpress" />
   <project path="u-boot/linaro/vexpress-iks" name="people/bhoj/u-boot-linaro-stable" revision="master" remote="linaro-other" groups="vexpress-iks" />
   <project path="uefi" name="arm/uefi/uefi" revision="master" remote="linaro-other" groups="vexpress,vexpress-iks" />
   <project path="test/linaro/biglittle/core" name="bL_tests/bL_iks_tests" revision="master" remote="linaro-private" groups="vexpress-iks" />
   <project path="boot-wrapper" name="arm/models/boot-wrapper" revision="master" remote="linaro-other" groups="vexpress" />
-
+  <project path="external/gator" name="arm/ds5/gator" revision="android" remote="linaro-other" groups="panda" />
   <project path="packages/wallpapers/LinaroWallpaper" name="platform/packages/wallpapers/LinaroWallpaper" revision="master" groups="common" />
   <project path="external/pm-qa" name="tools/pm-qa" revision="linaro-2013.01" remote="linaro-other" groups="common" />
   <project path="external/tools_for_pm-qa" name="people/kejunzhou/tools_for_pm-qa" remote="linaro-other" revision="master" groups="common" />
@@ -65,6 +66,7 @@
   <project path="test/linaro/biglittle/task-placement-tests" name="bL_tests/task-placement-tests" revision="master" remote="linaro-private" groups="vexpress-tests" />
   <!-- Linaro kernels -->
   <project path="kernel/linaro/origen" name="landing-teams/working/samsung/kernel" remote="linaro-other" revision="android-tracking" groups="origen" />
+  <project path="kernel/linaro/panda" name="kernel/panda" revision="linaro-tilt-android-tracking" groups="panda"/>
   <project path="kernel/linaro/vexpress" name="kernel/linux-linaro-tracking" remote="linaro-other" revision="linux-linaro" groups="vexpress" />
   <project path="kernel/linaro/vexpress-iks" name="bL_switcher/linux" revision="master" remote="linaro-private" groups="vexpress-iks" />
   <!-- AOSP kernel -->
