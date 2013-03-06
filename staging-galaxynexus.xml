@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="git://android.git.linaro.org/"
+           fetch="http://android.git.linaro.org/git-ro/"
            review="review.android.git.linaro.org" />
   <remote  name="aosp-upstream"
            fetch="https://android-review.googlesource.com/"
