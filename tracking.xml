@@ -5,7 +5,8 @@
            fetch="http://android.git.linaro.org/git-ro/"
            review="review.android.git.linaro.org" />
   <remote  name="aosp-upstream"
-           fetch="https://android-review.googlesource.com/" />
+           fetch="https://android-review.googlesource.com/"
+           review="https://android-review.googlesource.com/" />
   <remote  name="linaro-other"
            fetch="git://git.linaro.org/" />
   <remote  name="linaro-private"
@@ -24,6 +25,7 @@
   <project path="external/lava-blackbox" name="lava-blackbox" remote="zyga" revision="master" groups="common" />
 
   <!-- Linaro extras -->
+  <project name="people/afrantzis/glmark2" path="packages/apps/glmark2" remote="linaro-other" revision="master" groups="common" />
   <project path="external/thirdparty-benchmarks" name="platform/external/thirdparty-benchmarks" revision="master" groups="common" />
   <project path="external/linaro-android-tools" name="platform/external/linaro-android-tools" revision="master" groups="common" />
   <project path="packages/apps/DisableSuspend" name="platform/packages/apps/DisableSuspend" revision="master" groups="common" />
@@ -72,6 +74,7 @@
   <project path="kernel/linaro/snowball" name="git/kernel/igloo-kernel" revision="stable-android-ux500-3.4" remote="igloocommunity" groups="snowball" />
   <project path="kernel/linaro/vexpress" name="kernel/linux-linaro-tracking" remote="linaro-other" revision="linux-linaro" groups="vexpress" />
   <project path="kernel/linaro/vexpress-iks" name="bL_switcher/linux" revision="master" remote="linaro-private" groups="vexpress-iks" />
+  <project path="kernel/samsung/maguro" name="kernel/omap" revision="android-omap-tuna-3.0-jb-mr1.1" groups="galaxynexus" />
   <!-- AOSP kernel -->
   <!-- project path="kernel" name="kernel/omap" revision="android-omap-panda-3.0" -->
     <!-- We copy the defconfig over so we can use the same name as w/ the Linaro kernel -->
@@ -115,7 +118,7 @@
   <!-- Linaro modifications: Make it build with OpenJDK" -->
   <project path="external/guava" name="platform/external/guava" revision="linaro_android_4.2.2" groups="common" />
   <!-- Linaro modifications: Set CPU specific compiler flags, init.partitions.rc -->
-  <project path="device/samsung/tuna" name="device/samsung/tuna" revision="linaro_android_4.2.1" groups="common" />
+  <project path="device/samsung/tuna" name="device/samsung/tuna" revision="linaro_android_4.2.2" groups="common" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" revision="linaro_android_4.2.1" groups="common" />
   <!-- Linaro modifications: Find omapfb.h -->
   <!-- FIXME The 4.0.4 branch has further changes that may need porting -->
@@ -167,7 +170,6 @@
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" groups="common" />
   <project path="external/libvpx" name="platform/external/libvpx" groups="common" />
   <project path="external/gtest" name="platform/external/gtest" groups="common" />
-  <project name="people/afrantzis/glmark2" path="packages/apps/glmark2" remote="linaro-other" revision="master" groups="common" />
   <project path="hardware/ril" name="platform/hardware/ril" revision="linaro_android_4.2.2" groups="common" />
   <!-- Linaro modification: Add workaround for aliasing violation -->
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" revision="linaro_android_4.2.2" groups="common" />
