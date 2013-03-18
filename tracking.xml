@@ -334,6 +334,8 @@
   <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="common" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="common" />
   <project path="frameworks/testing" name="platform/frameworks/testing" groups="common" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="common" />
+  <project path="hardware/invensense" name="platform/hardware/invensense" groups="common" />
   <project path="gdk" name="platform/gdk" groups="common" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="common" />
   <project path="ndk" name="platform/ndk" groups="common" />
