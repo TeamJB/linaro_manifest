@@ -79,6 +79,7 @@
   <project path="external/stringbench" name="platform/external/stringbench" revision="master" groups="common" />
   <project path="test/linaro/biglittle/sched_tests" name="bL_tests/sched_tests" revision="master" remote="linaro-private" groups="vexpress-tests" />
   <project path="test/linaro/biglittle/task-placement-tests" name="bL_tests/task-placement-tests" revision="master" remote="linaro-private" groups="vexpress-tests" />
+  <project path="external/linaro-android-kernel-test" name="android/linaro-android-kernel-test" revision="master" remote="linaro-private" groups="vexpress-tests"/>
   <!-- Linaro kernels -->
   <project path="kernel/linaro/origen" name="landing-teams/working/samsung/kernel" remote="linaro-other" revision="android-tracking" groups="origen" />
   <project path="kernel/linaro/pandaboard" name="kernel/panda" revision="linaro-tilt-android-tracking" groups="pandaboard"/>
