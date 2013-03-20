@@ -55,7 +55,7 @@
   <project path="external/stringbench" name="platform/external/stringbench" revision="master" />
   <!-- Make sure only one of the kernels is enabled! -->
   <!-- Linaro kernel -->
-  <project path="kernel" name="landing-teams/working/samsung/kernel" remote="linaro-other" revision="wip/origen_quad_tracking"/>
+  <project path="kernel" name="landing-teams/working/samsung/kernel" remote="linaro-other" revision="tracking-android-origen-quad"/>
   <!-- AOSP kernel -->
   <!-- project path="kernel" name="kernel/omap" revision="android-omap-panda-3.0" -->
     <!-- We copy the defconfig over so we can use the same name as w/ the Linaro kernel -->
