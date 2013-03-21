@@ -14,6 +14,16 @@
            remote="aosp"
            sync-j="4" />
 
+  <!-- Developer extras -->
+  <project path="packages/apps/AndroidTerm" name="platform/external/AndroidTerm" revision="linaro-master" groups="devel" />
+  <project path="packages/inputmethods/hackerskeyboard" name="platform/packages/inputmethods/hackerskeyboard" revision="linaro-master" groups="devel" />
+  <project path="native-toolchain" name="toolchain/native-toolchain" revision="master" groups="devel" />
+  <project path="native-toolchain/src/binutils" name="toolchain/binutils-current" revision="linaro-2.23.51.0.9" groups="devel" />
+  <project path="native-toolchain/src/gmp" name="toolchain/gmp-current" revision="linaro-5.1.1" groups="devel" />
+  <project path="native-toolchain/src/mpfr" name="toolchain/mpfr" revision="linaro-master" groups="devel" />
+  <project path="native-toolchain/src/mpc" name="toolchain/mpc-current" revision="linaro-1.0.1" groups="devel" />
+  <!-- FIXME we should have git repositories for gcc, make, ncurses, vim to avoid wget-ing them at build time -->
+
   <!-- External extras -->
   <project path="packages/apps/0xbench" name="platform/packages/apps/0xbench" revision="linaro-master" />
   <project path="external/android_input_bridge" name="platform/external/android-input-bridge" revision="linaro-master" />
@@ -390,6 +400,7 @@
   <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="darwin,x86" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7-linaro" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7-linaro" groups="linux,arm,common" revision="master" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="linux" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="linux" />
