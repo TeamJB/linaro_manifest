@@ -68,7 +68,7 @@
   <project path="external/sysbench" name="platform/external/sysbench" revision="linaro_android" groups="vexpress"/>
   <project path="external/stringbench" name="platform/external/stringbench" revision="master" groups="common" />
   <!-- Linaro kernels -->
-  <project path="kernel/linaro/arndale" name="landing-teams/working/samsung/kernel" remote="linaro-other" revision="tracking" groups="arndale" />
+  <project path="kernel/linaro/arndale" name="landing-teams/working/samsung/kernel" remote="linaro-other" revision="tracking-android-arndale" groups="arndale" />
   <!-- AOSP kernel -->
   <!-- project path="kernel" name="kernel/omap" revision="android-omap-panda-3.0" -->
     <!-- We copy the defconfig over so we can use the same name as w/ the Linaro kernel -->
