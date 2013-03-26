@@ -47,6 +47,7 @@
   <project path="device/linaro/vexpress" name="device/linaro/vexpress" revision="linaro-jb" groups="common" />
   <project path="device/linaro/snowball" name="device/linaro/snowball" revision="linaro-jb" groups="common" />
   <project path="device/linaro/origen" name="device/linaro/origen" revision="linaro-jb" groups="common" />
+  <project path="device/linaro/arndale" name="device/samsung_slsi/arndale" revision="linaro-jb" groups="common" />
   <project path="hardware/linaro/tinyhal" name="platform/hardware/linaro/tinyhal" revision="linaro-jellybean" groups="common" />
   <project path="external/busybox" name="platform/external/busybox" revision="linaro-1.21" groups="common" />
   <project path="external/lrzsz" name="platform/external/lrzsz" revision="linaro-master" groups="common" />
@@ -55,6 +56,7 @@
   <project path="external/speex" name="platform/external/speex" revision="linaro_mmwg" groups="common" />
   <project path="device/samsung/proprietary-open" name="device/samsung/proprietary-open" revision="linaro-jb" groups="common" />
   <project path="u-boot/linaro/origen" name="landing-teams/working/samsung/u-boot" revision="tracking" remote="linaro-other" groups="origen" />
+  <project path="u-boot/linaro/arndale" name="landing-teams/working/samsung/u-boot" revision="tracking" remote="linaro-other" groups="arndale" />
   <project path="u-boot/linaro/u-boot-linaro-stable" name="boot/u-boot-linaro-stable" revision="master" remote="linaro-other" groups="pandaboard, snowball" />
   <project path="u-boot/linaro/vexpress" name="people/tixy/u-boot" revision="vexpress-hacks" remote="linaro-other" groups="vexpress" />
   <project path="u-boot/linaro/vexpress-iks" name="people/bhoj/u-boot-linaro-stable" revision="master" remote="linaro-other" groups="vexpress-iks" />
@@ -82,6 +84,7 @@
   <project path="external/linaro-android-kernel-test" name="android/linaro-android-kernel-test" revision="master" remote="linaro-private" groups="vexpress-tests"/>
   <!-- Linaro kernels -->
   <project path="kernel/linaro/origen" name="landing-teams/working/samsung/kernel" remote="linaro-other" revision="android-tracking" groups="origen" />
+  <project path="kernel/linaro/arndale" name="landing-teams/working/samsung/kernel" remote="linaro-other" revision="tracking-android-arndale" groups="arndale" />
   <project path="kernel/linaro/pandaboard" name="kernel/panda" revision="linaro-tilt-android-tracking" groups="pandaboard"/>
   <project path="kernel/linaro/snowball" name="git/kernel/igloo-kernel" revision="stable-android-ux500-3.4" remote="igloocommunity" groups="snowball" />
   <project path="kernel/linaro/vexpress" name="kernel/linux-linaro-tracking" remote="linaro-other" revision="linux-linaro" groups="vexpress" />
