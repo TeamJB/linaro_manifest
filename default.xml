@@ -184,13 +184,13 @@
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" groups="common" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" groups="common" />
   <project path="external/libvpx" name="platform/external/libvpx" groups="common" />
-  <project path="external/gtest" name="platform/external/gtest" groups="common" />
   <project path="hardware/ril" name="platform/hardware/ril" revision="linaro_android_4.2.2" groups="common" />
   <!-- Linaro modification: Add workaround for aliasing violation -->
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" revision="linaro_android_4.2.2" groups="common" />
   <project path="system/extras" name="platform/system/extras" revision="linaro_android_4.2.2" groups="common" />
   <!-- Linaro modification: Make it build with gcc 4.8 -->
   <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" revision="linaro_android_4.2.2" groups="common" />
+  <project path="external/gtest" name="platform/external/gtest" revision="linaro_android_4.2.2" groups="common" />
 
   <!-- TI proprietary-open -->
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" revision="ics" groups="common" />

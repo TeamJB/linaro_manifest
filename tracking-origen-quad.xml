@@ -153,7 +153,6 @@
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
   <project path="external/libvpx" name="platform/external/libvpx" />
-  <project path="external/gtest" name="platform/external/gtest" />
   <project name="people/afrantzis/glmark2" path="packages/apps/glmark2" remote="linaro-other" revision="master"/>
   <project path="hardware/ril" name="platform/hardware/ril" revision="linaro_android_4.2.2" />
   <!-- Linaro modification: Add workaround for aliasing violation -->
@@ -164,6 +163,7 @@
   <project path="external/llvm" name="platform/external/llvm" revision="linaro_android_4.2.2" />
   <!-- Linaro modification: Make it build with gcc 4.8 -->
   <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" revision="linaro_android_4.2.2" />
+  <project path="external/gtest" name="platform/external/gtest" revision="linaro_android_4.2.2" />
 
   <!-- TI proprietary-open -->
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" revision="ics" />
