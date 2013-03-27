@@ -153,7 +153,7 @@
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
   <project path="external/libvpx" name="platform/external/libvpx" />
-  <project name="people/afrantzis/glmark2" path="packages/apps/glmark2" remote="linaro-other" revision="master"/>
+  <project name="people/jessebarker/glmark2" path="packages/apps/glmark2" remote="linaro-other" revision="master"/>
   <project path="hardware/ril" name="platform/hardware/ril" revision="linaro_android_4.2.2" />
   <!-- Linaro modification: Add workaround for aliasing violation -->
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" revision="linaro_android_4.2.2" />
