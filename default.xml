@@ -191,6 +191,7 @@
   <!-- Linaro modification: Make it build with gcc 4.8 -->
   <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" revision="linaro_android_4.2.2" groups="common" />
   <project path="external/gtest" name="platform/external/gtest" revision="linaro_android_4.2.2" groups="common" />
+  <project path="external/valgrind" name="platform/external/valgrind" revision="linaro_android_4.2.2" groups="common" />
 
   <!-- TI proprietary-open -->
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" revision="ics" groups="common" />
@@ -329,7 +330,6 @@
   <project path="external/tinyalsa" name="platform/external/tinyalsa"  groups="common" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="common" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="common" />
-  <project path="external/valgrind" name="platform/external/valgrind" groups="common" />
   <project path="external/webp" name="platform/external/webp" groups="common" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="common" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" groups="common" />
