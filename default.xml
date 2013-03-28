@@ -86,8 +86,10 @@
   <project path="kernel/linaro/snowball" name="git/kernel/igloo-kernel" revision="stable-android-ux500-3.4" remote="igloocommunity" groups="snowball" />
   <project path="kernel/linaro/vexpress" name="kernel/linux-linaro-tracking" remote="linaro-other" revision="linux-linaro" groups="vexpress" />
   <project path="kernel/linaro/vexpress-iks" name="bL_switcher/linux" revision="next" remote="linaro-private" groups="vexpress-iks" />
+  <!-- AOSP kernels -->
   <project path="kernel/samsung/maguro" name="kernel/omap" revision="android-omap-tuna-3.0-jb-mr1.1" groups="galaxynexus" />
   <project path="kernel/asus/grouper" name="kernel/tegra" revision="22b4fcde206e96f57bf0a111403fc3d75532918a" remote="aosp-upstream" groups="nexus7" />
+  <project path="kernel/lge/mako" name="kernel/msm" revision="android-msm-mako-3.4-jb-mr1.1" groups="nexus4" />
   <!-- AOSP kernel -->
   <!-- project path="kernel" name="kernel/omap" revision="android-omap-panda-3.0" -->
     <!-- We copy the defconfig over so we can use the same name as w/ the Linaro kernel -->
@@ -211,6 +213,8 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="common" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device,common" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device,common" />
+  <project path="device/lge/mako" name="device/lge/mako" groups="device,nexus4" />
+  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,nexus4" />
   <project path="device/sample" name="device/sample" groups="common" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="common" />
   <project path="external/aac" name="platform/external/aac" groups="common" />
@@ -356,6 +360,18 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="common" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" groups="common" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" groups="common" />
+  <project path="platform/hardware/msm7k" name="platform/hardware/msm7k" groups="nexus4" />
+  <project path="platform/hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="nexus4" />
+  <project path="platform/hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="nexus4" />
+  <project path="platform/hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="nexus4" />
+  <project path="platform/hardware/qcom/display" name="platform/hardware/qcom/display" groups="nexus4" />
+  <project path="platform/hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="nexus4" />
+  <project path="platform/hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="nexus4" />
+  <project path="platform/hardware/qcom/media" name="platform/hardware/qcom/media" groups="nexus4" />
+  <project path="platform/hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="nexus4" />
+  <project path="platform/hardware/qcom/power" name="platform/hardware/qcom/power" groups="nexus4" />
+  <project path="platform/hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="nexus4" />
+  <project path="platform/hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="nexus4" />
   <project path="gdk" name="platform/gdk" groups="common" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="common" />
   <project path="ndk" name="platform/ndk" groups="common" />
