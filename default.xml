@@ -213,7 +213,7 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="common" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device,common" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device,common" />
-  <project path="device/lge/mako" name="device/lge/mako" groups="device,nexus4" />
+  <project path="device/lge/mako" name="device/lge/mako" revision="linaro-playground" groups="device,nexus4" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,nexus4" />
   <project path="device/sample" name="device/sample" groups="common" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="common" />
