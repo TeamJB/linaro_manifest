@@ -89,7 +89,7 @@
   <!-- AOSP kernels -->
   <project path="kernel/samsung/maguro" name="kernel/omap" revision="android-omap-tuna-3.0-jb-mr1.1" groups="galaxynexus" />
   <project path="kernel/asus/grouper" name="kernel/tegra" revision="22b4fcde206e96f57bf0a111403fc3d75532918a" remote="aosp-upstream" groups="nexus7" />
-  <project path="kernel/lge/mako" name="kernel/msm" revision="android-msm-mako-3.4-jb-mr1.1" groups="nexus4" />
+  <project path="kernel/lge/mako" name="kernel/msm" revision="linaro-android-msm-mako-3.4-jb-mr1-kgsl" groups="nexus4" />
   <!-- AOSP kernel -->
   <!-- project path="kernel" name="kernel/omap" revision="android-omap-panda-3.0" -->
     <!-- We copy the defconfig over so we can use the same name as w/ the Linaro kernel -->
