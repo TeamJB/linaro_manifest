@@ -48,6 +48,7 @@
   <project path="device/linaro/vexpress" name="device/linaro/vexpress" revision="linaro-jb" groups="common" />
   <project path="device/linaro/snowball" name="device/linaro/snowball" revision="linaro-jb" groups="common" />
   <project path="device/linaro/arndale" name="device/samsung_slsi/arndale" revision="linaro-jb" groups="common" />
+  <project path="device/linaro/hi4511" name="device/linaro/hi4511" revision="linaro-jb" groups="common" />
   <project path="hardware/linaro/tinyhal" name="platform/hardware/linaro/tinyhal" revision="linaro-jellybean" groups="common" />
   <project path="external/busybox" name="platform/external/busybox" revision="linaro-1.21" groups="common" />
   <project path="external/lrzsz" name="platform/external/lrzsz" revision="linaro-master" groups="common" />
@@ -88,6 +89,7 @@
   <project path="kernel/linaro/vexpress" name="kernel/linux-linaro-tracking" remote="linaro-other" revision="linux-linaro" groups="vexpress" />
   <project path="kernel/linaro/vexpress-iks" name="bL_switcher/linux" revision="master" remote="linaro-private" groups="vexpress-iks" />
   <project path="kernel/linaro/iMX53" name="kernel/imx53" revision="lt-3.1-android" groups="imx53" />
+  <project path="kernel/linaro/hisilicon" name="landing-teams/working/hisilicon/kernel" revision="integration-linux-mainline" remote="linaro-other" groups="hisilicon" />
   <!-- AOSP kernels -->
   <project path="kernel/samsung/maguro" name="kernel/omap" revision="android-omap-tuna-3.0-jb-mr1.1" groups="galaxynexus" />
   <project path="kernel/asus/grouper" name="kernel/tegra" revision="22b4fcde206e96f57bf0a111403fc3d75532918a" remote="aosp-upstream" groups="nexus7" />
