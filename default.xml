@@ -89,7 +89,7 @@
   <project path="kernel/linaro/vexpress" name="kernel/linux-linaro-tracking" remote="linaro-other" revision="linux-linaro" groups="vexpress" />
   <project path="kernel/linaro/vexpress-iks" name="bL_switcher/linux" revision="master" remote="linaro-private" groups="vexpress-iks" />
   <project path="kernel/linaro/iMX53" name="kernel/imx53" revision="lt-3.1-android" groups="imx53" />
-  <project path="kernel/linaro/hisilicon" name="landing-teams/working/hisilicon/kernel" revision="integration-linux-mainline" remote="linaro-other" groups="hisilicon" />
+  <project path="kernel/linaro/hisilicon" name="people/bhoj/hisilicon" revision="integration-linux-mainline" remote="linaro-other" groups="hisilicon" />
   <!-- AOSP kernels -->
   <project path="kernel/samsung/maguro" name="kernel/omap" revision="android-omap-tuna-3.0-jb-mr1.1" groups="galaxynexus" />
   <project path="kernel/asus/grouper" name="kernel/tegra" revision="22b4fcde206e96f57bf0a111403fc3d75532918a" remote="aosp-upstream" groups="nexus7" />
