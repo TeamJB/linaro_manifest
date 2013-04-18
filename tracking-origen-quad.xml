@@ -17,11 +17,11 @@
   <!-- Developer extras -->
   <project path="packages/apps/AndroidTerm" name="platform/external/AndroidTerm" revision="linaro-master" groups="devel" />
   <project path="packages/inputmethods/hackerskeyboard" name="platform/packages/inputmethods/hackerskeyboard" revision="linaro-master" groups="devel" />
-  <project path="native-toolchain" name="toolchain/native-toolchain" revision="master" groups="devel" />
-  <project path="native-toolchain/src/binutils" name="toolchain/binutils-current" revision="linaro-2.23.51.0.9" groups="devel" />
-  <project path="native-toolchain/src/gmp" name="toolchain/gmp-current" revision="linaro-5.1.1" groups="devel" />
-  <project path="native-toolchain/src/mpfr" name="toolchain/mpfr" revision="linaro-master" groups="devel" />
-  <project path="native-toolchain/src/mpc" name="toolchain/mpc-current" revision="linaro-1.0.1" groups="devel" />
+  <!-- project path="native-toolchain" name="toolchain/native-toolchain" revision="master" groups="devel" /-->
+  <!-- project path="native-toolchain/src/binutils" name="toolchain/binutils-current" revision="linaro-2.23.51.0.9" groups="devel" /-->
+  <!-- project path="native-toolchain/src/gmp" name="toolchain/gmp-current" revision="linaro-5.1.1" groups="devel" /-->
+  <!-- project path="native-toolchain/src/mpfr" name="toolchain/mpfr" revision="linaro-master" groups="devel" /-->
+  <!-- project path="native-toolchain/src/mpc" name="toolchain/mpc-current" revision="linaro-1.0.1" groups="devel" /-->
   <!-- FIXME we should have git repositories for gcc, make, ncurses, vim to avoid wget-ing them at build time -->
 
   <!-- External extras -->
