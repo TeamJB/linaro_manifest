@@ -396,30 +396,30 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="common" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="common" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" groups="common" />
-  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" groups="common" />
-  <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="common" />
-  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="common" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="common" />
-  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="common" />
-  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="common" />
-  <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="common" />
-  <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="common" />
-  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="common" />
-  <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" groups="common" />
-  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="common" />
-  <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="common" />
-  <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="common" />
-  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" groups="common" />
-  <project path="packages/apps/Tag" name="platform/packages/apps/Tag" groups="common" />
-  <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" groups="common" />
-  <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" groups="common" />
-  <project path="packages/experimental" name="platform/packages/experimental" groups="common" />
-  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" groups="common" />
-  <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" groups="common" />
-  <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="common" />
-  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" groups="common" />
-  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" groups="common" />
-  <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" groups="common" />
+  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" groups="common" revision="refs/tags/android-4.2.2_r1.1" />
+  <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="common" revision="refs/tags/android-4.2.2_r1.1" />
+  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="common" revision="refs/tags/android-4.2.2_r1.1" />
+  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="common" revision="refs/tags/android-4.2.2_r1.1" />
+  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="common" revision="refs/tags/android-4.2.2_r1.1" />
+  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="common" revision="refs/tags/android-4.2.2_r1.1" />
+  <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="common" revision="refs/tags/android-4.2.2_r1.1" />
+  <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="common" revision="refs/tags/android-4.2.2_r1.1" />
+  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="common" revision="refs/tags/android-4.2.2_r1.1" />
+  <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" groups="common" revision="refs/tags/android-4.2.2_r1.1" />
+  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="common" revision="refs/tags/android-4.2.2_r1.1" />
+  <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="common" revision="refs/tags/android-4.2.2_r1.1" />
+  <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="common" revision="refs/tags/android-4.2.2_r1.1" />
+  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" groups="common" revision="refs/tags/android-4.2.2_r1.1" />
+  <project path="packages/apps/Tag" name="platform/packages/apps/Tag" groups="common" revision="refs/tags/android-4.2.2_r1.1" />
+  <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" groups="common" revision="refs/tags/android-4.2.2_r1.1" />
+  <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" groups="common" revision="refs/tags/android-4.2.2_r1.1" />
+  <project path="packages/experimental" name="platform/packages/experimental" groups="common" revision="refs/tags/android-4.2.2_r1.1" />
+  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" groups="common" revision="refs/tags/android-4.2.2_r1.1" />
+  <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" groups="common" revision="refs/tags/android-4.2.2_r1.1" />
+  <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="common" revision="refs/tags/android-4.2.2_r1.1" />
+  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" groups="common" revision="refs/tags/android-4.2.2_r1.1" />
+  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" groups="common" revision="refs/tags/android-4.2.2_r1.1" />
+  <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" groups="common" revision="refs/tags/android-4.2.2_r1.1" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="common" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" groups="common" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" groups="common" />
