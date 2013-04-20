@@ -58,7 +58,7 @@
   <project path="device/samsung/proprietary-open" name="device/samsung/proprietary-open" revision="linaro-jb" groups="common" />
   <project path="u-boot/linaro/arndale" name="landing-teams/working/samsung/u-boot" revision="tracking" remote="linaro-other" groups="arndale" />
   <project path="u-boot/linaro/u-boot-linaro-stable" name="boot/u-boot-linaro-stable" revision="master" remote="linaro-other" groups="pandaboard" />
-  <project path="u-boot/linaro/snowball" name="people/axelfagerstedt/u-boot/linaro/snowball.git" revision="refs/tags/2012.09.1" remote="linaro-other" groups="snowball" />
+  <project path="u-boot/linaro/snowball" name="people/axelfagerstedt/u-boot/linaro/snowball.git" revision="20a79baeae9e167f2c3dd775700eca88ded8feee" remote="linaro-other" groups="snowball" />
   <project path="u-boot/linaro/vexpress" name="people/tixy/u-boot" revision="vexpress-hacks" remote="linaro-other" groups="vexpress" />
   <project path="u-boot/linaro/vexpress-iks" name="people/bhoj/u-boot-linaro-stable" revision="master" remote="linaro-other" groups="vexpress-iks" />
   <project path="uefi" name="arm/uefi/uefi" revision="master" remote="linaro-other" groups="vexpress,vexpress-iks" />
