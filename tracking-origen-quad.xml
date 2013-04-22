@@ -97,7 +97,7 @@
   <project path="external/stlport" name="platform/external/stlport" revision="linaro_android_4.2.2"/>
   <!-- Linaro modifications: gcc 4.7 support -->
   <project path="frameworks/rs" name="platform/frameworks/rs" revision="linaro_android_4.2.2" />
-  <project path="frameworks/av" name="platform/frameworks/av" revision="linaro_android_4.2.2" />
+  <project path="frameworks/av" name="platform/frameworks/av" revision="linaro_android_4.2.2_origen_quad" />
   <project path="frameworks/native" name="platform/frameworks/native" revision="linaro_android_4.2.2" />
   <project path="frameworks/support" name="platform/frameworks/support" revision="linaro_android_4.2.2" />
   <project path="system/security" name="platform/system/security" revision="linaro_android_4.2.2" />
