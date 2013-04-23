@@ -88,7 +88,7 @@
   <project path="kernel/linaro/pandaboard" name="kernel/panda" revision="linaro-tilt-android-tracking" groups="pandaboard"/>
   <project path="kernel/linaro/snowball" name="git/kernel/igloo-kernel" revision="stable-android-ux500-3.4" remote="igloocommunity" groups="snowball" />
   <project path="kernel/linaro/vexpress" name="kernel/linux-linaro-tracking" remote="linaro-other" revision="linux-linaro" groups="vexpress" />
-  <project path="kernel/linaro/vexpress-iks" name="bL_switcher/linux" revision="master" remote="linaro-private" groups="vexpress-iks" />
+  <project path="kernel/linaro/vexpress-iks" name="bL_switcher/linux" revision="IKS+reference" remote="linaro-private" groups="vexpress-iks" />
   <project path="kernel/linaro/iMX53" name="kernel/imx53" revision="lt-3.1-android" groups="imx53" />
   <project path="kernel/linaro/hisilicon" name="people/bhoj/hisilicon" revision="integration-linux-mainline" remote="linaro-other" groups="hisilicon" />
   <!-- AOSP kernels -->
