@@ -11,6 +11,8 @@
            fetch="git://git.linaro.org/" />
   <remote  name="linaro-private"
            fetch="ssh://linaro-big-little-switcher-bot@linaro-private.git.linaro.org/srv/linaro-private.git.linaro.org/" />
+  <remote  name="linaro-landing-team-hisilicon"
+           fetch="ssh://linaro-landing-team-hisilicon-bot@hisilicon.git.linaro.org/landing-team/hisilicon/" />
   <remote  name="zyga"
            fetch="git://github.com/zyga/" />
   <remote  name="igloocommunity"
@@ -100,6 +102,9 @@
     <!-- We copy the defconfig over so we can use the same name as w/ the Linaro kernel -->
     <!-- copyfile src="arch/arm/configs/panda_defconfig" dest="kernel/arch/arm/configs/android_omap4_defconfig" /-->
   <!-- /project -->
+
+  <!-- Hisilicon member spcific git-->
+  <project path="vendor/hisilicon" name="tools" revision="master" remote="linaro-landing-team-hisilicon" groups="hisilicon" />
 
   <!-- AOSP with Linaro additions -->
   <!-- Linaro modifications: Made it build with OpenJDK, Compiler detection macros, optimization flags, uboot support -->
