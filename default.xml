@@ -64,7 +64,7 @@
   <project path="u-boot/linaro/vexpress" name="people/tixy/u-boot" revision="vexpress-hacks" remote="linaro-other" groups="vexpress" />
   <project path="u-boot/linaro/vexpress-iks" name="people/bhoj/u-boot-linaro-stable" revision="master" remote="linaro-other" groups="vexpress-iks" />
   <project path="uefi" name="arm/uefi/uefi" revision="master" remote="linaro-other" groups="vexpress,vexpress-iks" />
-  <project path="test/linaro/biglittle/core" name="bL_tests/bL_iks_tests" revision="master" remote="linaro-private" groups="vexpress-iks" />
+  <project path="test/linaro/biglittle/core" name="bL_tests/bL_iks_tests" revision="master" remote="linaro-private" groups="vexpress-iks,vexpress-tests" />
   <project path="boot-wrapper" name="arm/models/boot-wrapper" revision="master" remote="linaro-other" groups="vexpress" />
   <project path="external/gator" name="arm/ds5/gator" revision="android" remote="linaro-other" groups="pandaboard" />
   <project path="packages/wallpapers/LinaroWallpaper" name="platform/packages/wallpapers/LinaroWallpaper" revision="master" groups="common" />
@@ -79,8 +79,8 @@
   <project path="external/stress" name="platform/external/stress" revision="linaro_android" groups="common" />
   <project path="external/stressapptest" name="platform/external/stressapptest" revision="linaro_android" groups="common" />
   <project path="external/htop" name="platform/external/htop" revision="linaro_android" groups="common" />
-  <project path="external/cyclictest" name="platform/external/cyclictest" revision="linaro_android" groups="vexpress,vexpress-iks" />
-  <project path="external/sysbench" name="platform/external/sysbench" revision="linaro_android" groups="vexpress,vexpress-iks" />
+  <project path="external/cyclictest" name="platform/external/cyclictest" revision="linaro_android" groups="vexpress,vexpress-iks,vexpress-tests" />
+  <project path="external/sysbench" name="platform/external/sysbench" revision="linaro_android" groups="vexpress,vexpress-iks,vexpress-tests" />
   <project path="external/stringbench" name="platform/external/stringbench" revision="master" groups="common" />
   <project path="test/linaro/biglittle/sched_tests" name="bL_tests/sched_tests" revision="master" remote="linaro-private" groups="vexpress-tests" />
   <project path="test/linaro/biglittle/task-placement-tests" name="bL_tests/task-placement-tests" revision="master" remote="linaro-private" groups="vexpress-tests" />
