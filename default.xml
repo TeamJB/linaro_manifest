@@ -68,10 +68,10 @@
   <project path="boot-wrapper" name="arm/models/boot-wrapper" revision="master" remote="linaro-other" groups="vexpress" />
   <project path="external/gator" name="arm/ds5/gator" revision="android" remote="linaro-other" groups="pandaboard" />
   <project path="packages/wallpapers/LinaroWallpaper" name="platform/packages/wallpapers/LinaroWallpaper" revision="master" groups="common" />
-  <project path="external/pm-qa" name="tools/pm-qa" revision="linaro-2013.01" remote="linaro-other" groups="common" />
+  <project path="external/pm-qa" name="tools/pm-qa" revision="linaro-2013.04-1" remote="linaro-other" groups="common" />
   <project path="external/tools_for_pm-qa" name="people/kejunzhou/tools_for_pm-qa" remote="linaro-other" revision="master" groups="common" />
   <project path="external/powertop" name="tools/powertop-2.0" revision="linaro-2012.12" remote="linaro-other" groups="common" />
-  <project path="external/powerdebug" name="tools/powerdebug" revision="linaro-2013-03-1" remote="linaro-other" groups="common" />
+  <project path="external/powerdebug" name="tools/powerdebug" revision="linaro-2013-04-1" remote="linaro-other" groups="common" />
   <project path="external/ncurses" name="platform/external/ncurses" revision="linaro" groups="common" />
   <project path="external/libnl" name="platform/external/libnl" revision="linaro" groups="common" />
   <project path="external/iozone" name="platform/external/iozone" revision="linaro_android" groups="common" />
