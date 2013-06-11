@@ -61,11 +61,11 @@
   <project path="u-boot/linaro/arndale" name="landing-teams/working/samsung/u-boot" revision="tracking" remote="linaro-other" groups="arndale" />
   <project path="u-boot/linaro/u-boot-linaro-stable" name="boot/u-boot-linaro-stable" revision="master" remote="linaro-other" groups="pandaboard" />
   <project path="u-boot/linaro/snowball" name="people/axelfagerstedt/u-boot/linaro/snowball.git" revision="20a79baeae9e167f2c3dd775700eca88ded8feee" remote="linaro-other" groups="snowball" />
-  <project path="u-boot/linaro/vexpress" name="people/tixy/u-boot" revision="vexpress-hacks" remote="linaro-other" groups="vexpress" />
+  <project path="u-boot/linaro/vexpress" name="people/tixy/u-boot" revision="vexpress-hacks" remote="linaro-other" groups="vexpress,vexpress-lsk" />
   <project path="u-boot/linaro/vexpress-iks" name="people/bhoj/u-boot-linaro-stable" revision="master" remote="linaro-other" groups="vexpress-iks" />
-  <project path="uefi" name="arm/uefi/uefi" revision="master" remote="linaro-other" groups="vexpress,vexpress-iks" />
+  <project path="uefi" name="arm/uefi/uefi" revision="master" remote="linaro-other" groups="vexpress,vexpress-lsk,vexpress-iks" />
   <project path="test/linaro/biglittle/core" name="bL_tests/bL_iks_tests" revision="master" remote="linaro-private" groups="vexpress-iks,vexpress-tests" />
-  <project path="boot-wrapper" name="arm/models/boot-wrapper" revision="master" remote="linaro-other" groups="vexpress" />
+  <project path="boot-wrapper" name="arm/models/boot-wrapper" revision="master" remote="linaro-other" groups="vexpress,vexpress-lsk" />
   <project path="external/gator" name="arm/ds5/gator" revision="android" remote="linaro-other" groups="pandaboard" />
   <project path="packages/wallpapers/LinaroWallpaper" name="platform/packages/wallpapers/LinaroWallpaper" revision="master" groups="common" />
   <project path="external/pm-qa" name="tools/pm-qa" revision="linaro-2013.04-1" remote="linaro-other" groups="common" />
@@ -79,8 +79,8 @@
   <project path="external/stress" name="platform/external/stress" revision="linaro_android" groups="common" />
   <project path="external/stressapptest" name="platform/external/stressapptest" revision="linaro_android" groups="common" />
   <project path="external/htop" name="platform/external/htop" revision="linaro_android" groups="common" />
-  <project path="external/cyclictest" name="platform/external/cyclictest" revision="linaro_android" groups="vexpress,vexpress-iks,vexpress-tests" />
-  <project path="external/sysbench" name="platform/external/sysbench" revision="linaro_android" groups="vexpress,vexpress-iks,vexpress-tests" />
+  <project path="external/cyclictest" name="platform/external/cyclictest" revision="linaro_android" groups="vexpress,vexpress-lsk,vexpress-iks,vexpress-tests" />
+  <project path="external/sysbench" name="platform/external/sysbench" revision="linaro_android" groups="vexpress,vexpress-lsk,vexpress-iks,vexpress-tests" />
   <project path="external/stringbench" name="platform/external/stringbench" revision="master" groups="common" />
   <project path="test/linaro/biglittle/sched_tests" name="bL_tests/sched_tests" revision="master" remote="linaro-private" groups="vexpress-tests" />
   <project path="test/linaro/biglittle/task-placement-tests" name="bL_tests/task-placement-tests" revision="master" remote="linaro-private" groups="vexpress-tests" />
@@ -93,6 +93,7 @@
   <project path="kernel/linaro/snowball" name="git/kernel/igloo-kernel" revision="stable-android-ux500-3.4" remote="igloocommunity" groups="snowball" />
   <project path="kernel/linaro/vexpress" name="kernel/linux-linaro-tracking" remote="linaro-other" revision="linux-linaro" groups="vexpress" />
   <project path="kernel/linaro/vexpress-iks" name="bL_switcher/linux" revision="IKS+reference" remote="linaro-private" groups="vexpress-iks" />
+  <project path="kernel/linaro/vexpress-lsk" name="kernel/linux-linaro-stable" revision="linux-linaro-lsk-android" remote="linaro-other" groups="vexpress-lsk" />
   <project path="kernel/linaro/iMX53" name="kernel/imx53" revision="lt-3.1-android" groups="imx53" />
   <project path="kernel/linaro/hisilicon" name="linux-iks.git" revision="integration-linux-hs" remote="linaro-landing-team-hisilicon" groups="hisilicon" />
   <!-- AOSP kernels -->
