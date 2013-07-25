@@ -405,7 +405,6 @@
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="nexus4" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="nexus4" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="nexus4" />
-  <project path="gdk" name="platform/gdk" groups="common" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="common" />
   <project path="ndk" name="platform/ndk" groups="common" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="common" />
@@ -479,7 +478,6 @@
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" groups="darwin,arm,common" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" groups="common,pdk,darwin,arm" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" groups="darwin,arm,common" />
-  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" groups="darwin,mips,common" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" groups="common,pdk,darwin,arm" />
   <project path="prebuilts/gcc/darwin-x86/host/headers" name="platform/prebuilts/gcc/darwin-x86/host/headers" groups="common,pdk,darwin" />
   <project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="common,pdk,darwin" />
@@ -510,14 +508,14 @@
   <project path="system/netd" name="platform/system/netd" groups="common" />
   <project path="system/security" name="platform/system/security" groups="common" />
   <project path="system/vold" name="platform/system/vold" groups="common" />
-  <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools,common" />
-  <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools,common" />
-  <project path="tools/base" name="platform/tools/base" groups="notdefault,tools,common" />
-  <project path="tools/build" name="platform/tools/build" groups="toolsbuild,common" />
-  <project path="tools/emulator" name="platform/tools/emulator" groups="notdefault,tools,common" />
+  <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
+  <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
+  <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
+  <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
+  <project path="tools/emulator" name="platform/tools/emulator" groups="notdefault,tools" />
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools,common" />
-  <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="notdefault,tools,common" />
-  <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools,common" />
-  <project path="tools/motodev" name="platform/tools/motodev" groups="common" />
-  <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools,common" />
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="notdefault,tools" />
+  <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
+  <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,tools" />
+  <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 </manifest>
