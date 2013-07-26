@@ -85,8 +85,6 @@
   <project path="test/linaro/biglittle/sched_tests" name="bL_tests/sched_tests" revision="master" remote="linaro-private" groups="vexpress-tests" />
   <project path="test/linaro/biglittle/task-placement-tests" name="bL_tests/task-placement-tests" revision="master" remote="linaro-private" groups="vexpress-tests" />
   <project path="external/linaro-android-kernel-test" name="android/linaro-android-kernel-test" revision="master" remote="linaro-private" groups="vexpress-tests"/>
-  <project path="external/waffle" name="people/tomgall/waffle" revision="android" remote="linaro-other" groups="pandaboard,galaxynexus"/>
-  <project path="external/piglit" name="people/tomgall/piglit" revision="android" remote="linaro-other" groups="pandaboard,galaxynexus"/>
   <!-- Linaro kernels -->
   <project path="kernel/linaro/arndale" name="landing-teams/working/samsung/kernel" remote="linaro-other" revision="tracking-android-arndale" groups="arndale" />
   <project path="kernel/linaro/pandaboard" name="kernel/panda" revision="linaro-tilt-android-tracking" groups="pandaboard"/>
@@ -145,7 +143,7 @@
   <!-- Linaro modifications: Fix the float ABI check for gcc 4.7+ -->
   <project path="external/v8" name="platform/external/v8" revision="linaro_android_4.3" groups="common" />
   <!-- Linaro modifications: Make it build with OpenJDK" -->
-  <project path="external/guava" name="platform/external/guava" revision="linaro_android_4.3" groups="common" />
+  <project path="external/guava" name="platform/external/guava" groups="common" />
   <!-- Linaro modifications: Set CPU specific compiler flags, init.partitions.rc -->
   <project path="device/samsung/tuna" name="device/samsung/tuna" revision="linaro_android_4.3" groups="common" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" revision="linaro_android_4.3" groups="common" />
@@ -178,13 +176,14 @@
   <project path="external/openssh" name="platform/external/openssh" revision="linaro_android_4.3" groups="common" />
   <project path="external/embunit" name="platform/external/embunit" revision="linaro_android_4.3" groups="common" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" revision="linaro_android_4.3" groups="common" />
+  <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" revision="linaro_android_4.3" groups="common" />
   <!-- Linaro modifications: Fixed aliasing violations, ISO C++11 support -->
   <project path="external/skia" name="platform/external/skia" revision="linaro_android_4.3" groups="common" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="common" />
   <!-- Linaro modifications: Add ECM -->
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="linaro_android_4.3" groups="common" />
   <project path="cts" name="platform/cts" groups="common" />
-  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="linaro_android_4.3" groups="common" />
+  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="common" />
   <project path="system/media" name="platform/system/media" groups="common" />
   <project path="external/strace" name="platform/external/strace" groups="common" />
   <!-- Linaro modifications: ISO C++ 11 support -->
@@ -194,6 +193,7 @@
   <project path="external/webkit" name="platform/external/webkit" revision="linaro_android_4.3" groups="common" />
   <project path="external/libvpx" name="platform/external/libvpx" groups="common" />
   <project path="hardware/ril" name="platform/hardware/ril" revision="linaro_android_4.3" groups="common" />
+  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" revision="linaro_android_4.3" groups="common" />
   <!-- Linaro modification: Add workaround for aliasing violation -->
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" revision="linaro_android_4.3" groups="common" />
   <project path="system/extras" name="platform/system/extras" revision="linaro_android_4.3" groups="common" />
@@ -376,7 +376,6 @@
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="common" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" groups="common" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" groups="common" />
-  <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="common" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="common" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="common" />
   <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="common,pdk" />
@@ -421,7 +420,6 @@
   <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="common" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" groups="common" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="common" />
-  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="common" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="common" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="common" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" groups="common" />
