@@ -228,8 +228,8 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="common" remote="aosp-upstream" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device,common" remote="aosp-upstream" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device,common" remote="aosp-upstream" />
-  <project path="device/lge/mako" name="device/lge/mako" revision="linaro-playground" groups="device,nexus4" remote="aosp-upstream" />
-  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,nexus4" remote="aosp-upstream" />
+  <project path="device/lge/mako" name="device/lge/mako" groups="device,nexus4" remote="aosp-upstream" />
+  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" revision="master" groups="device,nexus4" remote="aosp-upstream" />
   <project path="device/sample" name="device/sample" groups="common" remote="aosp-upstream" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="common" remote="aosp-upstream" />
   <project path="external/aac" name="platform/external/aac" groups="common" remote="aosp-upstream" />
@@ -395,9 +395,9 @@
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="nexus4" remote="aosp-upstream" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="nexus4" remote="aosp-upstream" />
   <!-- Linaro modifications: support building with gcc 4.8 -->
-  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" revision="linaro_android_4.3" groups="nexus4" remote="aosp-upstream" />
+  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" revision="linaro_android_4.3" groups="nexus4" remote="aosp" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="nexus4" remote="aosp-upstream" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" revision="linaro_android_4.3" groups="nexus4" remote="aosp-upstream" />
+  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" revision="linaro_android_4.3" groups="nexus4" remote="aosp" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960,nexus4" remote="aosp-upstream" />
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="nexus4" remote="aosp-upstream" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="nexus4" remote="aosp-upstream" />
