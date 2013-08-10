@@ -421,7 +421,8 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="common" remote="aosp-upstream" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="common" remote="aosp-upstream" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" groups="common" remote="aosp-upstream" />
-  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" groups="common" remote="aosp-upstream" />
+  <!-- Linaro modifications: catch the Catch NullPointerException when network information -->
+  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" revision="linaro_android_4.3" groups="common" remote="aosp" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="common" remote="aosp-upstream" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="common" remote="aosp-upstream" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="common" remote="aosp-upstream" />
