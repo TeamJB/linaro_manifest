@@ -66,10 +66,10 @@
   <project path="boot-wrapper" name="arm/models/boot-wrapper" revision="master" remote="linaro-other" groups="vexpress,vexpress-lsk" />
   <project path="external/gator" name="arm/ds5/gator" revision="android" remote="linaro-other" groups="pandaboard" />
   <project path="packages/wallpapers/LinaroWallpaper" name="platform/packages/wallpapers/LinaroWallpaper" revision="master" groups="common" />
-  <project path="external/pm-qa" name="tools/pm-qa" revision="linaro-2013.07-1" remote="linaro-other" groups="common" />
+  <project path="external/pm-qa" name="platform/external/pm-qa" revision="android" groups="common" />
   <project path="external/tools_for_pm-qa" name="people/kejunzhou/tools_for_pm-qa" remote="linaro-other" revision="master" groups="common" />
-  <project path="external/powertop" name="tools/powertop-2.0" revision="linaro-2012.12" remote="linaro-other" groups="common" />
-  <project path="external/powerdebug" name="tools/powerdebug" revision="linaro-2013-07-1" remote="linaro-other" groups="common" />
+  <project path="external/powertop" name="platform/external/powertop-2.0" revision="android" groups="common" />
+  <project path="external/powerdebug" name="platform/external/powerdebug" revision="android" groups="common" />
   <project path="external/ncurses" name="platform/external/ncurses" revision="linaro" groups="common" />
   <project path="external/libnl" name="platform/external/libnl" revision="linaro" groups="common" />
   <project path="external/iozone" name="platform/external/iozone" revision="linaro_android" groups="common" />
@@ -92,7 +92,7 @@
   <project path="kernel/linaro/vexpress-iks" name="bL_switcher/linux" revision="IKS+reference" remote="linaro-private" groups="vexpress-iks" />
   <project path="kernel/linaro/vexpress-lsk" name="kernel/linux-linaro-stable" revision="linux-linaro-lsk-android" remote="linaro-other" groups="vexpress-lsk" />
   <project path="kernel/linaro/iMX53" name="kernel/imx53" revision="lt-3.1-android" groups="imx53" />
-  <project path="kernel/linaro/hisilicon" name="linux-iks.git" revision="integration-linux-hs" remote="linaro-landing-team-hisilicon" groups="hisilicon" />
+  <project path="kernel/linaro/hisilicon" name="landing-teams/working/hisilicon/kernel.git" revision="integration-hilt-lsk-android" remote="linaro-other" groups="hisilicon" />
   <!-- AOSP kernels -->
   <project path="kernel/samsung/maguro" name="kernel/omap" revision="android-omap-tuna-3.0-jb-mr2+fixes" groups="galaxynexus" />
   <!-- FIXME currently missing in our AOSP mirror: project path="kernel/samsung/manta" name="kernel/exynos" revision="android-exynos-manta-3.4-jb-mr2" remote="aosp-upstream" groups="nexus10" / -->
