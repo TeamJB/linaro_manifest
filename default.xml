@@ -96,7 +96,7 @@
   <project path="kernel/linaro/vexpress-iks" name="bL_switcher/linux" revision="IKS+reference" remote="linaro-private" groups="vexpress-iks" />
   <project path="kernel/linaro/vexpress-lsk" name="kernel/linux-linaro-stable" revision="linux-linaro-lsk-android" remote="linaro-other" groups="vexpress-lsk" />
   <project path="kernel/linaro/iMX53" name="kernel/imx53" revision="lt-3.1-android" groups="imx53" />
-  <project path="kernel/linaro/hisilicon" name="landing-teams/working/hisilicon/kernel.git" revision="integration-hilt-lsk-android" remote="linaro-other" groups="hisilicon" />
+  <project path="kernel/linaro/hisilicon" name="linux-iks.git" revision="integration-linux-hs" remote="linaro-landing-team-hisilicon" groups="hisilicon" />
   <project path="kernel/linaro/fujitsu" name="linux.git" revision="fjslt-tracking" remote="linaro-landing-team-fujitsu" groups="fujitsu" />
   <!-- AOSP kernels -->
   <project path="kernel/samsung/maguro" name="kernel/omap" revision="android-omap-tuna-3.0-jb-mr2+fixes" groups="galaxynexus" />
