@@ -24,9 +24,6 @@
   <default revision="refs/tags/android-4.3_r2.1"
            remote="aosp"
            sync-j="4" />
-           
-  <!-- Flo extras -->
-  
 
   <!-- Developer extras -->
   <project path="packages/apps/AndroidTerm" name="platform/external/AndroidTerm" revision="linaro-master" groups="devel" />
@@ -110,7 +107,7 @@
   <project path="kernel/asus/grouper" name="kernel/tegra" revision="1e8b3d8ac4fa2c26e979bd00df3ea658ff239995" remote="aosp-upstream" groups="nexus7" />
   <!-- Linaro changes: Make it build with gcc 4.8, based on linaro-android-msm-mako-3.4-jb-mr1-kgsl" -->
   <project path="kernel/lge/mako" name="kernel/msm" revision="android-msm-mako-3.4-jb-mr2+fixes" groups="nexus4" />
-  <project path="kernel/google/msm" name="Team-Hydra/android_kernel_msm" remote="github" groups="nexus4" />
+  <project path="kernel/google/msm" name="Team-Hydra/android_kernel_msm" remote="github" groups="nexus7" />
   <!-- AOSP kernel -->
   <!-- project path="kernel" name="kernel/omap" revision="android-omap-panda-3.0" -->
     <!-- We copy the defconfig over so we can use the same name as w/ the Linaro kernel -->
