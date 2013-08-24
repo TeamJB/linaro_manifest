@@ -102,7 +102,7 @@
   <project path="kernel/asus/grouper" name="kernel/tegra" revision="1e8b3d8ac4fa2c26e979bd00df3ea658ff239995" remote="aosp-upstream" groups="nexus7" />
   <!-- Linaro changes: Make it build with gcc 4.8, based on linaro-android-msm-mako-3.4-jb-mr1-kgsl" -->
   <project path="kernel/lge/mako" name="kernel/msm" revision="android-msm-mako-3.4-jb-mr2+fixes" groups="nexus4" />
-  <project path="kernel/google/msm" name="Team-Hydra/android_kernel_google_msm" remote="github" groups="nexus7" />
+  <project path="kernel/google/msm" name="Team-Hydra/android_kernel_google_msm" remote="github" revision="linaro_android_4.3" groups="nexus7" />
   <!-- AOSP kernel -->
   <!-- project path="kernel" name="kernel/omap" revision="android-omap-panda-3.0" -->
     <!-- We copy the defconfig over so we can use the same name as w/ the Linaro kernel -->
@@ -148,7 +148,7 @@
   <project path="device/samsung/tuna" name="device/samsung/tuna" revision="linaro_android_4.3" groups="common" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" revision="linaro_android_4.3" groups="common" />
   <project path="device/samsung/manta" name="device/samsung/manta" revision="linaro_android_4.3" groups="nexus10" />
-  <project path="device/asus/flo" name="Team-Hydra/platform_device_asus_flo" remote="github" groups="nexus7" />
+  <project path="device/asus/flo" name="Team-Hydra/platform_device_asus_flo" remote="github" revision="linaro_android_4.3" groups="nexus7" />
   <project path="device/asus/grouper" name="device/asus/grouper" revision="linaro-playground" groups="nexus7" />
   <project path="device/asus/tilapia" name="device/asus/tilapia" groups="nexus7" />
   <!-- Linaro modifications: Find omapfb.h -->
@@ -518,7 +518,7 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp-upstream" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,tools" remote="aosp-upstream" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp-upstream" />
-  <project path="vendor/asus" name="Team-Hydra/proprietary_vendor_asus" remote="github" />
-  <project path="vendor/broadcom" name="Team-Hydra/proprietary_vendor_broadcom" remote="github" />
-  <project path="vendor/qcom" name="Team-Hydra/proprietary_vendor_qcom" remote="github" />
+  <project path="vendor/asus" name="Team-Hydra/proprietary_vendor_asus" remote="github" revision="linaro_android_4.3" />
+  <project path="vendor/broadcom" name="Team-Hydra/proprietary_vendor_broadcom" remote="github" revision="linaro_android_4.3" />
+  <project path="vendor/qcom" name="Team-Hydra/proprietary_vendor_qcom" remote="github" revision="linaro_android_4.3" />
 </manifest>
