@@ -13,8 +13,6 @@
            fetch="ssh://linaro-big-little-switcher-bot@linaro-private.git.linaro.org/srv/linaro-private.git.linaro.org/" />
   <remote  name="linaro-landing-team-hisilicon"
            fetch="ssh://linaro-landing-team-hisilicon-bot@hisilicon.git.linaro.org/landing-team/hisilicon/" />
-  <remote  name="linaro-landing-team-fujitsu"
-           fetch="ssh://linaro-landing-team-fujitsu-bot@fujitsu.git.linaro.org/landing-team/fujitsu/" />
   <remote  name="zyga"
            fetch="git://github.com/zyga/" />
   <remote  name="igloocommunity"
@@ -51,7 +49,6 @@
   <project path="device/linaro/common" name="device/linaro/common" revision="linaro-jb" groups="common" />
   <project path="device/linaro/iMX53" name="device/linaro/imx53" revision="linaro-jb" groups="imx53" />
   <project path="device/linaro/pandaboard" name="device/linaro/pandaboard" revision="linaro-jb" groups="common" />
-  <project path="device/linaro/fujitsu" name="device/linaro/fujitsu" revision="linaro-jb" groups="common" />
   <project path="device/linaro/vexpress" name="device/linaro/vexpress" revision="linaro-jb" groups="common" />
   <project path="device/linaro/snowball" name="device/linaro/snowball" revision="linaro-jb" groups="common" />
   <project path="device/linaro/arndale" name="device/samsung_slsi/arndale" revision="linaro-jb" groups="common" />
@@ -66,7 +63,6 @@
   <project path="u-boot/linaro/snowball" name="people/axelfagerstedt/u-boot/linaro/snowball.git" revision="20a79baeae9e167f2c3dd775700eca88ded8feee" remote="linaro-other" groups="snowball" />
   <project path="u-boot/linaro/vexpress" name="people/tixy/u-boot" revision="vexpress-hacks" remote="linaro-other" groups="vexpress,vexpress-lsk" />
   <project path="u-boot/linaro/vexpress-iks" name="people/bhoj/u-boot-linaro-stable" revision="master" remote="linaro-other" groups="vexpress-iks" />
-  <project path="u-boot/linaro/fujitsu" name="u-boot.git" revision="fjslt-tracking" remote="linaro-landing-team-fujitsu" groups="fujitsu" />
   <project path="uefi" name="arm/uefi/uefi" revision="master" remote="linaro-other" groups="vexpress,vexpress-lsk,vexpress-iks" />
   <project path="test/linaro/biglittle/core" name="bL_tests/bL_iks_tests" revision="master" remote="linaro-private" groups="vexpress-iks,vexpress-tests" />
   <project path="boot-wrapper" name="arm/models/boot-wrapper" revision="master" remote="linaro-other" groups="vexpress,vexpress-lsk" />
@@ -99,7 +95,6 @@
   <project path="kernel/linaro/vexpress-lsk" name="kernel/linux-linaro-stable" revision="linux-linaro-lsk-android" remote="linaro-other" groups="vexpress-lsk" />
   <project path="kernel/linaro/iMX53" name="kernel/imx53" revision="lt-3.1-android" groups="imx53" />
   <project path="kernel/linaro/hisilicon" name="landing-teams/working/hisilicon/kernel.git" revision="integration-hilt-lsk-android" remote="linaro-other" groups="hisilicon" />
-  <project path="kernel/linaro/fujitsu" name="linux.git" revision="fjslt-tracking" remote="linaro-landing-team-fujitsu" groups="fujitsu" />
   <!-- AOSP kernels -->
   <project path="kernel/samsung/maguro" name="kernel/omap" revision="android-omap-tuna-3.0-jb-mr2+fixes" groups="galaxynexus" />
   <!-- FIXME currently missing in our AOSP mirror: project path="kernel/samsung/manta" name="kernel/exynos" revision="android-exynos-manta-3.4-jb-mr2" remote="aosp-upstream" groups="nexus10" / -->
