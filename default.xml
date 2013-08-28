@@ -198,6 +198,8 @@
   <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" revision="linaro_android_4.3" groups="common" />
   <project path="external/gtest" name="platform/external/gtest" revision="linaro_android_4.3" groups="common" />
   <project path="external/valgrind" name="platform/external/valgrind" revision="linaro_android_4.3" groups="common" />
+  <!-- Linaro modifications: Allow symlinks to be used to specify device paths -->
+  <project path="system/vold" name="platform/system/vold" revision="linaro_android_4.3" groups="common" />
 
   <!-- TI proprietary-open -->
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" revision="ics" groups="common" />
@@ -508,7 +510,6 @@
   <project path="system/bluetooth" name="platform/system/bluetooth" groups="common" remote="aosp-upstream" />
   <project path="system/netd" name="platform/system/netd" groups="common" remote="aosp-upstream" />
   <project path="system/security" name="platform/system/security" groups="common" remote="aosp-upstream" />
-  <project path="system/vold" name="platform/system/vold" groups="common" remote="aosp-upstream" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" remote="aosp-upstream" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" remote="aosp-upstream" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" remote="aosp-upstream" />
