@@ -205,6 +205,9 @@
   <!-- Linaro modifications: Allow symlinks to be used to specify device paths -->
   <project path="system/vold" name="platform/system/vold" revision="linaro_android_4.3" groups="common" />
 
+  <!-- Linaro modifications: Allow building with clang -->
+  <project path="abi/cpp" name="platform/abi/cpp" revision="linaro_android_4.3" groups="common" />
+
   <!-- TI proprietary-open -->
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" revision="ics" groups="common" />
   <project path="device/ti/uim" name="device/ti/uim" revision="android" groups="common" />
@@ -215,7 +218,6 @@
   <project path="system/media" name="platform/system/media" groups="common" remote="aosp-upstream" />
   <project path="external/strace" name="platform/external/strace" groups="common" remote="aosp-upstream" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="common" remote="aosp-upstream" />
-  <project path="abi/cpp" name="platform/abi/cpp" groups="common" remote="aosp-upstream" />
   <project path="external/guava" name="platform/external/guava" groups="common" remote="aosp-upstream" />
   <project path="external/libvpx" name="platform/external/libvpx" groups="common" remote="aosp-upstream" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="common" remote="aosp-upstream" />
