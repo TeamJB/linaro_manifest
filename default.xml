@@ -74,6 +74,7 @@
   <project path="external/tools_for_pm-qa" name="people/kejunzhou/tools_for_pm-qa" remote="linaro-other" revision="master" groups="common" />
   <project path="external/powertop" name="platform/external/powertop-2.0" revision="android" groups="common" />
   <project path="external/powerdebug" name="platform/external/powerdebug" revision="android" groups="common" />
+  <project path="external/idlestat" name="tools/idlestat" revision="android" remote="linaro-other" groups="common" />
   <project path="external/ncurses" name="platform/external/ncurses" revision="linaro" groups="common" />
   <project path="external/libnl" name="platform/external/libnl" revision="linaro" groups="common" />
   <project path="external/iozone" name="platform/external/iozone" revision="linaro_android" groups="common" />
