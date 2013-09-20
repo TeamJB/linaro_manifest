@@ -209,6 +209,7 @@
   <project path="abi/cpp" name="platform/abi/cpp" revision="linaro_android_4.3" groups="common" />
   <project path="external/webrtc" name="platform/external/webrtc" revision="linaro_android_4.3" groups="common" />
   <project path="external/iproute2" name="platform/external/iproute2" revision="linaro_android_4.3" groups="common" />
+  <project path="external/srec" name="platform/external/srec" revision="linaro_android_4.3" groups="common" />
 
   <!-- TI proprietary-open -->
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" revision="ics" groups="common" />
@@ -363,7 +364,6 @@
   <project path="external/smack" name="platform/external/smack" groups="common" remote="aosp-upstream" />
   <project path="external/smali" name="platform/external/smali" groups="common" remote="aosp-upstream" />
   <project path="external/sqlite" name="platform/external/sqlite" groups="common" remote="aosp-upstream" />
-  <project path="external/srec" name="platform/external/srec" groups="common" remote="aosp-upstream" />
   <project path="external/srtp" name="platform/external/srtp" groups="common" remote="aosp-upstream" />
   <project path="external/svox" name="platform/external/svox" groups="common" remote="aosp-upstream" />
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="common" remote="aosp-upstream" />
