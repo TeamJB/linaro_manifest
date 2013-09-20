@@ -207,6 +207,8 @@
 
   <!-- Linaro modifications: Allow building with clang -->
   <project path="abi/cpp" name="platform/abi/cpp" revision="linaro_android_4.3" groups="common" />
+  <project path="external/webrtc" name="platform/external/webrtc" revision="linaro_android_4.3" groups="common" />
+  <project path="external/iproute2" name="platform/external/iproute2" revision="linaro_android_4.3" groups="common" />
 
   <!-- TI proprietary-open -->
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" revision="ics" groups="common" />
@@ -291,7 +293,6 @@
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="common" remote="aosp-upstream" />
   <project path="external/hyphenation" name="platform/external/hyphenation" groups="common" remote="aosp-upstream" />
   <project path="external/icu4c" name="platform/external/icu4c" groups="common" remote="aosp-upstream" />
-  <project path="external/iproute2" name="platform/external/iproute2" groups="common" remote="aosp-upstream" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="common" remote="aosp-upstream" />
   <project path="external/iptables" name="platform/external/iptables" groups="common" remote="aosp-upstream" />
   <project path="external/jack" name="platform/external/jack" groups="common" remote="aosp-upstream" />
@@ -371,7 +372,6 @@
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="common,pdk" remote="aosp-upstream" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="common" remote="aosp-upstream" />
   <project path="external/webp" name="platform/external/webp" groups="common" remote="aosp-upstream" />
-  <project path="external/webrtc" name="platform/external/webrtc" groups="common" remote="aosp-upstream" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="common" remote="aosp-upstream" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="common" remote="aosp-upstream" />
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="common" remote="aosp-upstream" />
