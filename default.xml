@@ -9,11 +9,11 @@
            review="https://android-review.googlesource.com/" />
   <remote  name="linaro-other"
            fetch="git://git.linaro.org/" />
-  <remote  name="linaro-private"
-           fetch="ssh://linaro-big-little-switcher-bot@linaro-private.git.linaro.org/srv/linaro-private.git.linaro.org/" />
-  <remote  name="linaro-landing-team-hisilicon"
+  <remote  name="big-little-switcher-private"
+           fetch="ssh://linaro-big-little-switcher-bot@big-little-switcher-private.git.linaro.org/srv/linaro-private.git.linaro.org/" />
+  <remote  name="linaro-landing-team-hisilicon-git"
            fetch="ssh://linaro-landing-team-hisilicon-bot@hisilicon.git.linaro.org/landing-team/hisilicon/" />
-  <remote  name="linaro-landing-team-fujitsu"
+  <remote  name="linaro-landing-team-fujitsu-git"
            fetch="ssh://linaro-landing-team-fujitsu-bot@fujitsu.git.linaro.org/landing-team/fujitsu/" />
   <remote  name="zyga"
            fetch="git://github.com/zyga/" />
@@ -64,9 +64,9 @@
   <project path="u-boot/linaro/snowball" name="people/axelfagerstedt/u-boot/linaro/snowball.git" revision="20a79baeae9e167f2c3dd775700eca88ded8feee" remote="linaro-other" groups="snowball" />
   <project path="u-boot/linaro/vexpress" name="people/tixy/u-boot" revision="vexpress-hacks" remote="linaro-other" groups="vexpress,vexpress-lsk" />
   <project path="u-boot/linaro/vexpress-iks" name="people/bhoj/u-boot-linaro-stable" revision="master" remote="linaro-other" groups="vexpress-iks" />
-  <project path="u-boot/linaro/fujitsu" name="u-boot.git" revision="fjslt-tracking" remote="linaro-landing-team-fujitsu" groups="fujitsu" />
+  <project path="u-boot/linaro/fujitsu" name="u-boot.git" revision="fjslt-tracking" remote="linaro-landing-team-fujitsu-git" groups="fujitsu" />
   <project path="uefi" name="arm/uefi/uefi" revision="master" remote="linaro-other" groups="vexpress,vexpress-lsk,vexpress-iks" />
-  <project path="test/linaro/biglittle/core" name="bL_tests/bL_iks_tests" revision="master" remote="linaro-private" groups="vexpress-iks,vexpress-tests" />
+  <project path="test/linaro/biglittle/core" name="bL_tests/bL_iks_tests" revision="master" remote="big-little-switcher-private" groups="vexpress-iks,vexpress-tests" />
   <project path="boot-wrapper" name="arm/models/boot-wrapper" revision="master" remote="linaro-other" groups="vexpress,vexpress-lsk" />
   <project path="external/gator" name="arm/ds5/gator" revision="android" remote="linaro-other" groups="pandaboard" />
   <project path="packages/wallpapers/LinaroWallpaper" name="platform/packages/wallpapers/LinaroWallpaper" revision="master" groups="common" />
@@ -84,9 +84,9 @@
   <project path="external/htop" name="platform/external/htop" revision="linaro_android" groups="common" />
   <project path="external/cyclictest" name="platform/external/cyclictest" revision="linaro_android" groups="vexpress,vexpress-lsk,vexpress-iks,vexpress-tests" />
   <project path="external/sysbench" name="platform/external/sysbench" revision="linaro_android" groups="vexpress,vexpress-lsk,vexpress-iks,vexpress-tests" />
-  <project path="test/linaro/biglittle/sched_tests" name="bL_tests/sched_tests" revision="master" remote="linaro-private" groups="vexpress-tests" />
-  <project path="test/linaro/biglittle/task-placement-tests" name="bL_tests/task-placement-tests" revision="master" remote="linaro-private" groups="vexpress-tests" />
-  <project path="external/linaro-android-kernel-test" name="android/linaro-android-kernel-test" revision="master" remote="linaro-private" groups="vexpress-tests"/>
+  <project path="test/linaro/biglittle/sched_tests" name="bL_tests/sched_tests" revision="master" remote="big-little-switcher-private" groups="vexpress-tests" />
+  <project path="test/linaro/biglittle/task-placement-tests" name="bL_tests/task-placement-tests" revision="master" remote="big-little-switcher-private" groups="vexpress-tests" />
+  <project path="external/linaro-android-kernel-test" name="android/linaro-android-kernel-test" revision="master" remote="big-little-switcher-private" groups="vexpress-tests"/>
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7-linaro" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7-linaro" groups="linux,arm,common" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" groups="linux,arm,common" revision="master" />
   <!-- Linaro kernels -->
@@ -94,12 +94,12 @@
   <project path="kernel/linaro/pandaboard" name="kernel/panda" revision="linaro-tilt-android-tracking" groups="pandaboard"/>
   <project path="kernel/linaro/snowball" name="git/kernel/igloo-kernel" revision="stable-android-ux500-3.4" remote="igloocommunity" groups="snowball" />
   <project path="kernel/linaro/vexpress" name="kernel/linux-linaro-tracking" remote="linaro-other" revision="linux-linaro" groups="vexpress" />
-  <project path="kernel/linaro/vexpress-iks" name="bL_switcher/linux" revision="IKS+reference" remote="linaro-private" groups="vexpress-iks" />
+  <project path="kernel/linaro/vexpress-iks" name="bL_switcher/linux" revision="IKS+reference" remote="big-little-switcher-private" groups="vexpress-iks" />
   <project path="kernel/linaro/vexpress-lsk" name="kernel/linux-linaro-stable" revision="linux-linaro-lsk-android" remote="linaro-other" groups="vexpress-lsk" />
   <project path="kernel/linaro/iMX53" name="kernel/imx53" revision="lt-3.1-android" groups="imx53" />
-  <project path="kernel/linaro/hisilicon" name="linux-iks.git" revision="integration-hilt-lsk-android-priv" remote="linaro-landing-team-hisilicon" groups="hisilicon" />
+  <project path="kernel/linaro/hisilicon" name="linux-iks.git" revision="integration-hilt-lsk-android-priv" remote="linaro-landing-team-hisilicon-git" groups="hisilicon" />
   <project path="kernel/linaro/hisilicon-open" name="landing-teams/working/hisilicon/kernel.git" revision="integration-hilt-lsk-android" remote="linaro-other" groups="hisilicon-open" />
-  <project path="kernel/linaro/fujitsu" name="linux.git" revision="fjslt-tracking" remote="linaro-landing-team-fujitsu" groups="fujitsu" />
+  <project path="kernel/linaro/fujitsu" name="linux.git" revision="fjslt-tracking" remote="linaro-landing-team-fujitsu-git" groups="fujitsu" />
   <!-- AOSP kernels -->
   <project path="kernel/samsung/maguro" name="kernel/omap" revision="android-omap-tuna-3.0-jb-mr2+fixes" groups="galaxynexus" />
   <!-- FIXME currently missing in our AOSP mirror: project path="kernel/samsung/manta" name="kernel/exynos" revision="android-exynos-manta-3.4-jb-mr2" remote="aosp-upstream" groups="nexus10" / -->
@@ -114,7 +114,7 @@
   <!-- /project -->
 
   <!-- Hisilicon member spcific git-->
-  <project path="vendor/hisilicon" name="tools" revision="master" remote="linaro-landing-team-hisilicon" groups="hisilicon,hisilicon-open" />
+  <project path="vendor/hisilicon" name="tools" revision="master" remote="linaro-landing-team-hisilicon-git" groups="hisilicon,hisilicon-open" />
 
   <!-- AOSP with Linaro additions -->
   <!-- Linaro modifications: Made it build with OpenJDK, Compiler detection macros, optimization flags, uboot support -->
