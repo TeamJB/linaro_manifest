@@ -137,7 +137,7 @@
   <!-- Linaro modifications: Use better IOCTL for updating display, fix inverted colors on BRGA, Add audio workaround for Angrybirds, allow overriding framebuffer device, add Samsung OMX specific macros -->
   <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="linaro_android_4.3" groups="common" />
   <!-- Linaro modifications: Fixed aliasing violations, improved sincos(), improved string handling functions, added new kernel headers -->
-  <project path="bionic" name="platform/bionic" revision="linaro_android_4.3" groups="common" />
+  <project path="bionic" name="Team-Hydra/linaro_bionic" revision="linaro_android_4.3" groups="common" remote="github" />
   <!-- Linaro modifications: gcc 4.7 support, fix aliasing violations -->
   <project path="external/stlport" name="platform/external/stlport" revision="linaro_android_4.3" groups="common" />
   <!-- Linaro modifications: gcc 4.7 support -->
