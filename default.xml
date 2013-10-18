@@ -84,6 +84,8 @@
   <project path="external/stress" name="platform/external/stress" revision="linaro_android" groups="common" />
   <project path="external/stressapptest" name="platform/external/stressapptest" revision="linaro_android" groups="common" />
   <project path="external/htop" name="platform/external/htop" revision="linaro_android" groups="common" />
+  <project path="external/ffmpeg" name="platform/external/ffmpeg" revision="linaro-0.11.1" groups="common"/>
+  <project path="external/x264" name="platform/external/x264" revision="linaro-master" groups="common"/>
   <project path="external/cyclictest" name="platform/external/cyclictest" revision="linaro_android" groups="vexpress,vexpress-lsk,vexpress-iks,vexpress-tests" />
   <project path="external/sysbench" name="platform/external/sysbench" revision="linaro_android" groups="vexpress,vexpress-lsk,vexpress-iks,vexpress-tests" />
   <!-- <project path="test/linaro/biglittle/sched_tests" name="bL_tests/sched_tests" revision="master" remote="linaro-private" groups="vexpress-tests" /> -->
