@@ -36,7 +36,8 @@
   <!-- External extras -->
   <project path="packages/apps/0xbench" name="platform/packages/apps/0xbench" revision="linaro-master" groups="common" />
   <project path="external/android_input_bridge" name="platform/external/android-input-bridge" revision="linaro-master" groups="common" />
-  <project path="external/lava-blackbox" name="lava-blackbox" remote="zyga" revision="master" groups="common" />
+  <!-- project path="external/lava-blackbox" name="lava-blackbox" remote="zyga" revision="master" groups="common" / -->
+  <project path="external/lava-blackbox" name="people/harigopal.gollamudi/lava-blackbox" remote="linaro-other" revision="master" groups="common" />
 
   <!-- Linaro extras -->
   <project name="people/jessebarker/glmark2" path="packages/apps/glmark2" remote="linaro-other" revision="master" groups="common" />
