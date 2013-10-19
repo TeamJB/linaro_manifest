@@ -135,7 +135,7 @@
   <!-- Linaro modifications: Integrate Linaro build system extras -->
   <project path="device/ti/panda" name="device/ti/panda" revision="linaro_android_4.3.1" groups="common" />
   <!-- Linaro modifications: Added property to turn off hardware GFX -->
-  <project path="frameworks/base" name="platform/frameworks/base" revision="linaro_android_4.3.1" groups="common" />
+  <project path="frameworks/base" name="Team-Hydra/linaro_frameworks_base" revision="linaro_android_4.3.1" remote="github" groups="common" />
   <!-- Linaro modifications: Use better IOCTL for updating display, fix inverted colors on BRGA, Add audio workaround for Angrybirds, allow overriding framebuffer device, add Samsung OMX specific macros -->
   <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="linaro_android_4.3.1" groups="common" />
   <!-- Linaro modifications: Fixed aliasing violations, improved sincos(), improved string handling functions, added new kernel headers -->
