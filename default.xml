@@ -197,7 +197,7 @@
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" revision="linaro_android_4.3.1" groups="common" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" revision="linaro_android_4.3.1" groups="common" />
   <project path="external/llvm" name="platform/external/llvm" revision="linaro_android_4.3.1" groups="common" />
-  <project path="external/webkit" name="platform/external/webkit" revision="linaro_android_4.3.1" groups="common" />
+  <project path="external/webkit" name="Team-Hydra/linaro_external_webkit" revision="linaro_android_4.3.1" remote="github" groups="common" />
   <project path="hardware/ril" name="platform/hardware/ril" revision="linaro_android_4.3.1" groups="common" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" revision="linaro_android_4.3.1" groups="common" />
   <!-- Linaro modification: Add workaround for aliasing violation -->
