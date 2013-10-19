@@ -158,7 +158,7 @@
   <!-- <project path="device/samsung/maguro" name="device/samsung/maguro" revision="linaro_android_4.3.1" groups="common" /> -->
   <!-- <project path="device/samsung/manta" name="device/samsung/manta" revision="linaro_android_4.3.1" groups="nexus10" /> -->
   <project path="device/asus/flo" name="Team-Hydra/android_device_asus_flo" groups="device,flo" remote="github" revision="linaro_android_4.3.1" />
-  <project path="vendor/asus" name="Team-Hydra/android_vendor_asus" groups="flo" remote="github" revision="cm-10.2" />
+  <project path="vendor/asus" name="Team-Hydra/android_vendor_asus" groups="flo" remote="github" revision="linaro_android_4.3.1" />
   <!-- <project path="device/asus/grouper" name="device/asus/grouper" revision="linaro-playground" groups="nexus7" /> -->
   <!-- <project path="device/asus/tilapia" name="device/asus/tilapia" groups="nexus7" /> -->
   <!-- Linaro modifications: Find omapfb.h -->
