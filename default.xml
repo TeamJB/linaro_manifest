@@ -109,7 +109,7 @@
   <project path="kernel/samsung/manta" name="people/bernhardrosenkranzer/kernel-nexus10" revision="android-exynos-manta-3.4-jb-mr2+fixes" remote="linaro-other" groups="nexus10" />
   <project path="kernel/asus/grouper" name="kernel/tegra" revision="1e8b3d8ac4fa2c26e979bd00df3ea658ff239995" groups="nexus7" />
   <!-- Linaro changes: Make it build with gcc 4.8, based on linaro-android-msm-mako-3.4-jb-mr1-kgsl" -->
-  <project path="kernel/lge/mako" name="kernel/msm" revision="android-msm-mako-3.4-jb-mr2+fixes" groups="nexus4" />
+  <!-- project path="kernel/lge/mako" name="kernel/msm" revision="android-msm-mako-3.4-jb-mr2+fixes" groups="nexus4" /-->
   <!-- AOSP kernel -->
   <!-- project path="kernel" name="kernel/omap" revision="android-omap-panda-3.0" -->
     <!-- We copy the defconfig over so we can use the same name as w/ the Linaro kernel -->
@@ -157,6 +157,9 @@
   <project path="device/samsung/maguro" name="device/samsung/maguro" revision="linaro_android_4.3.1" groups="common" />
   <project path="device/samsung/manta" name="device/samsung/manta" revision="linaro_android_4.3.1" groups="nexus10" />
   <project path="device/asus/grouper" name="device/asus/grouper" revision="linaro-playground" groups="nexus7" />
+  <project path="device/asus/flo" name="device/asus/flo" groups="nexus7_2013" revision="linaro_android_4.3.1" />
+  <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="nexus7_2013" />
+  <project path="kernel/asus/flo" name="kernel/msm" revision="android-msm-flo-3.4-jb-mr2" groups="nexus7_2013" />
   <project path="device/asus/tilapia" name="device/asus/tilapia" groups="nexus7" />
   <!-- Linaro modifications: Find omapfb.h -->
   <!-- FIXME The 4.0.4 branch has further changes that may need porting -->
@@ -234,8 +237,6 @@
   <project path="developers/samples/android" name="platform/developers/samples/android" groups="common" />
   <project path="development" name="platform/development" groups="common" />
   <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
-  <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" />
-  <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" />
   <project path="device/common" name="device/common" groups="common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="common" />
   <project path="device/generic/common" name="device/generic/common" groups="common" />
