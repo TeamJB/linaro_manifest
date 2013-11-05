@@ -142,6 +142,7 @@
   <project path="bionic" name="platform/bionic" revision="linaro_android_4.4" groups="common" />
   <!-- Linaro modifications: gcc 4.7 support, fix aliasing violations -->
   <project path="external/stlport" name="platform/external/stlport" revision="linaro_android_4.4" groups="common" />
+  <project path="external/iputils" name="platform/external/iputils"  groups="common" revision="linaro_android_4.4" />
   <!-- Linaro modifications: gcc 4.7 support -->
   <project path="frameworks/rs" name="platform/frameworks/rs" revision="linaro_android_4.4" groups="common" />
   <project path="frameworks/av" name="platform/frameworks/av" revision="linaro_android_4.4" groups="common" />
@@ -323,7 +324,6 @@
   <project path="external/icu4c" name="platform/external/icu4c" groups="common" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="common" />
   <project path="external/iptables" name="platform/external/iptables" groups="common" />
-  <project path="external/iputils" name="platform/external/iputils"  groups="common" />
   <project path="external/jack" name="platform/external/jack" groups="common" />
   <project path="external/javasqlite" name="platform/external/javasqlite" groups="common" />
   <project path="external/javassist" name="platform/external/javassist" groups="common" />
