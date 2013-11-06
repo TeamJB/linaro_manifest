@@ -439,13 +439,15 @@
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" groups="common" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" groups="common" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" groups="nexus4" />
-  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="nexus4" />
-  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="nexus4" />
+  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="nexus4,nexus7_2013" />
+  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="nexus4,nexus7_2013" />
+  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="nexus4,nexus7_2013" />
   <!-- Linaro modifications: support building with gcc 4.8 -->
-  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" revision="linaro_android_4.4" groups="nexus4" />
-  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="nexus4" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" revision="linaro_android_4.4" groups="nexus4" />
+  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" revision="linaro_android_4.4" groups="nexus4,nexus7_2013" />
+  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="nexus4,nexus7_2013" />
+  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" revision="linaro_android_4.4" groups="nexus4,nexus7_2013" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960,nexus4,nexus7_2013" />
+  <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8960,nexus4,nexus7_2013" />
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="nexus4,nexus7_2013" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="nexus4,nexus7_2013" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="nexus4,nexus7_2013" />
