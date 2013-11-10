@@ -451,7 +451,8 @@
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="nexus4,nexus7_2013" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="nexus4,nexus7_2013" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="nexus4,nexus7_2013" />
-  <project path="libnativehelper" name="platform/libnativehelper" groups="common" />
+  <!-- Linaro modifications: Add workaround for ancient host compilers -->
+  <project path="libnativehelper" name="platform/libnativehelper" groups="common" revision="linaro_android_4.4" />
   <project path="ndk" name="platform/ndk" groups="common" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="common" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="common" />
