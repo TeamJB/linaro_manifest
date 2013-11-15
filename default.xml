@@ -51,7 +51,7 @@
   <project path="device/linaro/iMX53" name="device/linaro/imx53" revision="linaro-jb" groups="imx53" />
   <project path="device/linaro/pandaboard" name="device/linaro/pandaboard" revision="linaro-jb" groups="common" />
   <project path="device/linaro/fujitsu" name="device/linaro/fujitsu" revision="linaro-jb" groups="common" />
-  <project path="device/linaro/vexpress" name="device/linaro/vexpress" revision="linaro-jb" groups="common" />
+  <project path="device/linaro/vexpress" name="device/linaro/vexpress" revision="linaro-kk" groups="common" />
   <project path="device/linaro/snowball" name="device/linaro/snowball" revision="linaro-jb" groups="common" />
   <project path="device/linaro/arndale" name="device/samsung_slsi/arndale" revision="linaro-jb" groups="common" />
   <project path="device/linaro/hi4511" name="device/linaro/hi4511" revision="linaro-jb" groups="common" />
