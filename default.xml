@@ -46,10 +46,10 @@
   <project path="external/thirdparty-benchmarks" name="platform/external/thirdparty-benchmarks" revision="master" groups="common" />
   <project path="external/linaro-android-tools" name="platform/external/linaro-android-tools" revision="master" groups="common" />
   <project path="packages/apps/DisableSuspend" name="platform/packages/apps/DisableSuspend" revision="master" groups="common" />
-  <project path="hardware/samsung/origen/gralloc_ump" name="platform/hardware/samsung/origen/gralloc_ump" revision="linaro_android_jb" groups="common" />
+  <!-- <project path="hardware/samsung/origen/gralloc_ump" name="platform/hardware/samsung/origen/gralloc_ump" revision="linaro_android_jb" groups="common" />
   <project path="hardware/samsung/origen/ump" name="platform/hardware/samsung/origen/ump" revision="linaro_android_jb" groups="common" />
   <project path="hardware/linaro/common" name="hardware/linaro/common" revision="linaro_android_jb" groups="common" />
-  <project path="device/linaro/common" name="device/linaro/common" revision="linaro-jb" groups="common" />
+  <project path="device/linaro/common" name="device/linaro/common" revision="linaro-jb" groups="common" /> -->
   <!-- <project path="device/linaro/iMX53" name="device/linaro/imx53" revision="linaro-jb" groups="imx53" />
   <project path="device/linaro/pandaboard" name="device/linaro/pandaboard" revision="linaro-jb" groups="common" />
   <project path="device/linaro/fujitsu" name="device/linaro/fujitsu" revision="linaro-jb" groups="common" />
@@ -165,6 +165,10 @@
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="nexus7_2013" />
   <project path="kernel/asus/flo" name="Team-Hydra/android_kernel_google_msm" revision="linaro_android_4.4-flo" groups="nexus7_2013" remote="github" />
   <project path="vendor/asus" name="Team-Hydra/android_vendor_asus" groups="nexus7_2013" remote="github" revision="linaro_android_4.4" />
+  <project path="device/lge/hammerhead" name="Team-Hydra/android_device_lge_hammerhead" groups="nexus5" revision="linaro_android_4.4" remote="github" />
+  <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="nexus5" />
+  <project path="kernel/lge/hammerhead" name="Team-Hydra/android_kernel_google_msm" revision="linaro_android_4.4-hammerhead" groups="nexus5" remote="github" />
+  <project path="vendor/lge" name="Team-Hydra/android_vendor_lge" groups="nexus5" remote="github" revision="linaro_android_4.4" />
   <!-- <project path="device/asus/tilapia" name="device/asus/tilapia" groups="nexus7" /> -->
   <!-- Linaro modifications: Find omapfb.h -->
   <!-- FIXME The 4.0.4 branch has further changes that may need porting -->
@@ -442,18 +446,18 @@
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" groups="common" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" groups="common" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" groups="notdefault,nexus4" />
-  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="nexus4,nexus7_2013" />
-  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="nexus4,nexus7_2013" />
-  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="nexus4,nexus7_2013" />
+  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="nexus4,nexus7_2013,nexus5" />
+  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="nexus4,nexus7_2013,nexus5" />
+  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="nexus4,nexus7_2013,nexus5" />
   <!-- Linaro modifications: support building with gcc 4.8 -->
-  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" revision="linaro_android_4.4" groups="nexus4,nexus7_2013" />
-  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="nexus4,nexus7_2013" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" revision="linaro_android_4.4" groups="nexus4,nexus7_2013" />
-  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960,nexus4,nexus7_2013" />
-  <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8960,nexus4,nexus7_2013" />
-  <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="nexus4,nexus7_2013" />
-  <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="nexus4,nexus7_2013" />
-  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="nexus4,nexus7_2013" />
+  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" revision="linaro_android_4.4" groups="nexus4,nexus7_2013,nexus5" />
+  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="nexus4,nexus7_2013,nexus5" />
+  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" revision="linaro_android_4.4" groups="nexus4,nexus7_2013,nexus5" />
+  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960,nexus4,nexus7_2013,nexus5" />
+  <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8960,nexus4,nexus7_2013,nexus5" />
+  <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="nexus4,nexus7_2013,nexus5" />
+  <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="nexus4,nexus7_2013,nexus5" />
+  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="nexus4,nexus7_2013,nexus5" />
   <!-- Linaro modifications: Add workaround for ancient host compilers -->
   <project path="libnativehelper" name="platform/libnativehelper" groups="common" revision="linaro_android_4.4" />
   <project path="ndk" name="platform/ndk" groups="common" />
