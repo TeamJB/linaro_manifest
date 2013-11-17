@@ -52,7 +52,6 @@
   <project path="device/linaro/pandaboard" name="device/linaro/pandaboard" revision="linaro-jb" groups="common" />
   <project path="device/linaro/fujitsu" name="device/linaro/fujitsu" revision="linaro-jb" groups="common" />
   <project path="device/linaro/vexpress" name="device/linaro/vexpress" revision="linaro-kk" groups="common" />
-  <project path="device/linaro/snowball" name="device/linaro/snowball" revision="linaro-jb" groups="common" />
   <project path="device/linaro/arndale" name="device/samsung_slsi/arndale" revision="linaro-jb" groups="common" />
   <project path="device/linaro/hi4511" name="device/linaro/hi4511" revision="linaro-jb" groups="common" />
   <project path="hardware/linaro/tinyhal" name="platform/hardware/linaro/tinyhal" revision="linaro-jellybean" groups="common" />
@@ -62,7 +61,6 @@
   <project path="device/samsung/proprietary-open" name="device/samsung/proprietary-open" revision="linaro-jb" groups="common" />
   <project path="u-boot/linaro/arndale" name="landing-teams/working/samsung/u-boot" revision="tracking" remote="linaro-other" groups="arndale" />
   <project path="u-boot/linaro/u-boot-linaro-stable" name="boot/u-boot-linaro-stable" revision="master" remote="linaro-other" groups="pandaboard,imx53" />
-  <project path="u-boot/linaro/snowball" name="people/axelfagerstedt/u-boot/linaro/snowball.git" revision="20a79baeae9e167f2c3dd775700eca88ded8feee" remote="linaro-other" groups="snowball" />
   <project path="u-boot/linaro/vexpress" name="people/tixy/u-boot" revision="vexpress-hacks" remote="linaro-other" groups="vexpress,vexpress-lsk" />
   <project path="u-boot/linaro/vexpress-iks" name="people/bhoj/u-boot-linaro-stable" revision="master" remote="linaro-other" groups="vexpress-iks" />
   <project path="u-boot/linaro/fujitsu" name="u-boot.git" revision="fjslt-tracking" remote="linaro-landing-team-fujitsu-git" groups="fujitsu" />
@@ -95,7 +93,6 @@
   <!-- Linaro kernels -->
   <project path="kernel/linaro/arndale" name="landing-teams/working/samsung/kernel" remote="linaro-other" revision="tracking-android-arndale" groups="arndale" />
   <project path="kernel/linaro/pandaboard" name="kernel/panda" revision="linaro-tilt-android-tracking" groups="pandaboard"/>
-  <project path="kernel/linaro/snowball" name="git/kernel/igloo-kernel" revision="stable-android-ux500-3.4" remote="igloocommunity" groups="snowball" />
   <project path="kernel/linaro/vexpress" name="kernel/linux-linaro-tracking" remote="linaro-other" revision="linux-linaro" groups="vexpress" />
   <project path="kernel/linaro/vexpress-iks" name="bL_switcher/linux" revision="IKS+reference" remote="big-little-switcher-private" groups="vexpress-iks" />
   <project path="kernel/linaro/vexpress-lsk" name="kernel/linux-linaro-stable" revision="linux-linaro-lsk-android" remote="linaro-other" groups="vexpress-lsk" />
