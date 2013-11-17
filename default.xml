@@ -167,7 +167,7 @@
   <project path="vendor/asus" name="Team-Hydra/android_vendor_asus" groups="nexus7_2013" remote="github" revision="linaro_android_4.4" />
   <project path="device/lge/hammerhead" name="Team-Hydra/android_device_lge_hammerhead" groups="nexus5" revision="linaro_android_4.4" remote="github" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="nexus5" />
-  <project path="kernel/lge/hammerhead" name="Team-Hydra/Android_kernel_google_msm" revision="linaro_android_4.4-hammerhead" groups="nexus5" remote="github" />
+  <project path="kernel/lge/hammerhead" name="Team-Hydra/android_kernel_google_msm" revision="linaro_android_4.4-hammerhead" groups="nexus5" remote="github" />
   <project path="vendor/lge" name="Team-Hydra/android_vendor_lge" groups="nexus5" remote="github" revision="linaro_android_4.4" />
   <!-- <project path="device/asus/tilapia" name="device/asus/tilapia" groups="nexus7" /> -->
   <!-- Linaro modifications: Find omapfb.h -->
