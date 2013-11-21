@@ -26,8 +26,8 @@
            sync-j="4" />
 
   <!-- Developer extras -->
-  <project path="packages/apps/AndroidTerm" name="platform/external/AndroidTerm" revision="linaro-master" groups="devel" />
-  <project path="packages/inputmethods/hackerskeyboard" name="platform/packages/inputmethods/hackerskeyboard" revision="linaro-master" groups="devel" />
+  <!-- <project path="packages/apps/AndroidTerm" name="platform/external/AndroidTerm" revision="linaro-master" groups="devel" />
+  <project path="packages/inputmethods/hackerskeyboard" name="platform/packages/inputmethods/hackerskeyboard" revision="linaro-master" groups="devel" /> -->
   <project path="native-toolchain" name="toolchain/native-toolchain" revision="master" groups="devel" />
   <project path="native-toolchain/src/binutils" name="toolchain/binutils-current" revision="linaro-2.23.51.0.9" groups="devel" />
   <project path="native-toolchain/src/gmp" name="toolchain/gmp-current" revision="linaro-5.1.1" groups="devel" />
@@ -36,16 +36,16 @@
   <!-- FIXME we should have git repositories for gcc, make, ncurses, vim to avoid wget-ing them at build time -->
 
   <!-- External extras -->
-  <project path="packages/apps/0xbench" name="platform/packages/apps/0xbench" revision="linaro-master" groups="common" />
+  <!-- <project path="packages/apps/0xbench" name="platform/packages/apps/0xbench" revision="linaro-master" groups="common" />
   <project path="external/android_input_bridge" name="platform/external/android-input-bridge" revision="linaro-master" groups="common" />
-  <!-- project path="external/lava-blackbox" name="lava-blackbox" remote="zyga" revision="master" groups="common" / -->
-  <project path="external/lava-blackbox" name="people/harigopal.gollamudi/lava-blackbox" remote="linaro-other" revision="master" groups="common" />
+  <project path="external/lava-blackbox" name="lava-blackbox" remote="zyga" revision="master" groups="common" />
+  <project path="external/lava-blackbox" name="people/harigopal.gollamudi/lava-blackbox" remote="linaro-other" revision="master" groups="common" /> -->
 
   <!-- Linaro extras -->
-  <project name="people/jessebarker/glmark2" path="packages/apps/glmark2" remote="linaro-other" revision="master" groups="common" />
+  <!-- <project name="people/jessebarker/glmark2" path="packages/apps/glmark2" remote="linaro-other" revision="master" groups="common" />
   <project path="external/thirdparty-benchmarks" name="platform/external/thirdparty-benchmarks" revision="master" groups="common" />
   <project path="external/linaro-android-tools" name="platform/external/linaro-android-tools" revision="master" groups="common" />
-  <project path="packages/apps/DisableSuspend" name="platform/packages/apps/DisableSuspend" revision="master" groups="common" />
+  <project path="packages/apps/DisableSuspend" name="platform/packages/apps/DisableSuspend" revision="master" groups="common" /> -->
   <!-- <project path="hardware/samsung/origen/gralloc_ump" name="platform/hardware/samsung/origen/gralloc_ump" revision="linaro_android_jb" groups="common" />
   <project path="hardware/samsung/origen/ump" name="platform/hardware/samsung/origen/ump" revision="linaro_android_jb" groups="common" /> -->
   <project path="hardware/linaro/common" name="hardware/linaro/common" revision="linaro_android_jb" groups="common" />
@@ -60,7 +60,7 @@
   <project path="external/busybox" name="platform/external/busybox" revision="linaro-1.21" groups="common" />
   <project path="external/lrzsz" name="platform/external/lrzsz" revision="linaro-master" groups="common" />
   <project path="external/speex" name="platform/external/speex" revision="linaro_mmwg" groups="common" />
-  <project path="device/samsung/proprietary-open" name="device/samsung/proprietary-open" revision="linaro-jb" groups="common" />
+  <!-- <project path="device/samsung/proprietary-open" name="device/samsung/proprietary-open" revision="linaro-jb" groups="common" /> -->
   <!-- <project path="u-boot/linaro/arndale" name="landing-teams/working/samsung/u-boot" revision="tracking" remote="linaro-other" groups="arndale" />
   <project path="u-boot/linaro/u-boot-linaro-stable" name="boot/u-boot-linaro-stable" revision="master" remote="linaro-other" groups="pandaboard,imx53" />
   <project path="u-boot/linaro/vexpress" name="people/tixy/u-boot" revision="vexpress-hacks" remote="linaro-other" groups="vexpress,vexpress-lsk" />
@@ -132,7 +132,7 @@
   <!-- Linaro modifications:  Add private lib for wifi to work with generic wext driver -->
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" revision="linaro_android_4.4" groups="common" />
   <!-- Linaro modifications: Integrate Linaro build system extras; removed upstream in 4.4 -->
-  <project path="device/ti/panda" name="device/ti/panda" revision="linaro_android_4.3.1" groups="common" />
+  <!-- <project path="device/ti/panda" name="device/ti/panda" revision="linaro_android_4.3.1" groups="common" /> -->
   <!-- Linaro modifications: Added property to turn off hardware GFX -->
   <project path="frameworks/base" name="Team-Hydra/linaro_frameworks_base" revision="linaro_android_4.4" remote="github" groups="common" />
   <!-- Linaro modifications: Use better IOCTL for updating display, fix inverted colors on BRGA, Add audio workaround for Angrybirds, allow overriding framebuffer device, add Samsung OMX specific macros -->
@@ -169,7 +169,7 @@
   <!-- <project path="device/asus/tilapia" name="device/asus/tilapia" groups="nexus7" /> -->
   <!-- Linaro modifications: Find omapfb.h -->
   <!-- FIXME The 4.0.4 branch has further changes that may need porting -->
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="linaro_android_4.4" groups="common" />
+  <!-- <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="linaro_android_4.4" groups="common" /> -->
   <!-- Linaro modifications: New init.rc, bug fixes -->
   <project path="system/core" name="platform/system/core" revision="linaro_android_4.4" groups="common" />
   <!-- Linaro modifications: Fix aliasing violations, fix WiFi module loading on Origen -->
@@ -249,8 +249,8 @@
   <project path="external/srec" name="platform/external/srec" revision="linaro_android_4.4" groups="common" />
 
   <!-- TI proprietary-open -->
-  <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" revision="ics" groups="common" />
-  <project path="device/ti/uim" name="device/ti/uim" revision="android" groups="common" />
+  <!-- <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" revision="ics" groups="common" />
+  <project path="device/ti/uim" name="device/ti/uim" revision="android" groups="common" /> -->
 
   <!-- AOSP -->
   <project path="cts" name="platform/cts" groups="common" />
