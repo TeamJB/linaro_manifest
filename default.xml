@@ -36,11 +36,10 @@
   <!-- External extras -->
   <project path="packages/apps/0xbench" name="platform/packages/apps/0xbench" revision="linaro-master" groups="common" />
   <project path="external/android_input_bridge" name="platform/external/android-input-bridge" revision="linaro-master" groups="common" />
-  <!-- project path="external/lava-blackbox" name="lava-blackbox" remote="zyga" revision="master" groups="common" / -->
   <project path="external/lava-blackbox" name="people/harigopal.gollamudi/lava-blackbox" remote="linaro-other" revision="master" groups="common" />
 
   <!-- Linaro extras -->
-  <project name="people/jessebarker/glmark2" path="packages/apps/glmark2" remote="linaro-other" revision="master" groups="common" />
+  <project name="people/jesse.barker/glmark2" path="packages/apps/glmark2" remote="linaro-other" revision="master" groups="common" />
   <project path="external/thirdparty-benchmarks" name="platform/external/thirdparty-benchmarks" revision="master" groups="common" />
   <project path="external/linaro-android-tools" name="platform/external/linaro-android-tools" revision="master" groups="common" />
   <project path="packages/apps/DisableSuspend" name="platform/packages/apps/DisableSuspend" revision="master" groups="common" />
@@ -62,7 +61,7 @@
   <project path="u-boot/linaro/arndale" name="landing-teams/working/samsung/u-boot" revision="tracking" remote="linaro-other" groups="arndale" />
   <project path="u-boot/linaro/u-boot-linaro-stable" name="boot/u-boot-linaro-stable" revision="master" remote="linaro-other" groups="pandaboard,imx53" />
   <project path="u-boot/linaro/vexpress" name="people/tixy/u-boot" revision="vexpress-hacks" remote="linaro-other" groups="vexpress,vexpress-lsk" />
-  <project path="u-boot/linaro/vexpress-iks" name="people/bhoj/u-boot-linaro-stable" revision="master" remote="linaro-other" groups="vexpress-iks" />
+  <project path="u-boot/linaro/vexpress-iks" name="people/vishal.bhoj/u-boot-linaro-stable" revision="master" remote="linaro-other" groups="vexpress-iks" />
   <project path="u-boot/linaro/fujitsu" name="u-boot.git" revision="fjslt-tracking" remote="linaro-landing-team-fujitsu-git" groups="fujitsu" />
   <project path="uefi" name="arm/uefi/uefi" revision="master" remote="linaro-other" groups="vexpress,vexpress-lsk,vexpress-iks" />
   <project path="test/linaro/biglittle/core" name="bL_tests/bL_iks_tests" revision="master" remote="big-little-switcher-private" groups="vexpress-iks,vexpress-tests" />
@@ -103,7 +102,7 @@
   <!-- AOSP kernels -->
   <project path="kernel/samsung/maguro" name="kernel/omap" revision="android-omap-tuna-3.0-jb-mr2+fixes" groups="galaxynexus" />
   <!-- FIXME currently missing in our AOSP mirror: project path="kernel/samsung/manta" name="kernel/exynos" revision="android-exynos-manta-3.4-jb-mr2" remote="aosp-upstream" groups="nexus10" / -->
-  <project path="kernel/samsung/manta" name="people/bernhardrosenkranzer/kernel-nexus10" revision="android-exynos-manta-3.4-jb-mr2+fixes" remote="linaro-other" groups="nexus10" />
+  <project path="kernel/samsung/manta" name="people/bernhard.rosenkranzer/kernel-nexus10" revision="android-exynos-manta-3.4-jb-mr2+fixes" remote="linaro-other" groups="nexus10" />
   <project path="kernel/asus/grouper" name="kernel/tegra" revision="1e8b3d8ac4fa2c26e979bd00df3ea658ff239995" groups="nexus7" />
   <!-- Linaro changes: Make it build with gcc 4.8, based on linaro-android-msm-mako-3.4-jb-mr1-kgsl" -->
   <!-- project path="kernel/lge/mako" name="kernel/msm" revision="android-msm-mako-3.4-jb-mr2+fixes" groups="nexus4" /-->
@@ -147,7 +146,7 @@
   <!-- Linaro modifications: support for non-prebuilt toolchain -->
   <project path="external/oprofile" name="platform/external/oprofile" revision="linaro_android_4.4" groups="common" />
   <!-- Linaro modifications: Replaced traditional libjpeg with libjpeg-turbo -->
-  <project path="external/jpeg" name="people/tomgall/libjpeg-turbo/libjpeg-turbo" revision="android" remote="linaro-other" groups="common" />
+  <project path="external/jpeg" name="people/tom.gall/libjpeg-turbo/libjpeg-turbo" revision="android" remote="linaro-other" groups="common" />
   <!-- Linaro modifications: Fix the float ABI check for gcc 4.7+ -->
   <project path="external/v8" name="platform/external/v8" revision="linaro_android_4.4" groups="common" />
   <!-- Linaro modifications: Set CPU specific compiler flags, init.partitions.rc -->
