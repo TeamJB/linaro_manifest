@@ -85,6 +85,7 @@
   <project path="external/x264" name="platform/external/x264" revision="linaro-master" groups="common"/>
   <project path="external/cyclictest" name="platform/external/cyclictest" revision="linaro_android" groups="vexpress,vexpress-lsk,vexpress-iks,vexpress-tests" />
   <project path="external/sysbench" name="platform/external/sysbench" revision="linaro_android" groups="vexpress,vexpress-lsk,vexpress-iks,vexpress-tests" />
+  <project path="fvp-pre-boot" name="people/yongqinliu/public/prebuilts/arm-trusted-firmware" revision="master" remote="linaro-other" groups="vexpress-lsk" />
   <project path="test/linaro/biglittle/sched_tests" name="bL_tests/sched_tests" revision="master" remote="big-little-switcher-private" groups="vexpress-tests" />
   <project path="test/linaro/biglittle/task-placement-tests" name="bL_tests/task-placement-tests" revision="master" remote="big-little-switcher-private" groups="vexpress-tests" />
   <project path="external/linaro-android-kernel-test" name="android/linaro-android-kernel-test" revision="linaro-kk" remote="big-little-switcher-private" groups="vexpress-tests"/>
