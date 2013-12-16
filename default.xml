@@ -161,7 +161,7 @@
   <project path="device/asus/flo" name="Team-Hydra/android_device_asus_flo" groups="nexus7_2013" revision="linaro_android_4.4.2" remote="github" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="nexus7_2013" />
   <project path="kernel/asus/flo" name="Team-Hydra/android_kernel_google_msm" revision="linaro_android_4.4" groups="nexus7_2013" remote="github" />
-  <project path="vendor/asus" name="Team-Hydra/android_vendor_asus" groups="nexus7_2013" revision="linaro_android_4.4.2" revision="github" />
+  <project path="vendor/asus" name="Team-Hydra/android_vendor_asus" groups="nexus7_2013" revision="linaro_android_4.4.2" remote="github" />
   <!-- <project path="device/asus/tilapia" name="device/asus/tilapia" groups="nexus7" /> -->
   <!-- Linaro modifications: Find omapfb.h -->
   <!-- FIXME The 4.0.4 branch has further changes that may need porting -->
