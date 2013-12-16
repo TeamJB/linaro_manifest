@@ -8,7 +8,7 @@ To get started with a Linaro build, you'll need to get familiar with Git and Rep
 
 To initialize your local repository using the Linaro trees, use a command like this:
 
-    repo init -u git://github.com/Team-Hydra/linaro_manifest.git -b linaro_android_4.4
+    repo init -u git://github.com/Team-Hydra/linaro_manifest.git -b linaro_android_4.4.2
 
 Then to sync up:
 
