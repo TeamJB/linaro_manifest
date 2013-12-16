@@ -91,6 +91,7 @@
   <project path="gcc-linaro-aarch64-linux-gnu" name="platform/prebuilts/gcc/linux-x86/arm/aarch64-linux-android-linaro" groups="linux,arm" revision="refs/tags/gcc-linaro-4.8-2013.11" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7-linaro" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7-linaro" groups="linux,arm,common" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" groups="linux,arm,common" revision="master" />
+  <project path="external/iptables" name="platform/external/iptables" revision="linaro_android_4.4.2" groups="common" />
   <!-- Linaro kernels -->
   <project path="kernel/linaro/arndale" name="landing-teams/working/samsung/kernel" remote="linaro-other" revision="tracking-android-arndale" groups="arndale" />
   <project path="kernel/linaro/pandaboard" name="kernel/panda" revision="linaro-tilt-android-tracking" groups="pandaboard"/>
@@ -321,7 +322,6 @@
   <project path="external/hyphenation" name="platform/external/hyphenation" groups="common" />
   <project path="external/icu4c" name="platform/external/icu4c" groups="common" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="common" />
-  <project path="external/iptables" name="platform/external/iptables" groups="common" />
   <project path="external/jack" name="platform/external/jack" groups="common" />
   <project path="external/javasqlite" name="platform/external/javasqlite" groups="common" />
   <project path="external/javassist" name="platform/external/javassist" groups="common" />
