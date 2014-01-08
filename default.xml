@@ -106,7 +106,7 @@
   <!-- AOSP kernels -->
   <project path="kernel/samsung/maguro" name="kernel/omap" revision="android-omap-tuna-3.0-jb-mr2+fixes" groups="galaxynexus" />
   <!-- FIXME currently missing in our AOSP mirror: project path="kernel/samsung/manta" name="kernel/exynos" revision="android-exynos-manta-3.4-jb-mr2" remote="aosp-upstream" groups="nexus10" / -->
-  <project path="kernel/samsung/manta" name="people/bernhard.rosenkranzer/kernel-nexus10" revision="android-exynos-manta-3.4-jb-mr2+fixes" remote="linaro-other" groups="nexus10" />
+  <project path="kernel/samsung/manta" name="people/bernhard.rosenkranzer/kernel-nexus10" revision="android-exynos-manta-3.4-kitkat-mr1+fixes" remote="linaro-other" groups="nexus10" />
   <project path="kernel/asus/grouper" name="kernel/tegra" revision="1e8b3d8ac4fa2c26e979bd00df3ea658ff239995" groups="nexus7" />
   <!-- Linaro changes: Make it build with gcc 4.8, based on linaro-android-msm-mako-3.4-jb-mr1-kgsl" -->
   <!-- project path="kernel/lge/mako" name="kernel/msm" revision="android-msm-mako-3.4-jb-mr2+fixes" groups="nexus4" /-->
