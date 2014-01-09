@@ -39,7 +39,7 @@
   <project path="external/lava-blackbox" name="people/harigopal.gollamudi/lava-blackbox" remote="linaro-other" revision="master" groups="common" />
 
   <!-- Linaro extras -->
-  <project name="people/jesse.barker/glmark2" path="packages/apps/glmark2" remote="linaro-other" revision="master" groups="common" />
+  <project name="people/harigopal.gollamudi/glmark2" path="packages/apps/glmark2" remote="linaro-other" revision="master" groups="common" />
   <project path="external/thirdparty-benchmarks" name="platform/external/thirdparty-benchmarks" revision="master" groups="common" />
   <project path="external/linaro-android-tools" name="platform/external/linaro-android-tools" revision="master" groups="common" />
   <project path="packages/apps/DisableSuspend" name="platform/packages/apps/DisableSuspend" revision="master" groups="common" />
