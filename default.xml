@@ -209,7 +209,7 @@
   <project path="external/openssl" name="platform/external/openssl" revision="linaro_android_4.4.2" groups="common" />
   <project path="external/clang" name="platform/external/clang" revision="linaro_android_4.4.2" groups="common" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="common" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" revision="linaro-1.42.9" groups="common" />
+  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" revision="linaro_android_4.4.2" groups="common" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="linaro_android_4.4.2" groups="common,pdk" />
   <project path="external/tcpdump" name="platform/external/tcpdump" revision="linaro_android_4.4.2" groups="common" />
   <project path="external/openssh" name="platform/external/openssh" revision="linaro_android_4.4.2" groups="common" />
