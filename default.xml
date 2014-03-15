@@ -178,7 +178,7 @@
   <project path="external/freetype" name="platform/external/freetype" revision="linaro_android_4.4.2" groups="common" />
   <!-- Linaro modifications: Fix aliasing violations -->
   <project path="external/sonivox" name="platform/external/sonivox" revision="linaro_android_4.4.2" groups="common" />
-  <project path="libcore" name="platform/libcore" revision="linaro_android_4.4.2" groups="common" />
+  <project path="libcore" name="Team-Hydra/linaro_libcore" revision="linaro_android_4.4.2" groups="common" remote="github" />
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="linaro_android_4.4.2" groups="common" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" revision="linaro_android_4.4.2" groups="common" />
   <project path="external/chromium" name="platform/external/chromium" revision="linaro_android_4.4.2" groups="common" />
@@ -446,7 +446,7 @@
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="nexus4,nexus7_2013" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="nexus4,nexus7_2013" />
   <!-- Linaro modifications: support building with gcc 4.8 -->
-  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" revision="linaro_android_4.4.2" groups="nexus4,nexus7_2013" />
+  <project path="hardware/qcom/display" name="Team-Hydra/linaro_hardware_qcom_display" revision="linaro_android_4.4.2" groups="nexus4,nexus7_2013" remote="github" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="nexus4,nexus7_2013" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" revision="linaro_android_4.4.2" groups="nexus4,nexus7_2013" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960,nexus4,nexus7_2013" />
