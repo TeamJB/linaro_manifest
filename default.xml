@@ -53,6 +53,11 @@
   <project path="device/linaro/vexpress" name="device/linaro/vexpress" revision="linaro-kk" groups="common" />
   <project path="device/linaro/arndale" name="device/samsung_slsi/arndale" revision="linaro-kk" groups="common" />
   <project path="device/linaro/hi4511" name="device/linaro/hi4511" revision="linaro-jb" groups="common" />
+  <!-- for jacinto6evm project -->
+  <project path="device/ti/proprietary-open-jacinto" name="device/ti/proprietary-open-jacinto" revision="d-kitkat-mr1-release" groups="jacinto" />
+  <project path="device/ti/common-open" name="device/ti/common-open" revision="d-kitkat-mr1-release" groups="jacinto" />
+  <project path="device/linaro/jacinto6evm" name="device/linaro/jacinto6evm" revision="d-kitkat-mr1-release" groups="device,jacinto" />
+
   <project path="hardware/linaro/tinyhal" name="platform/hardware/linaro/tinyhal" revision="linaro-jellybean" groups="common" />
   <project path="external/busybox" name="platform/external/busybox" revision="linaro-1.21" groups="common" />
   <project path="external/lrzsz" name="platform/external/lrzsz" revision="linaro-master" groups="common" />
@@ -63,6 +68,9 @@
   <project path="u-boot/linaro/vexpress" name="people/tixy/u-boot" revision="vexpress-hacks" remote="linaro-other" groups="vexpress,vexpress-lsk" />
   <project path="u-boot/linaro/vexpress-iks" name="people/vishal.bhoj/u-boot-linaro-stable" revision="master" remote="linaro-other" groups="vexpress-iks" />
   <project path="u-boot/linaro/fujitsu" name="u-boot.git" revision="fjslt-tracking" remote="linaro-landing-team-fujitsu-git" groups="fujitsu" />
+  <!-- for jacinto6evm project -->
+  <project path="u-boot/linaro/jacinto6evm" name="u-boot/linaro/jacinto6evm" revision="p-ti-u-boot-2013.04" groups="jacinto" />
+
   <project path="uefi" name="arm/uefi/uefi" revision="master" remote="linaro-other" groups="vexpress,vexpress-lsk,vexpress-iks" />
   <project path="test/linaro/biglittle/core" name="bL_tests/bL_iks_tests" revision="master" remote="big-little-switcher-private" groups="vexpress-iks,vexpress-tests" />
   <project path="boot-wrapper" name="arm/models/boot-wrapper" revision="master" remote="linaro-other" groups="vexpress,vexpress-lsk" />
@@ -104,6 +112,9 @@
   <project path="kernel/linaro/hisilicon" name="linux-iks.git" revision="integration-hilt-lsk-android-priv" remote="linaro-landing-team-hisilicon-git" groups="hisilicon" />
   <project path="kernel/linaro/hisilicon-open" name="landing-teams/working/hisilicon/kernel.git" revision="integration-hilt-linux-linaro-android" remote="linaro-other" groups="hisilicon-open" />
   <project path="kernel/linaro/fujitsu" name="linux.git" revision="fjslt-tracking" remote="linaro-landing-team-fujitsu-git" groups="fujitsu" />
+  <!-- for Jacinto project -->
+  <project path="kernel/linaro/jacinto6evm" name="kernel/linaro/jacinto6evm" revision="p-ti-android-3.8.y" groups="jacinto" />
+
   <!-- AOSP kernels -->
   <project path="kernel/samsung/maguro" name="kernel/omap" revision="android-omap-tuna-3.0-jb-mr2+fixes" groups="galaxynexus" />
   <!-- FIXME currently missing in our AOSP mirror: project path="kernel/samsung/manta" name="kernel/exynos" revision="android-exynos-manta-3.4-jb-mr2" remote="aosp-upstream" groups="nexus10" / -->
