@@ -56,7 +56,7 @@
   <!-- for jacinto6evm project -->
   <project path="device/ti/proprietary-open-jacinto" name="device/ti/proprietary-open-jacinto" revision="d-kitkat-mr1-release" groups="jacinto" />
   <project path="device/ti/common-open" name="device/ti/common-open" revision="d-kitkat-mr1-release" groups="jacinto" />
-  <project path="device/linaro/jacinto6evm" name="device/linaro/jacinto6evm" revision="d-kitkat-mr1-release" groups="device,jacinto" />
+  <project path="device/linaro/jacinto6evm" name="device/linaro/jacinto6evm" revision="linaro-kk" groups="device,jacinto" />
 
   <project path="hardware/linaro/tinyhal" name="platform/hardware/linaro/tinyhal" revision="linaro-jellybean" groups="common" />
   <project path="external/busybox" name="platform/external/busybox" revision="linaro-1.21" groups="common" />
@@ -113,7 +113,7 @@
   <project path="kernel/linaro/hisilicon-open" name="landing-teams/working/hisilicon/kernel.git" revision="integration-hilt-linux-linaro-android" remote="linaro-other" groups="hisilicon-open" />
   <project path="kernel/linaro/fujitsu" name="linux.git" revision="fjslt-tracking" remote="linaro-landing-team-fujitsu-git" groups="fujitsu" />
   <!-- for Jacinto project -->
-  <project path="kernel/linaro/jacinto6evm" name="kernel/linaro/jacinto6evm" revision="p-ti-android-3.8.y" groups="jacinto" />
+  <project path="kernel/linaro/jacinto6evm" name="kernel/linaro/jacinto6evm" revision="linaro" groups="jacinto" />
 
   <!-- AOSP kernels -->
   <project path="kernel/samsung/maguro" name="kernel/omap" revision="android-omap-tuna-3.0-jb-mr2+fixes" groups="galaxynexus" />
