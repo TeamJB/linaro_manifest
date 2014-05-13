@@ -15,10 +15,10 @@
            fetch="ssh://linaro-landing-team-hisilicon-bot@hisilicon.git.linaro.org/landing-team/hisilicon/" />
   <remote  name="linaro-landing-team-fujitsu-git"
            fetch="ssh://linaro-landing-team-fujitsu-bot@fujitsu.git.linaro.org/landing-team/fujitsu/" />
-  <remote  name="zyga"
-           fetch="git://github.com/zyga/" />
   <remote  name="igloocommunity"
            fetch="git://igloocommunity.org/" />
+  <remote  name="github"
+           fetch="https://github.com/" />
   <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
            sync-j="4" />
@@ -57,6 +57,10 @@
   <project path="device/ti/proprietary-open-jacinto" name="device/ti/proprietary-open-jacinto" revision="d-kitkat-mr1-release" groups="jacinto" />
   <project path="device/ti/common-open" name="device/ti/common-open" revision="d-kitkat-mr1-release" groups="jacinto" />
   <project path="device/linaro/jacinto6evm" name="device/linaro/jacinto6evm" revision="linaro-kk" groups="device,jacinto" />
+  <!-- for piglit / waffle -->
+  <project path="external/mesa3d" name="platform/external/mesa3d" groups="common" />
+  <project path="external/waffle" name="waffle-gl/waffle" groups="common" remote="github" revision="master" />
+  <project path="external/piglit" name="people/tomgall/piglit" groups="common" remote="linaro-other" revision="android" />
 
   <project path="hardware/linaro/tinyhal" name="platform/hardware/linaro/tinyhal" revision="linaro-jellybean" groups="common" />
   <project path="external/busybox" name="platform/external/busybox" revision="linaro-1.21" groups="common" />
