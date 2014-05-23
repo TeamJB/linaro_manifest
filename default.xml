@@ -58,9 +58,9 @@
   <project path="device/ti/common-open" name="device/ti/common-open" revision="d-kitkat-mr1-release" groups="jacinto" />
   <project path="device/linaro/jacinto6evm" name="device/linaro/jacinto6evm" revision="linaro-kk" groups="device,jacinto" />
   <!-- for piglit / waffle -->
-  <project path="external/mesa3d" name="platform/external/mesa3d" groups="common" />
-  <project path="external/waffle" name="waffle-gl/waffle" groups="common" remote="github" revision="master" />
-  <project path="external/piglit" name="people/tomgall/piglit" groups="common" remote="linaro-other" revision="android" />
+  <project path="external/mesa3d" name="platform/external/mesa3d" groups="pandaboard" />
+  <project path="external/waffle" name="waffle-gl/waffle" groups="pandaboard" remote="github" revision="master" />
+  <project path="external/piglit" name="people/tomgall/piglit" groups="pandaboard" remote="linaro-other" revision="android" />
 
   <project path="hardware/linaro/tinyhal" name="platform/hardware/linaro/tinyhal" revision="linaro-jellybean" groups="common" />
   <project path="external/busybox" name="platform/external/busybox" revision="linaro-1.21" groups="common" />
