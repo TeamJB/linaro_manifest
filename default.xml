@@ -224,7 +224,7 @@
   <project path="device/ti/uim" name="device/ti/uim" revision="android" groups="pdk" /> -->
 
   <!-- AOSP -->
-  <project path="art" name="platform/art" />
+  <project path="art" name="TeamJB/linaro_art" revision="linaro_android_4.4.3" remote="github" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
