@@ -120,7 +120,6 @@
   <project path="kernel/linaro/jacinto6evm" name="kernel/linaro/jacinto6evm" revision="linaro" groups="jacinto" />
 
   <!-- AOSP kernels -->
-  <project path="kernel/samsung/maguro" name="kernel/omap" revision="android-omap-tuna-3.0-jb-mr2+fixes" groups="galaxynexus" />
   <!-- FIXME currently missing in our AOSP mirror: project path="kernel/samsung/manta" name="kernel/exynos" revision="android-exynos-manta-3.4-jb-mr2" remote="aosp-upstream" groups="nexus10" / -->
   <project path="kernel/samsung/manta" name="people/bernhard.rosenkranzer/kernel-nexus10" revision="android-exynos-manta-3.4-kitkat-mr1+fixes" remote="linaro-other" groups="nexus10" />
   <project path="kernel/asus/grouper" name="kernel/tegra" revision="1e8b3d8ac4fa2c26e979bd00df3ea658ff239995" groups="nexus7" />
@@ -171,8 +170,6 @@
   <project path="external/v8" name="platform/external/v8" revision="linaro_android_4.4.3" groups="common" />
   <!-- Linaro modifications: Set CPU specific compiler flags, init.partitions.rc -->
   <project path="device/generic/goldfish" name="device/generic/goldfish" revision="linaro_android_4.4.3" groups="common" />
-  <project path="device/samsung/tuna" name="device/samsung/tuna" revision="linaro_android_4.4.3" groups="common" />
-  <project path="device/samsung/maguro" name="device/samsung/maguro" revision="linaro_android_4.4.3" groups="common" />
   <project path="device/samsung/manta" name="device/samsung/manta" revision="linaro_android_4.4.3" groups="nexus10" />
   <project path="device/asus/grouper" name="device/asus/grouper" revision="linaro-playground" groups="nexus7" />
   <project path="device/asus/flo" name="device/asus/flo" groups="nexus7_2013" revision="linaro_android_4.4.3" />
@@ -199,7 +196,7 @@
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" groups="common" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" groups="common" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" groups="common" />
-  <project path="external/chromium_org/third_party/angle_dx11" name="platform/external/chromium_org/third_party/angle_dx11" groups="common" />
+  <project path="external/chromium_org/third_party/angle" name="platform/external/chromium_org/third_party/angle" groups="common" />
   <project path="external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" name="platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" groups="common" />
   <project path="external/chromium_org/third_party/freetype" name="platform/external/chromium_org/third_party/freetype" groups="common" />
   <project path="external/chromium_org/third_party/icu" name="platform/external/chromium_org/third_party/icu" groups="common" />
@@ -211,6 +208,7 @@
   <project path="external/chromium_org/third_party/openssl" name="platform/external/chromium_org/third_party/openssl" groups="common" />
   <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src" groups="common" />
   <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" groups="common" />
+<project path="external/chromium_org/third_party/sfntly/cpp/src" name="platform/external/chromium_org/third_party/sfntly/cpp/src" groups="common"/>
   <project path="external/chromium_org/third_party/skia/gyp" name="platform/external/chromium_org/third_party/skia/gyp" groups="common" />
   <project path="external/chromium_org/third_party/skia/include" name="platform/external/chromium_org/third_party/skia/include" groups="common" />
   <project path="external/chromium_org/third_party/skia/src" name="platform/external/chromium_org/third_party/skia/src" groups="common" />
@@ -351,6 +349,7 @@
   <project path="external/junit" name="platform/external/junit" groups="common" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="common" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="common" />
+  <project path="external/libexif" name="platform/external/libexif" groups="common" />
   <project path="external/libffi" name="platform/external/libffi" groups="common" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="common,pdk" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="common" />
@@ -365,6 +364,7 @@
   <project path="external/libppp" name="platform/external/libppp" groups="common" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="common,pdk" />
   <project path="external/libsepol" name="platform/external/libsepol" groups="common,pdk" />
+  <project path="external/libssh2" name="platform/external/libssh2" groups="common" />
   <project path="external/libusb" name="platform/external/libusb" groups="common" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" groups="common" />
   <project path="external/libvorbis" name="platform/external/libvorbis" groups="common" />
@@ -439,9 +439,9 @@
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="common" />
   <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="common,pdk" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="common" />
+  <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="common" />
   <project path="frameworks/support" name="platform/frameworks/support" groups="common" />
   <project path="frameworks/testing" name="platform/frameworks/testing" groups="common" />
-  <project path="frameworks/uiautomator" name="platform/frameworks/uiautomator" groups="common" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="common" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="common" />
   <project path="hardware/akm" name="platform/hardware/akm" groups="common" />
@@ -561,6 +561,8 @@
   <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" groups="pdk,linux,mips" />
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="linux,x86,common" />
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" groups="pdk,linux,x86,common" />
+  <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" groups="common" />
+  <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="common" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="common" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="common" />
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" />
