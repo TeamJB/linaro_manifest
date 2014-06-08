@@ -446,7 +446,7 @@
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
-  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
+  <project path="hardware/qcom/camera" name="TeamJB/linaro_hardware_qcom_camera" groups="qcom" revision="linaro_android_4.4.3" remote="github" />
   <!-- Linaro modifications: support building with gcc 4.8 -->
   <project path="hardware/qcom/display" name="TeamJB/linaro_hardware_qcom_display" revision="linaro_android_4.4.2" groups="qcom" remote="github" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
