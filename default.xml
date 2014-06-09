@@ -444,7 +444,7 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
-  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom" />
+  <project path="hardware/qcom/audio" name="TeamJB/linaro_hardware_qcom_audio" groups="qcom" revision="linaro_android_4.4.3" remote="github" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="TeamJB/linaro_hardware_qcom_camera" groups="qcom" revision="linaro_android_4.4.3" remote="github" />
   <!-- Linaro modifications: support building with gcc 4.8 -->
