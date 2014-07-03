@@ -174,7 +174,7 @@
   <project path="device/asus/grouper" name="device/asus/grouper" revision="linaro-playground" groups="nexus7" />
   <project path="device/asus/flo" name="device/asus/flo" groups="nexus7_2013" revision="linaro_android_4.4.4" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="nexus7_2013" />
-  <project path="kernel/asus/flo" name="kernel/msm" revision="linaro-android-msm-flo-3.4-kitkat-mr1" groups="nexus7_2013" />
+  <project path="kernel/asus/flo" name="kernel/msm" revision="linaro-android-msm-flo-3.4-kitkat-mr2" groups="nexus7_2013" />
   <project path="device/asus/tilapia" name="device/asus/tilapia" groups="nexus7" />
   <!-- Linaro modifications: Find omapfb.h -->
   <!-- FIXME The 4.0.4 branch has further changes that may need porting -->
