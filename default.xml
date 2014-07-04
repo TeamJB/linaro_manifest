@@ -123,6 +123,7 @@
   <!-- FIXME currently missing in our AOSP mirror: project path="kernel/samsung/manta" name="kernel/exynos" revision="android-exynos-manta-3.4-jb-mr2" remote="aosp-upstream" groups="nexus10" / -->
   <project path="kernel/samsung/manta" name="people/bernhard.rosenkranzer/kernel-nexus10" revision="android-exynos-manta-3.4-kitkat-mr1+fixes" remote="linaro-other" groups="nexus10" />
   <project path="kernel/asus/grouper" name="kernel/tegra" revision="1e8b3d8ac4fa2c26e979bd00df3ea658ff239995" groups="nexus7" />
+  <project path="kernel/samsung/maguro" name="kernel/omap" revision="android-omap-tuna-3.0-jb-mr2+fixes" groups="galaxynexus" />
   <!-- Linaro changes: Make it build with gcc 4.8, based on linaro-android-msm-mako-3.4-jb-mr1-kgsl" -->
   <!-- project path="kernel/lge/mako" name="kernel/msm" revision="android-msm-mako-3.4-jb-mr2+fixes" groups="nexus4" /-->
   <!-- AOSP kernel -->
@@ -289,6 +290,8 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device,common" />
   <project path="device/lge/mako" name="device/lge/mako" groups="device,nexus4" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" revision="master" groups="device,nexus4" />
+  <project path="device/samsung/maguro" name="device/samsung/maguro" revision="linaro_android_4.4.2" groups="device,galaxynexus" />
+  <project path="device/samsung/tuna" name="device/samsung/tuna" revision="linaro_android_4.4.2" groups="device,galaxynexus" />
   <project path="device/sample" name="device/sample" groups="common" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="common" />
   <project path="external/aac" name="platform/external/aac" groups="common" />
